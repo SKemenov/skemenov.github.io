@@ -134,6 +134,7 @@ code { font: 0.9em ui-monospace, SFMono-Regular, Menlo, monospace; background: v
   max-width: 13ch;
 }
 .hero .sub { max-width: 34em; margin: 0 auto; }
+.hero h1 + .ctas { margin-top: 44px; }  /* no sub between them: give the title room */
 .hero .meta { margin-top: 16px; }
 .section-head { text-align: center; max-width: 40em; margin: 0 auto 32px; }
 .section-head .sub { margin: 0 auto; }
