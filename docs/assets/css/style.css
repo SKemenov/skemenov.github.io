@@ -262,6 +262,20 @@ figcaption { color: var(--muted); font-size: 15px; text-align: center; margin-to
 .carousel-nav button:disabled { opacity: .35; cursor: default; }
 @media (prefers-reduced-motion: reduce) { .track { scroll-behavior: auto; } }
 
+/* Rectangular screenshots (no alpha): round the corners so the edge and glow follow them. */
+.stage.wide { aspect-ratio: 4 / 3; padding: 0; border: 0; background: none; }
+.shot.framed img { border-radius: 22px; }
+.stage.wide .shot.framed img { max-width: 100cqw; max-height: 100cqh; }
+
+/* Two columns: a tall screenshot beside its text. */
+.split { display: grid; grid-template-columns: minmax(0, 360px) minmax(0, 1fr); gap: 56px; align-items: center; }
+.split .shot.tall img { border-radius: 18px; }
+.split .sub { margin: 12px 0; }
+@media (max-width: 760px) {
+  .split { grid-template-columns: 1fr; gap: 32px; }
+  .split .shot.tall { max-width: 320px; margin: 0 auto; }
+}
+
 /* Nutrition labels */
 .label { text-align: center; }
 .label .glyph { margin: 4px auto 12px; width: 44px; height: 44px; border-radius: 50%; font-size: 20px; }
