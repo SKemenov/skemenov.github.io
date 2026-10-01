@@ -1,0 +1,22 @@
+# Greets first-time reporters and contributors
+
+name: Greetings
+
+on:
+  issues:
+    types: [opened]
+  pull_request_target:
+    types: [opened]
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/first-interaction@v3
+        with:
+          issue_message: "Thank you for taking the time to report this 🙏 I'll take a look soon."
+          pr_message: "Thank you for your contribution to the site 🙏 I'll review it soon."
