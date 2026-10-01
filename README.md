@@ -1,17 +1,7 @@
-# skemenov.github.io
+# skemenov.com
 
-The website for Sergey Kemenov's apps, served by GitHub Pages from `docs/` at
-https://skemenov.github.io/.
+The source of [skemenov.com](https://skemenov.com/), my website for apps, articles and thoughts.
 
-| Path | Page |
-|---|---|
-| `/` | Products |
-| `/md/` | Minimal.md |
-| `/md/support/` | Minimal.md support |
-| `/md/privacy/` | Minimal.md privacy policy |
+## Contact
 
-Every app gets its own folder with the same three pages. These URLs are entered in App Store
-Connect, where the Support and Marketing URLs change only with a new app version — so paths, once
-published, don't move.
-
-Contact details live on each app's support page, e.g. https://skemenov.github.io/md/support/.
+Sergey Kemenov, [t.me/skemenov](https://t.me/skemenov)
