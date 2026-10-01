@@ -6,6 +6,7 @@
   --surface: #f5f5f7;
   --accent: #0066cc;
   --rule: #d2d2d7;
+  --button: #0066cc;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,6 +17,7 @@
     --surface: #1d1d1f;
     --accent: #2997ff;
     --rule: #424245;
+    --button: #0071e3;
   }
 }
 
@@ -54,7 +56,20 @@ h3 { font-size: 19px; margin: 24px 0 4px; }
 p, li { margin: 8px 0; }
 a { color: var(--accent); }
 .lead { font-size: 21px; color: var(--secondary); margin-top: 0; }
-.updated { color: var(--secondary); font-size: 15px; }
+.updated, .note { color: var(--secondary); font-size: 15px; }
+
+.button {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 10px 22px;
+  border-radius: 980px;
+  background: var(--button);
+  color: #ffffff;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.button:hover { filter: brightness(1.1); }
 
 .card {
   background: var(--surface);
