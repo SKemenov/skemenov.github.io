@@ -4,33 +4,61 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sergey Kemenov — Apps</title>
-  <meta name="description" content="Small, focused apps for Apple platforms by Sergey Kemenov.">
-  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Small, focused apps for the Mac by Sergey Kemenov — and they collect nothing.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="assets/img/avatar-180.png">
+  <link rel="apple-touch-icon" href="assets/img/avatar-180.png">
 </head>
 <body>
-  <header>
-    <a href="./">Sergey Kemenov</a>
+  <header class="site">
+    <div class="bar">
+      <a class="brand" href="./" aria-current="page">Sergey Kemenov</a>
+      <nav>
+        <a href="#apps">Apps</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <h1>Products</h1>
-    <p class="lead">Small, focused apps that do one thing well — and collect nothing.</p>
+    <div class="hero">
+      <img class="avatar hero-avatar" src="assets/img/avatar.png" width="140" height="140" alt="Sergey's Memoji">
+      <p class="eyebrow">Apps · articles · thoughts</p>
+      <h1>Hi, I'm Sergey.</h1>
+      <p class="sub">Small, focused apps for the Mac — and they collect nothing.</p>
+    </div>
 
-    <section class="card">
-      <h2><a href="md/">Minimal.md</a></h2>
-      <p>A Markdown viewer for the Mac. Tables, task lists, front matter and a table of contents — rendered natively, and in Quick Look.</p>
-      <p><a href="md/">Learn more</a> · <a href="md/support/">Support</a> · <a href="md/privacy/">Privacy</a></p>
+    <section id="apps">
+      <div class="section-head">
+        <p class="eyebrow">Apps</p>
+        <h2>Made for the Mac.</h2>
+      </div>
+      <div class="grid apps">
+        <a class="card app" href="md/">
+          <div class="app-head"><img src="assets/img/md/icon-light-256.png" width="64" height="64" alt=""><span><strong>Minimal.md</strong><span>Markdown viewer &amp; Quick Look</span></span></div>
+          <p>Open a Markdown file and just read it. Tables, task lists, front matter and a table of contents, rendered natively and in Quick Look. Nothing to edit, nothing collected.</p>
+        </a>
+        <a class="card app" href="countdown/">
+          <div class="app-head"><img src="assets/img/countdown/icon-256.png" width="64" height="64" alt=""><span><strong>Minimal Countdown</strong><span>Screen saver for macOS</span></span></div>
+          <p>A minimalistic countdown screen saver. It counts down to — or up from — a date you choose, ticking quietly while your Mac rests.</p>
+        </a>
+      </div>
     </section>
-
-    <section class="card">
-      <h2><a href="https://github.com/SKemenov/MinimalCountdown">Minimal Countdown</a></h2>
-      <p>A minimalistic countdown screen saver for the Mac. It counts down to — or up from — a date you choose, ticking quietly while your Mac rests. Requires macOS Sonoma or later.</p>
-      <p><a href="https://github.com/SKemenov/MinimalCountdown/releases/latest">Download the latest release</a> · <a href="https://github.com/SKemenov/MinimalCountdown">Learn more</a></p>
+    <section id="contact">
+      <div class="section-head">
+        <p class="eyebrow">Contact</p>
+        <h2>Say hi.</h2>
+        <p class="sub">Questions about an app, an idea, or just hello.</p>
+      </div>
+      <nav class="contact-links" aria-label="Contact">
+      <a href="https://t.me/skemenov"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0a12 12 0 1 0 0 24A12 12 0 0 0 12 0zm5.56 8.16-1.84 8.66c-.14.62-.5.77-1.02.48l-2.8-2.07-1.36 1.3c-.15.15-.28.28-.57.28l.2-2.86 5.2-4.7c.23-.2-.05-.31-.35-.11L8.6 13.2l-2.77-.86c-.6-.19-.61-.6.13-.89l10.82-4.17c.5-.18.94.12.78.88z"/></svg>Telegram</a>
+      <a href="https://github.com/SKemenov"><svg width="22" height="22" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>GitHub</a>
+      </nav>
     </section>
   </main>
 
-  <footer>
-    <p>© 2026 Sergey Kemenov · <a href="https://github.com/SKemenov">GitHub</a></p>
+  <footer class="plain">
+    <p>© 2026 Sergey Kemenov. With care and love.</p>
   </footer>
 </body>
 </html>
