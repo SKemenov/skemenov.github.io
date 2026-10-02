@@ -135,7 +135,7 @@ code { font: 0.9em ui-monospace, SFMono-Regular, Menlo, monospace; background: v
 }
 .hero .sub { max-width: 34em; margin: 0 auto; }
 .hero h1 + .ctas { margin-top: 44px; }  /* no sub between them: give the title room */
-.hero .meta { margin-top: 16px; }
+.hero .meta { margin-top: 32px; }  /* same as the space above .ctas */
 .section-head { text-align: center; max-width: 40em; margin: 0 auto 32px; }
 .section-head .sub { margin: 0 auto; }
 
@@ -148,7 +148,10 @@ code { font: 0.9em ui-monospace, SFMono-Regular, Menlo, monospace; background: v
 @media (prefers-reduced-motion: reduce) { .hero > * { animation: none; } }
 
 /* Buttons and chips */
-.ctas { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-top: 32px; }
+.ctas { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; align-items: center; margin-top: 32px; }
+/* Apple's artwork, unmodified; the 12px gap is the required clear space (a quarter of its height). */
+.store-badge { display: block; line-height: 0; }
+.store-badge img { height: 48px; width: auto; }
 .btn {
   display: inline-block;
   padding: 13px 26px;
