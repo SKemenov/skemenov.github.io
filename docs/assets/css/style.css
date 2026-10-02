@@ -237,13 +237,10 @@ figcaption { color: var(--muted); font-size: 15px; text-align: center; margin-to
 /* One fixed cell: without minmax(0, 1fr) a tall image grows the row and sits off-center. */
 .stage { grid-template: minmax(0, 1fr) / minmax(0, 1fr); }
 .stage .shot { width: 100%; height: 100%; min-width: 0; min-height: 0; display: grid; grid-template: minmax(0, 1fr) / minmax(0, 1fr); place-items: center; }
-.stage picture { display: contents; }
-.stage source { display: none; }  /* otherwise it takes a grid row and pushes the image down */
 .stage img { width: auto; height: auto; max-width: 100%; max-height: 100%; }
 /* Safari doesn't resolve a percentage max-height here, so size against the shot box itself. */
 .stage .shot { container-type: size; }
 .stage .shot img { max-width: 100cqw; max-height: 100cqh; }
-.stage .shot.compact img { max-width: 82cqw; max-height: 92cqh; }
 .caption { color: var(--muted); font-size: clamp(17px, 2vw, 21px); line-height: 1.4; max-width: 34em; margin: 20px 24px 0; }
 .caption strong { color: var(--text); font-weight: 600; }
 .carousel-nav { display: flex; justify-content: flex-end; gap: 12px; margin-top: 16px; }
