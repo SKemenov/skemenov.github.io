@@ -51,15 +51,14 @@ a { color: var(--accent); }
 a:hover { color: var(--text); }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
 
-.visually-hidden {
-  position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;
-  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
-}
-
 /* Layout */
-.wrap, main { max-width: var(--wide); margin: 0 auto; padding: 0 16px; }
+main { max-width: var(--wide); margin: 0 auto; padding: 0 16px; }
 .reading { max-width: var(--narrow); margin-left: auto; margin-right: auto; }
 section { margin: 96px 0; }
+/* The arrows sit below the captions at the right edge, 28px from the captions and 28px from the next
+   section, so captions to next eyebrow ≈ 100px, close to every other section's 96px. */
+section:has(> .carousel) { margin-bottom: 28px; }
+section:has(> .carousel) + * { margin-top: 28px; }  /* margins collapse, so both sides */
 
 /* Header: a floating glass bar */
 .site {
@@ -112,7 +111,7 @@ h2 { font-size: clamp(30px, 4.5vw, 44px); line-height: 1.1; font-weight: 800; le
 h3 { font-size: 19px; margin: 28px 0 6px; }
 p, li { margin: 8px 0; }
 .lead, .sub { color: var(--muted); font-size: clamp(18px, 2.2vw, 21px); }
-.meta, .updated, .note { color: var(--muted); font-size: 15px; }
+.meta, .note { color: var(--muted); font-size: 15px; }
 .eyebrow {
   color: var(--accent);
   font-size: 13px;
@@ -167,15 +166,32 @@ code { font: 0.9em ui-monospace, SFMono-Regular, Menlo, monospace; background: v
 .chips { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-top: 24px; padding: 0; list-style: none; }
 .chips li { margin: 0; font-size: 14px; color: var(--muted); padding: 6px 14px; border-radius: 980px; border: 1px solid var(--border); background: var(--surface); }
 .chips li::before { content: "✓ "; color: var(--accent); }
+.chips.plain li::before { content: none; }
 
 /* Cards */
 .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px 22px; margin: 16px 0; }
 .card h3 { margin: 12px 0 6px; font-size: 18px; }
 .card p, .card li { color: var(--muted); font-size: 15px; }
 .card strong { color: var(--text); }
+.card p + p { margin-top: 6px; }  /* one sentence per paragraph */
+.card .keys { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 6px; }
+kbd { font: 500 13px/1 ui-monospace, "SF Mono", Menlo, monospace; color: var(--text); letter-spacing: .15em; padding: 5px 6px 5px 8px; border-radius: 6px; border: 1px solid var(--border); background: var(--surface); }
 .card ul { margin: 0; padding-left: 18px; }
 .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
 .grid .card { margin: 0; }
+/* Three cards: flex, so a card left alone on the second row sits centered at the same width. */
+.grid.trio { display: flex; flex-wrap: wrap; justify-content: center; }
+.grid.trio .card { flex: 1 1 260px; max-width: calc(50% - 8px); }
+@media (max-width: 560px) { .grid.trio .card { max-width: none; } }
+.grid.pairs { grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr)); }  /* 2 × 2, not 3 + 1 */
+ul.checks { list-style: none; padding: 0; margin: 8px 0 0; display: grid; gap: 6px; }
+ul.checks li { position: relative; padding-left: 24px; margin: 0; }
+ul.checks li::before { content: "✓"; position: absolute; left: 0; color: var(--accent); font-weight: 600; }
+.languages { text-align: center; }
+.languages .chips { margin-top: 12px; }
+.more { text-align: center; margin-top: 28px; }
+.beta-line { text-align: center; }
+.beta-line p:not(.eyebrow) { color: var(--muted); margin-top: 12px; }
 .glyph {
   width: 36px; height: 36px;
   display: grid; place-items: center;
@@ -201,10 +217,9 @@ code { font: 0.9em ui-monospace, SFMono-Regular, Menlo, monospace; background: v
     drop-shadow(0 30px 70px rgba(45, 212, 191, .30))
     drop-shadow(0 16px 32px rgba(0, 0, 0, .45));
 }
-.hero-shot { max-width: 960px; margin: 48px auto 0; }
+.hero-shot { max-width: 960px; margin: 24px auto 0; }
 figure { margin: 0; }
 figcaption { color: var(--muted); font-size: 15px; text-align: center; margin-top: 12px; }
-.gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 440px), 1fr)); gap: 32px 24px; }
 
 /* Carousel: scroll-snap does the work; carousel.js only adds the arrows. */
 .carousel { position: relative; }
@@ -246,7 +261,7 @@ figcaption { color: var(--muted); font-size: 15px; text-align: center; margin-to
 .stage .shot img { max-width: 100cqw; max-height: 100cqh; }
 .caption { color: var(--muted); font-size: clamp(17px, 2vw, 21px); line-height: 1.4; max-width: 34em; margin: 20px 24px 0; }
 .caption strong { color: var(--text); font-weight: 600; }
-.carousel-nav { display: flex; justify-content: flex-end; gap: 12px; margin-top: 16px; }
+.carousel-nav { display: flex; justify-content: flex-end; gap: 16px; margin-top: 4px; }
 .carousel-nav button {
   width: 44px; height: 44px;
   border-radius: 50%;
@@ -274,6 +289,7 @@ figcaption { color: var(--muted); font-size: 15px; text-align: center; margin-to
 @media (max-width: 760px) {
   .split { grid-template-columns: 1fr; gap: 32px; }
   .split .shot.tall { max-width: 320px; margin: 0 auto; }
+  .split .eyebrow, .split h2 { text-align: center; }  /* stacked: match the centered section heads */
 }
 
 /* Home */
@@ -351,10 +367,6 @@ main.page > p:not([class]), main.page > ul { color: #cfe3de; }
 .contact { padding: 8px 22px; margin: 32px 0; }
 .contact p { display: grid; grid-template-columns: 36px 1fr; column-gap: 14px; align-items: center; margin: 14px 0; font-size: 16px; }
 .contact p.note { display: block; border-top: 1px solid var(--border); padding-top: 14px; }
-
-/* Closing band */
-.band { text-align: center; padding: 48px 24px; border-radius: 24px; background: var(--surface); border: 1px solid var(--border); }
-.band h2 { margin-top: 0; }
 
 /* Footer: avatar | name over year | links. On a phone the links move under the year. */
 footer {
