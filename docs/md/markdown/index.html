@@ -3,10 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Minimal.md Privacy Policy</title>
-  <meta name="description" content="Minimal.md collects no data and makes no network connections.">
+  <title>Minimal.md Markdown Support</title>
+  <meta name="description" content="Which Markdown Minimal.md renders: text, structure, tables and code, front matter, local images and a safe subset of HTML.">
   <link rel="stylesheet" href="../../assets/css/style.css">
-  <script src="../../assets/js/contact.js" defer></script>
   <link rel="icon" href="../../assets/img/md/icon-light-256.png">
   <link rel="apple-touch-icon" href="../../assets/img/md/icon-light-256.png">
 </head>
@@ -15,40 +14,62 @@
     <div class="bar">
       <a class="brand" href="../"><img class="app-mark" src="../../assets/img/md/icon-light-256.png" width="36" height="36" alt=""><span class="name">Minimal.md</span></a>
       <nav>
-        <a href="../markdown/">Markdown</a>
+        <a href="./" aria-current="page">Markdown</a>
         <a href="../support/">Support</a>
-        <a href="./" aria-current="page">Privacy</a>
+        <a href="../privacy/">Privacy</a>
         <a href="../beta/">Beta</a>
       </nav>
     </div>
   </header>
 
-  <main class="reading page">
-    <p class="eyebrow">Privacy</p>
-    <h1>Minimal.md Privacy Policy</h1>
-    <p class="lead">Minimal.md collects no data. Your documents stay on your Mac.</p>
-    <p class="meta">Last updated: October 1, 2026</p>
+  <main>
+    <div class="hero">
+      <p class="eyebrow">Markdown</p>
+      <h1>Everything in the document.</h1>
+      <p class="sub">GitHub-flavored Markdown, rendered natively.</p>
+    </div>
 
-    <h2>What Minimal.md collects</h2>
-    <p>Nothing. Minimal.md has no accounts, no analytics, no advertising and no tracking of any kind. It doesn't make network connections — the app isn't allowed to by its own sandbox settings — so nothing you open can leave your Mac through it. Images hosted on the web are never loaded.</p>
-
-    <h2>What Minimal.md reads</h2>
-    <p>Only the Markdown files you open, and the folders you explicitly choose to share so their local images can be shown. The Quick Look preview reads the file you're previewing in Finder. Minimal.md never writes to your files.</p>
-
-    <h2>What stays on your Mac</h2>
-    <p>Your settings (such as text size and whether to show local images) and the list of folders you've shared are stored locally on your Mac, where both the app and its Quick Look preview can read them. You can revoke folder access at any time in Settings → Privacy. Deleting the app removes this data.</p>
-
-    <h2>Apple</h2>
-    <p>If you choose to share diagnostics with app developers in your Mac's settings, Apple may pass on anonymous crash reports for Minimal.md. Apple handles that data under its own privacy policy; Minimal.md adds nothing to it. Beta testers using TestFlight can send feedback and screenshots through Apple — only what you choose to send.</p>
-
-    <h2>Children</h2>
-    <p>Minimal.md collects no information from anyone, including children.</p>
-
-    <h2>Changes</h2>
-    <p>If this policy changes, the new version will be posted on this page with a new date.</p>
-
-    <h2>Contact</h2>
-    <p><a class="support-email">turn on JavaScript to see the address</a>, or see <a href="../support/">Support</a>.</p>
+    <section>
+      <div class="grid pairs">
+        <div class="card">
+          <h3>Text</h3>
+          <ul class="checks">
+            <li>Bold, italic and strikethrough</li>
+            <li>Inline code</li>
+            <li>Links</li>
+            <li>Line breaks</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Structure</h3>
+          <ul class="checks">
+            <li>Headings, levels 1–6</li>
+            <li>Bulleted and numbered lists, nested</li>
+            <li>Task lists</li>
+            <li>Block quotes</li>
+            <li>Horizontal rules</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Tables and code</h3>
+          <ul class="checks">
+            <li>Tables with column alignment</li>
+            <li>Bold, italic, code and links in cells</li>
+            <li>Code blocks in the system monospaced font</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Extras</h3>
+          <ul class="checks">
+            <li>YAML front matter, shown as a table</li>
+            <li>Local images, linked images too</li>
+            <li>HTML: centered text, sized images, simple tables</li>
+            <li>HTML comments stay hidden</li>
+          </ul>
+        </div>
+      </div>
+      <p class="more">Anything Minimal.md doesn't render is shown as its source — never dropped.<br>Something looks wrong? <a href="../support/">Tell us on the support page</a>.</p>
+    </section>
   </main>
 
   <footer>
