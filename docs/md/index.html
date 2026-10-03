@@ -15,6 +15,7 @@
     <div class="bar">
       <a class="brand" href="./" aria-current="page"><img class="app-mark" src="../assets/img/md/icon-light-256.png" width="36" height="36" alt=""><span class="name">Minimal.md</span></a>
       <nav>
+        <a href="markdown/">Markdown</a>
         <a href="support/">Support</a>
         <a href="privacy/">Privacy</a>
         <a href="beta/">Beta</a>
@@ -31,12 +32,7 @@
       <div class="ctas">
         <a class="store-badge" href="https://apps.apple.com/app/id6808280979"><img src="../assets/img/md/mac-app-store-badge.svg" width="156" height="40" alt="Download on the Mac App Store"></a>
       </div>
-      <p class="meta">Free · Requires macOS 26 or later</p>
-      <ul class="chips">
-        <li>Data not collected</li>
-        <li>Works in Quick Look</li>
-        <li>Multilingual</li>
-      </ul>
+      <p class="meta">Free · Requires macOS 26 or later · Supported&nbsp;<a href="markdown/">Markdown</a></p>
     </div>
 
     <figure class="shot hero-shot">
@@ -49,36 +45,21 @@
         <h2>No editor, no sync, no account.</h2>
         <p class="sub">Just the document, rendered natively with the system fonts, in light or dark mode.</p>
       </div>
-      <div class="grid">
+      <div class="grid trio">
         <div class="card">
           <div class="glyph" aria-hidden="true">¶</div>
           <h3>Read, don't edit</h3>
-          <p>Open Markdown from Finder or Open With, and make Minimal.md your default Markdown app. It never writes to your files. Copy the whole document as Markdown in one step.</p>
-        </div>
-        <div class="card">
-          <div class="glyph" aria-hidden="true">#</div>
-          <h3>Everything in the document</h3>
-          <p>Tables, task lists, strikethrough and fenced code. Front matter as a tidy table. Local images and a safe subset of HTML. Anything it doesn't render is shown as its source.</p>
-        </div>
-        <div class="card">
-          <div class="glyph" aria-hidden="true">≡</div>
-          <h3>Find your way</h3>
-          <p>A table of contents in the sidebar, built from the headings. Jump to the previous or next heading. Links to headings scroll to them; links to other Markdown files open them.</p>
+          <p>Minimal.md never writes to your files. Open Markdown from Finder or Open With, or make it your default Markdown app in Settings → General.</p>
         </div>
         <div class="card">
           <div class="glyph" aria-hidden="true">␣</div>
           <h3>Quick Look</h3>
-          <p>Press the Space bar on a Markdown file in Finder to see it rendered — the same renderer as the app, right in the preview.</p>
-        </div>
-        <div class="card">
-          <div class="glyph" aria-hidden="true">⌘</div>
-          <h3>Made for the Mac</h3>
-          <p>Adjustable text size. Look Up, Translate, Writing Tools and Services on selected text. Full VoiceOver support. English, French, German, Italian, Russian and Spanish.</p>
+          <p>Select a Markdown file in Finder and press the Space bar to read it rendered, without opening the app.</p>
         </div>
         <div class="card">
           <div class="glyph" aria-hidden="true">∅</div>
           <h3>Private by design</h3>
-          <p>No network connections, no data collected, and remote images are never loaded. It reads only the files you open and the folders you share, and you can revoke access in Settings.</p>
+          <p>No network connections, no data collected, and remote images are never loaded. It reads only the files you open and the folders you share.</p>
         </div>
       </div>
     </section>
@@ -96,7 +77,7 @@
           </li>
           <li class="slide" aria-label="2 of 4">
             <div class="stage"><div class="shot"><img src="../assets/img/md/3-quick-look.png" width="1600" height="933" loading="lazy" alt="A Markdown file rendered in the Finder's Quick Look panel."></div></div>
-            <p class="caption"><strong>Press Space to read it in Quick Look.</strong> Select a Markdown file in Finder and press the Space bar. The preview uses the same renderer as the app.</p>
+            <p class="caption"><strong>Looks the same in Quick Look.</strong> The Finder preview uses the app’s own renderer, so a document reads exactly as it does in Minimal.md.</p>
           </li>
           <li class="slide" aria-label="3 of 4">
             <div class="stage"><div class="shot"><img src="../assets/img/md/4-light-and-dark.png" width="1600" height="933" loading="lazy" alt="One document, split down the middle: light mode on the left, dark mode on the right."></div></div>
@@ -104,12 +85,64 @@
           </li>
           <li class="slide" aria-label="4 of 4">
             <div class="stage"><div class="shot"><img src="../assets/img/md/5-privacy.png" width="1600" height="933" loading="lazy" alt="Settings, Privacy: one shared folder, with a button to revoke access."></div></div>
-            <p class="caption"><strong>Private by design.</strong> Minimal.md reads only the files you open and the folders you choose to share. Review and revoke that access at any time in Settings.</p>
+            <p class="caption"><strong>Every shared folder in one place.</strong> Settings → Privacy lists each folder you’ve let Minimal.md read. Revoke any one of them, or all at once.</p>
           </li>
         </ol>
         <div class="carousel-nav" hidden>
           <button type="button" class="prev" aria-label="Previous screenshot"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
           <button type="button" class="next" aria-label="Next screenshot"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <p class="eyebrow">Reading</p>
+        <h2>Made for reading.</h2>
+        <p class="sub">Native macOS, with the shortcuts you'd expect.</p>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <div class="glyph" aria-hidden="true">≡</div>
+          <h3>Table of contents</h3>
+          <p>The sidebar lists the document's headings.</p>
+          <p>Click one to go there.</p>
+          <p class="keys"><kbd>⌃⌘S</kbd></p>
+        </div>
+        <div class="card">
+          <div class="glyph" aria-hidden="true">↕</div>
+          <h3>Heading by heading</h3>
+          <p>Step to the previous or next heading with the toolbar arrows.</p>
+          <p>Jump to the start or end of the document.</p>
+          <p class="keys"><kbd>⌘↑</kbd> <kbd>⌘↓</kbd> <kbd>⌥⌘↑</kbd> <kbd>⌥⌘↓</kbd></p>
+        </div>
+        <div class="card">
+          <div class="glyph" aria-hidden="true">↗</div>
+          <h3>Links that work</h3>
+          <p>A link to a heading scrolls to it.</p>
+          <p>A link to another Markdown file opens it.</p>
+          <p>Web links open in your browser.</p>
+        </div>
+        <div class="card">
+          <div class="glyph" aria-hidden="true">A</div>
+          <h3>Comfort</h3>
+          <p>Make the text larger or smaller from the toolbar — every window and Quick Look follow.</p>
+          <p>Light or dark: Minimal.md follows your Mac's appearance.</p>
+          <p class="keys"><kbd>⌘+</kbd> <kbd>⌘−</kbd> <kbd>⌘0</kbd></p>
+        </div>
+        <div class="card">
+          <div class="glyph" aria-hidden="true">▣</div>
+          <h3>Images</h3>
+          <p>Images stored next to your document appear in place.</p>
+          <p>Web images are never loaded: you see a placeholder with the image's description, not a gap.</p>
+          <p class="keys"><kbd>⌥⌘L</kbd></p>
+        </div>
+        <div class="card">
+          <div class="glyph" aria-hidden="true">⌘</div>
+          <h3>Context</h3>
+          <p>Select text for everything macOS offers: Look Up, Translate, Writing Tools and Services.</p>
+          <p>Need the whole text? Edit → Copy as Markdown copies the full source.</p>
+          <p class="keys"><kbd>⇧⌘C</kbd></p>
         </div>
       </div>
     </section>
@@ -143,13 +176,21 @@
       </div>
     </section>
 
-    <section class="band">
+    <section class="languages">
+      <p class="eyebrow">Languages</p>
+      <ul class="chips plain">
+        <li>English</li>
+        <li>French</li>
+        <li>German</li>
+        <li>Italian</li>
+        <li>Russian</li>
+        <li>Spanish</li>
+      </ul>
+    </section>
+
+    <section class="beta-line">
       <p class="eyebrow">Public beta</p>
-      <h2>Try what's next.</h2>
-      <p class="sub">Get new builds before they ship, open your own READMEs, notes and docs, and tell us what looks wrong.</p>
-      <div class="ctas">
-        <a class="btn primary" href="beta/">Join the beta</a>
-      </div>
+      <p>Want new builds early? <a href="beta/">Join the beta</a>.</p>
     </section>
   </main>
 
