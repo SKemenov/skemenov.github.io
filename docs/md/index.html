@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Minimal.md — Markdown viewer for the Mac</title>
-  <meta name="description" content="A Markdown viewer for the Mac. Read your .md files, rendered natively and in Quick Look. Nothing to edit, nothing collected.">
+  <meta name="description" content="A Markdown viewer for the Mac. Read what you and your AI agents write, rendered natively and in Quick Look. Nothing to edit, nothing collected.">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Sergey Kemenov">
   <meta property="og:title" content="Minimal.md — Markdown viewer for the Mac">
-  <meta property="og:description" content="A Markdown viewer for the Mac. Read your .md files, rendered natively and in Quick Look. Nothing to edit, nothing collected.">
+  <meta property="og:description" content="A Markdown viewer for the Mac. Read what you and your AI agents write, rendered natively and in Quick Look. Nothing to edit, nothing collected.">
   <meta property="og:url" content="https://skemenov.com/md/">
   <meta property="og:image" content="https://skemenov.com/assets/img/og/md.jpg">
   <meta property="og:image:width" content="1200">
@@ -16,7 +16,7 @@
   <meta property="og:image:alt" content="A Markdown document open in Minimal.md, with its table of contents in the sidebar.">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://skemenov.com/md/">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Minimal.md", "description": "A Markdown viewer and Quick Look extension for the Mac.", "operatingSystem": "macOS 26 Tahoe or later", "applicationCategory": "ProductivityApplication", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "url": "https://skemenov.com/md/", "downloadUrl": "https://apps.apple.com/app/id6808280979", "image": "https://skemenov.com/assets/img/md/icon-light-512.png", "author": {"@type": "Person", "name": "Sergey Kemenov", "url": "https://skemenov.com/", "jobTitle": "iOS and macOS developer", "sameAs": ["https://github.com/SKemenov", "https://t.me/skemenov"]}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Minimal.md", "description": "A Markdown viewer and Quick Look extension for the Mac, for your notes and the plans and reports your AI agents write.", "operatingSystem": "macOS 26 Tahoe or later", "applicationCategory": "ProductivityApplication", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "url": "https://skemenov.com/md/", "downloadUrl": "https://apps.apple.com/app/id6808280979", "image": "https://skemenov.com/assets/img/md/icon-light-512.png", "author": {"@type": "Person", "name": "Sergey Kemenov", "url": "https://skemenov.com/", "jobTitle": "iOS and macOS developer", "sameAs": ["https://github.com/SKemenov", "https://t.me/skemenov"]}}</script>
   <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="icon" href="../assets/img/md/icon-light-256.png">
   <link rel="apple-touch-icon" href="../assets/img/md/icon-light-256.png">
@@ -55,13 +55,19 @@
       <div class="section-head">
         <p class="eyebrow">Features</p>
         <h2>No editor, no sync, no account.</h2>
-        <p class="sub">Just the document, rendered natively with the system fonts, in light or dark mode.</p>
+        <p class="sub">Just the document — your notes, or the plans and reports your AI agents write — rendered natively with the system fonts, in light or dark mode.</p>
       </div>
-      <div class="grid trio">
+      <div class="grid pairs">
         <div class="card">
           <div class="glyph" aria-hidden="true">¶</div>
           <h3>Read, don't edit</h3>
           <p>Minimal.md never writes to your files. Open Markdown from Finder or Open With, or make it your default Markdown app in Settings → General.</p>
+        </div>
+        <div class="card">
+          <div class="glyph" aria-hidden="true">↻</div>
+          <h3>Work with your AI agents</h3>
+          <p>Follows the file live while the agent writes it.</p>
+          <p>Never conflicts with an agent editing the same file.</p>
         </div>
         <div class="card">
           <div class="glyph" aria-hidden="true">␣</div>
@@ -83,20 +89,24 @@
       </div>
       <div class="carousel" data-carousel>
         <ol class="track" tabindex="0" aria-label="Screenshots">
-          <li class="slide" aria-label="1 of 4">
-            <div class="stage"><div class="shot"><img src="../assets/img/md/2-content.png" width="1600" height="933" loading="lazy" alt="A rendered table, a task list and a Swift code block."></div></div>
+          <li class="slide" aria-label="1 of 5">
+            <div class="stage"><div class="shot"><img src="../assets/img/md/1-agents.png" width="1600" height="933" loading="lazy" alt="An AI agent's plan open in Minimal.md, mid-work: some tasks checked, others still open."></div></div>
+            <p class="caption"><strong>Read along with your AI agent.</strong> Keep its plan or report open while it works: the window updates with every change and keeps your place. AGENTS.md and other instructions read cleanly, and skills show their YAML front matter as a clear table.</p>
+          </li>
+          <li class="slide" aria-label="2 of 5">
+            <div class="stage"><div class="shot"><img src="../assets/img/md/3-content.png" width="1600" height="933" loading="lazy" alt="A rendered table, a task list and a Swift code block."></div></div>
             <p class="caption"><strong>Tables, task lists and code.</strong> GitHub-flavored Markdown, rendered natively: tables keep their alignment, task lists show their checkboxes, and fenced code stays monospaced.</p>
           </li>
-          <li class="slide" aria-label="2 of 4">
-            <div class="stage"><div class="shot"><img src="../assets/img/md/3-quick-look.png" width="1600" height="933" loading="lazy" alt="A Markdown file rendered in the Finder's Quick Look panel."></div></div>
+          <li class="slide" aria-label="3 of 5">
+            <div class="stage"><div class="shot"><img src="../assets/img/md/4-quick-look.png" width="1600" height="933" loading="lazy" alt="A Markdown file rendered in the Finder's Quick Look panel."></div></div>
             <p class="caption"><strong>Looks the same in Quick Look.</strong> The Finder preview uses the app’s own renderer, so a document reads exactly as it does in Minimal.md.</p>
           </li>
-          <li class="slide" aria-label="3 of 4">
-            <div class="stage"><div class="shot"><img src="../assets/img/md/4-light-and-dark.png" width="1600" height="933" loading="lazy" alt="One document, split down the middle: light mode on the left, dark mode on the right."></div></div>
+          <li class="slide" aria-label="4 of 5">
+            <div class="stage"><div class="shot"><img src="../assets/img/md/5-light-and-dark.png" width="1600" height="933" loading="lazy" alt="One document, split down the middle: light mode on the left, dark mode on the right."></div></div>
             <p class="caption"><strong>At home in light and dark.</strong> Documents follow your Mac’s appearance, with the system fonts and a text size you can adjust.</p>
           </li>
-          <li class="slide" aria-label="4 of 4">
-            <div class="stage"><div class="shot"><img src="../assets/img/md/5-privacy.png" width="1600" height="933" loading="lazy" alt="Settings, Privacy: one shared folder, with a button to revoke access."></div></div>
+          <li class="slide" aria-label="5 of 5">
+            <div class="stage"><div class="shot"><img src="../assets/img/md/6-privacy.png" width="1600" height="933" loading="lazy" alt="Settings, Privacy: the standard folders and other shared folders, each with a button to grant or revoke access."></div></div>
             <p class="caption"><strong>Every shared folder in one place.</strong> Settings → Privacy lists each folder you’ve let Minimal.md read. Revoke any one of them, or all at once.</p>
           </li>
         </ol>
