@@ -1,0 +1,7 @@
+# Jekyll renders only the Markdown pages (each sets its own `layout:`). The HTML pages carry no front
+# matter, so Jekyll copies them untouched. No theme: the layouts in `_layouts/` use our own CSS.
+markdown: kramdown
+kramdown:
+  input: GFM
+exclude:
+  - zz-check.html
