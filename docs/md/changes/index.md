@@ -15,7 +15,7 @@ Every release and what changed in it, newest first.
 
 ## 1.1.0
 
-Release day
+October 13, 2026
 {: .meta}
 
 NEW
