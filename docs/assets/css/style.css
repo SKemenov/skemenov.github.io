@@ -315,21 +315,26 @@ figcaption { color: var(--muted); font-size: 15px; text-align: center; margin-to
 .app-head span span { color: var(--accent); font-size: 14px; }
 
 section[id] { scroll-margin-top: 96px; }  /* clear the sticky header on #anchors */
-.contact-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+/* Icon-only squares (names are aria-labels) with the app cards' hover. */
+.contact-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; }
 .contact-links a {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  padding: 13px 26px;
-  border-radius: 980px;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
   border: 1px solid var(--border);
   background: var(--surface);
-  color: var(--text);
-  font-weight: 600;
-  text-decoration: none;
+  transition: border-color .2s, box-shadow .2s, transform .2s;
 }
-.contact-links a svg { color: var(--accent); }
-.contact-links a:hover { border-color: rgba(94, 234, 212, .45); }
+.contact-links a svg { width: 22px; height: 22px; color: var(--accent); }
+.contact-links a:hover, .contact-links a:focus-visible {
+  border-color: rgba(94, 234, 212, .55);
+  box-shadow: 0 0 0 .5px rgba(94, 234, 212, .6), 0 30px 70px -10px rgba(45, 212, 191, .30), 0 16px 32px rgba(0, 0, 0, .45);
+  transform: translateY(-2px);
+}
+@media (prefers-reduced-motion: reduce) { .contact-links a { transition: none; } .contact-links a:hover { transform: none; } }
 
 /* Nutrition labels */
 .label { text-align: center; }
@@ -374,11 +379,13 @@ main.page > .eyebrow + ul { margin-top: 8px; }
 .contact p { display: grid; grid-template-columns: 36px 1fr; column-gap: 14px; align-items: center; margin: 14px 0; font-size: 16px; }
 .contact p.note { display: block; border-top: 1px solid var(--border); padding-top: 14px; }
 
-/* Footer: avatar | name over year | links. On a phone the links move under the year. */
+/* Footer: avatar | name over year | links. On a phone the links move under the year.
+   Its line and content follow the header bar: 16px inset, content 19px inside (bar padding + border). */
 footer {
-  max-width: var(--wide);
+  width: calc(100% - 32px);
+  max-width: calc(var(--wide) - 32px);
   margin: 96px auto 0;
-  padding: 20px 16px 48px;
+  padding: 20px 19px 48px;
   border-top: 1px solid var(--border);
   color: var(--muted);
   font-size: 14px;
@@ -396,17 +403,12 @@ footer a:hover { color: var(--text); }
 .signature .who { color: var(--text); font-size: 17px; font-weight: 600; text-decoration: none; justify-self: start; }
 .signature .who:hover { color: var(--accent); }
 .signature .year { color: var(--muted); }
-.social { grid-area: social; display: flex; flex-wrap: wrap; gap: 24px; }
-.social a {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  color: var(--muted);
-  font-size: 15px;
-  text-decoration: none;
-}
-.social a svg { color: #2a9d8f; transition: color .15s; }
-.social a:hover { color: var(--text); }
+.elsewhere { grid-area: social; display: grid; justify-items: end; gap: 2px; }
+.elsewhere .title { margin: 0; color: var(--muted); font-size: 13px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; }
+/* Icons only; each link's name is its aria-label. 44px tap targets, pulled out so the glyphs meet the edge. */
+.social { --icon: 20px; display: flex; flex-wrap: wrap; gap: 4px; margin-right: calc((var(--icon) - 44px) / 2); }
+.social a { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; }
+.social a svg { width: var(--icon); height: var(--icon); color: #2a9d8f; transition: color .15s; }
 .social a:hover svg { color: var(--accent); }
 @media (max-width: 560px) {
   footer {
@@ -414,6 +416,9 @@ footer a:hover { color: var(--text); }
     grid-template-areas: "avatar sign" "avatar social";
     row-gap: 10px;
   }
+  .avatar-link { align-self: start; }
+  .elsewhere { justify-items: start; }
+  .social { margin: 0 0 0 calc((var(--icon) - 44px) / 2); }
 }
 
 /* Plain footer (home): one centered line. */
