@@ -1,0 +1,41 @@
+# Sergey Kemenov — Apps
+
+> Small, focused apps for the Mac by Sergey Kemenov, an iOS and macOS developer. The apps are free and collect no data. This site has no analytics, no trackers and no third-party scripts.
+
+## Minimal.md
+
+A Markdown viewer and Quick Look extension for the Mac, made for reading the notes, plans and reports that people and their AI agents write. It is a viewer, not an editor: it never writes to your files.
+
+- Free on the Mac App Store: https://apps.apple.com/app/id6808280979
+- Requires macOS 15.6 Sequoia or later
+- Renders GitHub-flavored Markdown natively with the system fonts: tables with alignment, task lists, fenced code, YAML front matter shown as a table, local images and a safe subset of HTML
+- Follows a file live while an AI agent writes it, and never conflicts with the agent's edits
+- Quick Look: press Space in Finder to read a rendered file without opening the app
+- Table of contents sidebar, heading-by-heading navigation, links between Markdown files
+- Privacy: no network connections, no data collected, remote images never loaded
+- Not supported: editing, printing, in-document search, syntax highlighting, footnotes, math, Mermaid diagrams, GitHub alerts
+- Languages: English, French, German, Italian, Russian, Spanish
+
+- [Minimal.md](https://skemenov.com/md/): overview, features and screenshots
+- [Supported Markdown](https://skemenov.com/md/markdown/): what Minimal.md renders
+- [What's New](https://skemenov.com/md/changes/): changelog, every release
+- [Support](https://skemenov.com/md/support/): FAQ and how to contact the developer
+- [Privacy Policy](https://skemenov.com/md/privacy/): Minimal.md collects no data
+- [Public Beta](https://skemenov.com/md/beta/): join the TestFlight beta
+
+## Minimal Countdown
+
+A minimalistic countdown screen saver for macOS. It counts down to, or up from, a date you choose.
+
+- Free, open source, distributed through GitHub Releases: https://github.com/SKemenov/MinimalCountdown/releases/latest
+- Requires macOS 14 Sonoma or later
+- 11 accent colors, digit effects, a choice of units and numeral systems, 10 languages including right-to-left
+
+- [Minimal Countdown](https://skemenov.com/countdown/): features, settings and install
+
+## Contact
+
+- [GitHub](https://github.com/SKemenov)
+- [Telegram](https://t.me/skemenov)
+- [X](https://x.com/skemenov)
+- Bug reports and feature requests for Minimal.md: https://github.com/SKemenov/skemenov.github.io/issues
