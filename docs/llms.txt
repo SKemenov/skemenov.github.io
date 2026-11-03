@@ -22,6 +22,7 @@ A Markdown viewer and Quick Look extension for the Mac, made for reading the not
 - [Support](https://skemenov.com/md/support/): FAQ and how to contact the developer
 - [Privacy Policy](https://skemenov.com/md/privacy/): Minimal.md collects no data
 - [Public Beta](https://skemenov.com/md/beta/): join the TestFlight beta
+- The overview, Supported Markdown, Support and Privacy pages also exist in German, Spanish, French, Italian and Russian: https://skemenov.com/md/de/, /md/es/, /md/fr/, /md/it/, /md/ru/
 
 ## Minimal Countdown
 
