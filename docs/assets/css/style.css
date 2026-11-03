@@ -380,8 +380,10 @@ main.page > .eyebrow + ul { margin-top: 8px; }
 .contact p { display: grid; grid-template-columns: 36px 1fr; column-gap: 14px; align-items: center; margin: 14px 0; font-size: 16px; }
 .contact p.note { display: block; border-top: 1px solid var(--border); padding-top: 14px; }
 
-/* Footer: avatar | name over year | links. On a phone the links move under the year.
-   Its line and content follow the header bar: 16px inset, content 19px inside (bar padding + border). */
+/* Footer: avatar + name over year leading, contact icons centered, language trailing; all top-aligned.
+   The outer columns mirror each other (64px + 1fr each side), so the middle sits on the true center.
+   On a phone everything stacks beside the avatar. Line and content follow the header bar: 16px inset,
+   content 19px inside (bar padding + border). */
 footer {
   width: calc(100% - 32px);
   max-width: calc(var(--wide) - 32px);
@@ -391,9 +393,9 @@ footer {
   color: var(--muted);
   font-size: 14px;
   display: grid;
-  grid-template-columns: auto 1fr auto;
-  grid-template-areas: "avatar sign social";
-  align-items: center;
+  grid-template-columns: 64px minmax(0, 1fr) auto minmax(0, 1fr) 64px;
+  grid-template-areas: "avatar sign social lang lang";
+  align-items: start;
   column-gap: 14px;
 }
 footer a { color: var(--muted); }
@@ -407,11 +409,11 @@ footer a:hover { color: var(--text); }
 /* Language switcher (Minimal.md pages; written by l10n/build.py): globe + current language,
    opening a popover of every language in its own name. No JS: popover closes on Esc or a click outside. */
 .lang-button {
-  justify-self: start; display: inline-flex; align-items: center; gap: 6px;
-  margin: 6px 0 0 -8px; padding: 6px 8px; min-height: 32px;
-  font: inherit; color: var(--muted); background: none; border: 0; border-radius: 8px; cursor: pointer;
+  grid-area: lang; justify-self: end; display: inline-flex; align-items: center; gap: 6px;
+  margin: -6px -8px 0 0; padding: 6px 8px; min-height: 32px;
+  font: inherit; font-size: 17px; color: var(--muted); background: none; border: 0; border-radius: 8px; cursor: pointer;
 }
-.lang-button svg { color: #2a9d8f; transition: color .15s; }
+.lang-button svg { width: 18px; height: 18px; color: #2a9d8f; transition: color .15s; }
 .lang-button:hover, .lang-button:hover svg { color: var(--accent); }
 .languages-list {
   margin: auto; padding: 8px; min-width: 200px;
@@ -430,22 +432,23 @@ footer a:hover { color: var(--text); }
   .languages-list { position-anchor: --lang; inset: auto; bottom: anchor(top); left: anchor(left); margin: 0 0 8px; position-try-fallbacks: flip-block; }
   .languages-list::backdrop { background: none; }
 }
-.elsewhere { grid-area: social; display: grid; justify-items: end; gap: 2px; }
-.elsewhere .title { margin: 0; color: var(--muted); font-size: 13px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; }
-/* Icons only; each link's name is its aria-label. 44px tap targets, pulled out so the glyphs meet the edge. */
-.social { --icon: 20px; display: flex; flex-wrap: wrap; gap: 4px; margin-right: calc((var(--icon) - 44px) / 2); }
+.elsewhere { grid-area: social; display: grid; justify-items: center; }
+/* Icons only; each link's name is its aria-label. 44px tap targets, pulled out so the glyphs meet the
+   edges; 6px down from the box top puts the glyph tops on the name's and language's cap height. */
+.social { --icon: 20px; --slack: calc((var(--icon) - 44px) / 2); display: flex; flex-wrap: wrap; gap: 4px; margin: calc(var(--slack) + 6px) var(--slack) 0; }
 .social a { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; }
 .social a svg { width: var(--icon); height: var(--icon); color: #2a9d8f; transition: color .15s; }
 .social a:hover svg { color: var(--accent); }
 @media (max-width: 560px) {
   footer {
     grid-template-columns: auto 1fr;
-    grid-template-areas: "avatar sign" "avatar social";
+    grid-template-areas: "avatar sign" "avatar social" "avatar lang";
     row-gap: 10px;
   }
-  .avatar-link { align-self: start; }
+  /* The icons keep their tap-target slack here, so year → icons and icons → language read the same 22px. */
   .elsewhere { justify-items: start; }
-  .social { margin: 0 0 0 calc((var(--icon) - 44px) / 2); }
+  .lang-button { justify-self: start; margin: -6px 0 0 -8px; }
+  .social { margin: 0 0 0 var(--slack); }
 }
 
 /* Plain footer (home): one centered line. */
