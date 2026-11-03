@@ -36,7 +36,7 @@ LANGUAGES = {
     "it": ("Italiano", "Lingua"),
     "ru": ("Русский", "Язык"),
 }
-ENABLED = ["en", "de", "es", "fr"]
+ENABLED = ["en", "de", "es", "fr", "it"]
 
 PAGES = ["/md/", "/md/markdown/", "/md/support/", "/md/privacy/"]
 
