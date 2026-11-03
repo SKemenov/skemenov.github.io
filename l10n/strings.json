@@ -287,7 +287,7 @@
   "Native macOS, with the shortcuts you'd expect.": {
     "es": "macOS nativo, con los atajos que esperas."
   },
-  "Need the whole text? Edit → Copy as Markdown copies the full source.": {
+  "Need the whole text? Edit → Copy Document as Markdown copies the full source.": {
     "es": "¿Necesitas todo el texto? Edición → Copiar documento como Markdown copia todo el código fuente."
   },
   "Never conflicts with an agent editing the same file.": {
@@ -302,7 +302,7 @@
   "No network connections, no data collected, and remote images are never loaded. It reads only the files you open and the folders you share.": {
     "es": "Sin conexiones de red ni datos recopilados, y las imágenes remotas nunca se cargan. Solo lee los archivos que abres y las carpetas que compartes."
   },
-  "No — Minimal.md is a viewer and never changes your files. To edit a document, open it in your editor. To take its text elsewhere, use Edit → Copy as Markdown.": {
+  "No — Minimal.md is a viewer and never changes your files. To edit a document, open it in your editor. To take its text elsewhere, use Edit → Copy Document as Markdown.": {
     "es": "No: Minimal.md es un visor y nunca modifica tus archivos. Para editar un documento, ábrelo en tu editor. Para llevar su texto a otro lugar, usa Edición → Copiar documento como Markdown."
   },
   "Nothing. Minimal.md has no accounts, no analytics, no advertising and no tracking of any kind. It doesn't make network connections — the app isn't allowed to by its own sandbox settings — so nothing you open can leave your Mac through it. Images hosted on the web are never loaded.": {
