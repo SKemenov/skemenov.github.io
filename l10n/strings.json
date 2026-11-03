@@ -1,1 +1,488 @@
-{}
+{
+  "1 of 5": {
+    "es": "1 de 5"
+  },
+  "2 of 5": {
+    "es": "2 de 5"
+  },
+  "3 of 5": {
+    "es": "3 de 5"
+  },
+  "4 of 5": {
+    "es": "4 de 5"
+  },
+  "5 of 5": {
+    "es": "5 de 5"
+  },
+  "<a class=\"support-email\">turn on JavaScript to see the address</a>, or see <a href=\"../support/\">Support</a>.": {
+    "es": "<a class=\"support-email\">activa JavaScript para ver la dirección</a>, o visita <a href=\"../support/\">Soporte</a>."
+  },
+  "<a href=\"privacy/\">Privacy policy</a>": {
+    "es": "<a href=\"privacy/\">Política de privacidad</a>"
+  },
+  "<span class=\"glyph\" aria-hidden=\"true\">#</span><span><strong>Report a bug or request a feature</strong><br><a href=\"https://github.com/SKemenov/skemenov.github.io/issues\">GitHub Issues</a></span>": {
+    "es": "<span class=\"glyph\" aria-hidden=\"true\">#</span><span><strong>Reporta un error o sugiere una función</strong><br><a href=\"https://github.com/SKemenov/skemenov.github.io/issues\">GitHub Issues</a> (en inglés)</span>"
+  },
+  "<span class=\"glyph\" aria-hidden=\"true\">@</span><span><strong>Email</strong><br><a class=\"support-email\">turn on JavaScript to see the address</a></span>": {
+    "es": "<span class=\"glyph\" aria-hidden=\"true\">@</span><span><strong>Correo electrónico</strong><br><a class=\"support-email\">activa JavaScript para ver la dirección</a></span>"
+  },
+  "<strong>At home in light and dark.</strong> Documents follow your Mac’s appearance, with the system fonts and a text size you can adjust.": {
+    "es": "<strong>Perfecto en modo claro y oscuro.</strong> Los documentos siguen la apariencia de tu Mac, con las fuentes del sistema y un tamaño de texto que puedes ajustar."
+  },
+  "<strong>Every shared folder in one place.</strong> Settings → Privacy lists each folder you’ve let Minimal.md read. Revoke any one of them, or all at once.": {
+    "es": "<strong>Todas las carpetas compartidas en un solo lugar.</strong> Configuración → Privacidad muestra cada carpeta que permitiste leer a Minimal.md. Revoca el acceso a una o a todas a la vez."
+  },
+  "<strong>Looks the same in Quick Look.</strong> The Finder preview uses the app’s own renderer, so a document reads exactly as it does in Minimal.md.": {
+    "es": "<strong>Igual en Vista Rápida.</strong> La previsualización del Finder usa el mismo renderizador que la app, así que un documento se ve exactamente como en Minimal.md."
+  },
+  "<strong>Read along with your AI agent.</strong> The window updates with every change and keeps your place. AGENTS.md and other instructions read cleanly, and skills show their YAML front matter as a clear table.": {
+    "es": "<strong>Lee lo que escribe tu agente de IA.</strong> La ventana se actualiza con cada cambio y no pierdes tu lugar. AGENTS.md y otras instrucciones se leen con claridad, y las skills muestran su front matter YAML en una tabla clara."
+  },
+  "<strong>Tables, task lists and code.</strong> GitHub-flavored Markdown, rendered natively: tables keep their alignment, task lists show their checkboxes, and fenced code stays monospaced.": {
+    "es": "<strong>Tablas, listas de tareas y código.</strong> Markdown al estilo de GitHub con renderizado nativo: las tablas conservan su alineación, las listas de tareas muestran sus casillas y el código delimitado se mantiene en fuente monoespaciada."
+  },
+  "A Markdown document open in Minimal.md, with its table of contents in the sidebar and front matter shown as a table.": {
+    "es": "Un documento Markdown abierto en Minimal.md, con su tabla de contenido en la barra lateral y el front matter mostrado como tabla."
+  },
+  "A Markdown document open in Minimal.md, with its table of contents in the sidebar.": {
+    "es": "Un documento Markdown abierto en Minimal.md, con su tabla de contenido en la barra lateral."
+  },
+  "A Markdown file rendered in the Finder's Quick Look panel.": {
+    "es": "Un archivo Markdown renderizado en la ventana de Vista Rápida del Finder."
+  },
+  "A Markdown viewer and Quick Look extension for the Mac, for your notes and the plans and reports your AI agents write.": {
+    "es": "Un visor de Markdown y extensión de Vista Rápida para Mac, para tus notas y para los planes y reportes que escriben tus agentes de IA."
+  },
+  "A closer look.": {
+    "es": "Un vistazo de cerca."
+  },
+  "A free Markdown viewer for the Mac. Read what you and your AI agents write, rendered natively, live and in Quick Look. Nothing to edit, nothing collected.": {
+    "es": "Un visor de Markdown gratuito para Mac. Lee lo que escriben tú y tus agentes de IA, con renderizado nativo, en vivo y en Vista Rápida. Nada que editar, nada recopilado."
+  },
+  "A link to a heading scrolls to it.": {
+    "es": "Un enlace a un encabezado te lleva hasta él."
+  },
+  "A link to another Markdown file opens it.": {
+    "es": "Un enlace a otro archivo Markdown lo abre."
+  },
+  "A rendered table, a task list and a Swift code block.": {
+    "es": "Una tabla renderizada, una lista de tareas y un bloque de código Swift."
+  },
+  "An AI agent's plan open in Minimal.md, mid-work: some tasks checked, others still open.": {
+    "es": "El plan de un agente de IA abierto en Minimal.md, a medio trabajo: algunas tareas marcadas y otras pendientes."
+  },
+  "Anything Minimal.md doesn't render is shown as its source — never dropped.<br>Something looks wrong? <a href=\"../support/\">Tell us on the support page</a>.": {
+    "es": "Lo que Minimal.md no renderiza se muestra como código fuente: nunca se descarta.<br>¿Algo se ve mal? <a href=\"../support/\">Cuéntanos en la página de soporte</a>."
+  },
+  "App Store labels": {
+    "es": "Etiquetas del App Store"
+  },
+  "Apple": {
+    "es": "Apple"
+  },
+  "Block quotes": {
+    "es": "Citas en bloque"
+  },
+  "Bold, italic and strikethrough": {
+    "es": "Negrita, cursiva y tachado"
+  },
+  "Bold, italic, code and links in cells": {
+    "es": "Negrita, cursiva, código y enlaces en las celdas"
+  },
+  "Bulleted and numbered lists, nested": {
+    "es": "Listas con viñetas y numeradas, anidadas"
+  },
+  "Can I edit my files with Minimal.md?": {
+    "es": "¿Puedo editar mis archivos con Minimal.md?"
+  },
+  "Changes": {
+    "es": "Cambios"
+  },
+  "Children": {
+    "es": "Menores"
+  },
+  "Click one to go there.": {
+    "es": "Haz clic en uno para ir ahí."
+  },
+  "Code blocks in the system monospaced font": {
+    "es": "Bloques de código en la fuente monoespaciada del sistema"
+  },
+  "Comfort": {
+    "es": "Comodidad"
+  },
+  "Contact": {
+    "es": "Contacto"
+  },
+  "Context": {
+    "es": "Contexto"
+  },
+  "Dark Interface": {
+    "es": "Interfaz oscura"
+  },
+  "Data Not Collected": {
+    "es": "No se recopilan datos"
+  },
+  "Differentiate Without Color&nbsp;Alone": {
+    "es": "Diferenciación no sólo con&nbsp;color"
+  },
+  "Download on the Mac App Store": {
+    "es": "Descárgalo en el Mac App Store"
+  },
+  "English": {
+    "es": "Inglés"
+  },
+  "English, French, German, Italian, Russian and Spanish, following the language set for your Mac. Spotted a translation mistake, or want Minimal.md in your language? <a href=\"https://github.com/SKemenov/skemenov.github.io/issues/new?template=translation.md\">Let us know</a>.": {
+    "es": "Alemán, español, francés, inglés, italiano y ruso, según el idioma configurado en tu Mac. ¿Encontraste un error de traducción o quieres Minimal.md en tu idioma? <a href=\"https://github.com/SKemenov/skemenov.github.io/issues/new?template=translation.md\">Avísanos</a>."
+  },
+  "Every release and its changes are listed in the <a href=\"../changes/\">changelog</a>, newest first.": {
+    "es": "Cada versión y sus cambios aparecen en el <a href=\"../changes/\">registro de cambios</a> (en inglés), de la más reciente a la más antigua."
+  },
+  "Everything in the document.": {
+    "es": "Todo lo que hay en el documento."
+  },
+  "Extras": {
+    "es": "Extras"
+  },
+  "Features": {
+    "es": "Funciones"
+  },
+  "Follows the file live while the agent writes it.": {
+    "es": "Sigue el archivo en vivo mientras el agente lo escribe."
+  },
+  "Free · Requires macOS 15.6 Sequoia or later · Supported&nbsp;<a href=\"markdown/\">Markdown</a>": {
+    "es": "Gratis · Requiere macOS 15.6 Sequoia o posterior · <a href=\"markdown/\">Markdown</a>&nbsp;compatible"
+  },
+  "French": {
+    "es": "Francés"
+  },
+  "Frequently asked questions": {
+    "es": "Preguntas frecuentes"
+  },
+  "German": {
+    "es": "Alemán"
+  },
+  "GitHub-flavored Markdown, rendered natively.": {
+    "es": "Markdown al estilo de GitHub, con renderizado nativo."
+  },
+  "HTML comments stay hidden": {
+    "es": "Los comentarios HTML permanecen ocultos"
+  },
+  "HTML: centered text, sized images, simple tables": {
+    "es": "HTML: texto centrado, imágenes con tamaño, tablas sencillas"
+  },
+  "Heading by heading": {
+    "es": "Encabezado por encabezado"
+  },
+  "Headings, levels 1–6": {
+    "es": "Encabezados, niveles 1 a 6"
+  },
+  "Help": {
+    "es": "Ayuda"
+  },
+  "Help for Minimal.md, the Markdown viewer for the Mac: email or GitHub Issues, and answers on local images, Quick Look, the default app and languages.": {
+    "es": "Ayuda para Minimal.md, el visor de Markdown para Mac: correo o GitHub Issues, y respuestas sobre imágenes locales, Vista Rápida, la app predeterminada e idiomas."
+  },
+  "Horizontal rules": {
+    "es": "Líneas horizontales"
+  },
+  "How do I give Markdown files back to my previous app?": {
+    "es": "¿Cómo devuelvo los archivos Markdown a mi app anterior?"
+  },
+  "How do I make Minimal.md my default Markdown app?": {
+    "es": "¿Cómo hago que Minimal.md sea mi app predeterminada para Markdown?"
+  },
+  "If a document looks wrong, please attach a screenshot and, if you can, the Markdown file itself.": {
+    "es": "Si un documento se ve mal, adjunta una captura de pantalla y, si puedes, el propio archivo Markdown."
+  },
+  "If this policy changes, the new version will be posted on this page with a new date.": {
+    "es": "Si esta política cambia, la nueva versión se publicará en esta página con una nueva fecha."
+  },
+  "If you choose to share diagnostics with app developers in your Mac's settings, Apple may pass on anonymous crash reports for Minimal.md. Apple handles that data under its own privacy policy; Minimal.md adds nothing to it. Beta testers using TestFlight can send feedback and screenshots through Apple — only what you choose to send.": {
+    "es": "Si en la configuración de tu Mac eliges compartir datos de diagnóstico con los desarrolladores de apps, Apple puede enviar reportes anónimos de fallas de Minimal.md. Apple trata esos datos según su propia política de privacidad; Minimal.md no les agrega nada. Quienes prueban la beta en TestFlight pueden enviar comentarios y capturas de pantalla a través de Apple: solo lo que eligen enviar."
+  },
+  "Images": {
+    "es": "Imágenes"
+  },
+  "Images stored next to your document appear in place.": {
+    "es": "Las imágenes guardadas junto a tu documento aparecen en su lugar."
+  },
+  "Inline code": {
+    "es": "Código en línea"
+  },
+  "Italian": {
+    "es": "Italiano"
+  },
+  "Jump to the start or end of the document.": {
+    "es": "Salta al principio o al final del documento."
+  },
+  "Languages": {
+    "es": "Idiomas"
+  },
+  "Last updated: October 1, 2026": {
+    "es": "Última actualización: 1 de octubre de 2026 · Traducción de la versión original en inglés, que prevalece en caso de diferencia."
+  },
+  "Light or dark: Minimal.md follows your Mac's appearance.": {
+    "es": "Claro u oscuro: Minimal.md sigue la apariencia de tu Mac."
+  },
+  "Line breaks": {
+    "es": "Saltos de línea"
+  },
+  "Links": {
+    "es": "Enlaces"
+  },
+  "Links that work": {
+    "es": "Enlaces que funcionan"
+  },
+  "Local images, linked images too": {
+    "es": "Imágenes locales, también con enlace"
+  },
+  "Made for reading.": {
+    "es": "Hecho para leer."
+  },
+  "Make the text larger or smaller from the toolbar — every window and Quick Look follow.": {
+    "es": "Agranda o reduce el texto desde la barra de herramientas: todas las ventanas y Vista Rápida se ajustan."
+  },
+  "Markdown": {
+    "es": "Markdown"
+  },
+  "Markdown viewer &amp; Quick Look": {
+    "es": "Visor Markdown y Vista Rápida"
+  },
+  "Minimal.md": {
+    "es": "Minimal.md"
+  },
+  "Minimal.md Markdown Support": {
+    "es": "Markdown compatible con Minimal.md"
+  },
+  "Minimal.md Privacy Policy": {
+    "es": "Política de privacidad de Minimal.md"
+  },
+  "Minimal.md Support": {
+    "es": "Soporte de Minimal.md"
+  },
+  "Minimal.md app icon": {
+    "es": "Ícono de la app Minimal.md"
+  },
+  "Minimal.md collects no data. Your documents stay on your Mac.": {
+    "es": "Minimal.md no recopila datos. Tus documentos se quedan en tu Mac."
+  },
+  "Minimal.md collects no data: no accounts, analytics, ads or tracking, and no network connections. It reads only the Markdown files and folders you open.": {
+    "es": "Minimal.md no recopila datos: sin cuentas, analíticas, anuncios ni rastreo, y sin conexiones de red. Solo lee los archivos Markdown y las carpetas que abres."
+  },
+  "Minimal.md collects no information from anyone, including children.": {
+    "es": "Minimal.md no recopila información de nadie, incluidos los menores."
+  },
+  "Minimal.md is free <a href=\"https://apps.apple.com/app/id6808280979\">on the Mac App Store</a> and requires macOS 15.6 Sequoia or later.": {
+    "es": "Minimal.md es gratis <a href=\"https://apps.apple.com/app/id6808280979\">en el Mac App Store</a> y requiere macOS 15.6 Sequoia o posterior."
+  },
+  "Minimal.md never writes to your files. Open Markdown from Finder or Open With, or make it your default Markdown app in Settings → General.": {
+    "es": "Minimal.md nunca escribe en tus archivos. Abre Markdown desde el Finder o con Abrir con, o haz que sea tu app predeterminada para Markdown en Configuración → General."
+  },
+  "Minimal.md opens the .md files you and your AI agents write, and shows them the way they were meant to be read — and it never changes them.": {
+    "es": "Minimal.md abre los archivos .md que escriben tú y tus agentes de IA, y los muestra tal como fueron pensados para leerse, sin modificarlos nunca."
+  },
+  "Minimal.md — Markdown viewer for the Mac": {
+    "es": "Minimal.md: visor de Markdown para Mac"
+  },
+  "Native macOS, with the shortcuts you'd expect.": {
+    "es": "macOS nativo, con los atajos que esperas."
+  },
+  "Need the whole text? Edit → Copy as Markdown copies the full source.": {
+    "es": "¿Necesitas todo el texto? Edición → Copiar documento como Markdown copia todo el código fuente."
+  },
+  "Never conflicts with an agent editing the same file.": {
+    "es": "Nunca choca con un agente que edita el mismo archivo."
+  },
+  "Next screenshot": {
+    "es": "Captura siguiente"
+  },
+  "No editor, no sync, no account.": {
+    "es": "Sin editor, sin sincronización, sin cuenta."
+  },
+  "No network connections, no data collected, and remote images are never loaded. It reads only the files you open and the folders you share.": {
+    "es": "Sin conexiones de red ni datos recopilados, y las imágenes remotas nunca se cargan. Solo lee los archivos que abres y las carpetas que compartes."
+  },
+  "No — Minimal.md is a viewer and never changes your files. To edit a document, open it in your editor. To take its text elsewhere, use Edit → Copy as Markdown.": {
+    "es": "No: Minimal.md es un visor y nunca modifica tus archivos. Para editar un documento, ábrelo en tu editor. Para llevar su texto a otro lugar, usa Edición → Copiar documento como Markdown."
+  },
+  "Nothing. Minimal.md has no accounts, no analytics, no advertising and no tracking of any kind. It doesn't make network connections — the app isn't allowed to by its own sandbox settings — so nothing you open can leave your Mac through it. Images hosted on the web are never loaded.": {
+    "es": "Nada. Minimal.md no tiene cuentas, analíticas, publicidad ni rastreo de ningún tipo. No establece conexiones de red (su propia configuración de sandbox no se lo permite), así que nada de lo que abres puede salir de tu Mac a través de ella. Las imágenes alojadas en la web nunca se cargan."
+  },
+  "One document, split down the middle: light mode on the left, dark mode on the right.": {
+    "es": "Un documento dividido por la mitad: modo claro a la izquierda y modo oscuro a la derecha."
+  },
+  "Only the Markdown files you open, and the folders you explicitly choose to share so their local images can be shown. The Quick Look preview reads the file you're previewing in Finder. Minimal.md never writes to your files.": {
+    "es": "Solo los archivos Markdown que abres y las carpetas que eliges compartir de forma explícita para que se muestren sus imágenes locales. La previsualización de Vista Rápida lee el archivo que estás previsualizando en el Finder. Minimal.md nunca escribe en tus archivos."
+  },
+  "Open Minimal.md once after installing it, so macOS registers its Quick Look extension. If previews still show plain text, check that Minimal.md is turned on in System Settings → General → Login Items &amp; Extensions → Quick Look.": {
+    "es": "Abre Minimal.md una vez después de instalarla para que macOS registre su extensión de Vista Rápida. Si las previsualizaciones siguen mostrando texto sin formato, comprueba que Minimal.md esté activada en Configuración del Sistema → General → Elementos de inicio y extensiones → Vista Rápida."
+  },
+  "Open Settings → General and choose Restore next to “Give it back to …”. That row appears while Minimal.md is the default and your previous app is still installed. Otherwise, select any Markdown file in Finder, choose File → Get Info, pick an app under Open with, and click Change All.": {
+    "es": "Abre Configuración → General y elige Restaurar junto a “Volver a usar … como app predeterminada”. Esa fila aparece mientras Minimal.md es la app predeterminada y tu app anterior sigue instalada. Si no, selecciona cualquier archivo Markdown en el Finder, elige Archivo → Obtener información, escoge una app en Abrir con y haz clic en Cambiar todo."
+  },
+  "Open Settings → General and choose Set as Default. macOS asks you to confirm the change.": {
+    "es": "Abre Configuración (Ajustes en España) → General y elige Establecer como predeterminada. macOS te pide que confirmes el cambio."
+  },
+  "Open a Markdown file and just read it.": {
+    "es": "Abre un archivo Markdown y simplemente léelo."
+  },
+  "Part of my document shows as raw Markdown or HTML.": {
+    "es": "Parte de mi documento se muestra como Markdown o HTML sin renderizar."
+  },
+  "Previous screenshot": {
+    "es": "Captura anterior"
+  },
+  "Privacy": {
+    "es": "Privacidad"
+  },
+  "Privacy and accessibility.": {
+    "es": "Privacidad y accesibilidad."
+  },
+  "Private by design": {
+    "es": "Privado por diseño"
+  },
+  "Public beta": {
+    "es": "Beta pública"
+  },
+  "Questions, problems or ideas — we'd like to hear them.": {
+    "es": "Preguntas, problemas o ideas: nos encantaría escucharlos."
+  },
+  "Quick Look": {
+    "es": "Vista Rápida"
+  },
+  "Quick Look doesn't show my Markdown files rendered.": {
+    "es": "Vista Rápida no muestra mis archivos Markdown renderizados."
+  },
+  "Read, don't edit": {
+    "es": "Leer, no editar"
+  },
+  "Reading": {
+    "es": "Lectura"
+  },
+  "Reduced Motion": {
+    "es": "Movimiento reducido"
+  },
+  "Russian": {
+    "es": "Ruso"
+  },
+  "Screenshots": {
+    "es": "Capturas de pantalla"
+  },
+  "See what changed in each version in the <a href=\"changes/\">changelog</a>.": {
+    "es": "Consulta qué cambió en cada versión en el <a href=\"changes/\">registro de cambios</a> (en inglés)."
+  },
+  "Select a Markdown file in Finder and press the Space bar to read it rendered, without opening the app.": {
+    "es": "Selecciona un archivo Markdown en el Finder y presiona la barra espaciadora para leerlo renderizado, sin abrir la app."
+  },
+  "Select text for everything macOS offers: Look Up, Translate, Writing Tools and Services.": {
+    "es": "Selecciona texto para usar todo lo que ofrece macOS: Buscar, Traducir, Herramientas de escritura y Servicios."
+  },
+  "Settings, Privacy: the standard folders and other shared folders, each with a button to grant or revoke access.": {
+    "es": "Configuración, Privacidad: las carpetas estándar y otras carpetas compartidas, cada una con un botón para permitir o revocar el acceso."
+  },
+  "Spanish": {
+    "es": "Español"
+  },
+  "Step to the previous or next heading with the toolbar arrows.": {
+    "es": "Ve al encabezado anterior o siguiente con las flechas de la barra de herramientas."
+  },
+  "Structure": {
+    "es": "Estructura"
+  },
+  "Sufficient Contrast": {
+    "es": "Suficiente contraste"
+  },
+  "Support": {
+    "es": "Soporte"
+  },
+  "Supported features on Mac": {
+    "es": "Funciones admitidas en Mac"
+  },
+  "Table of contents": {
+    "es": "Tabla de contenido"
+  },
+  "Tables and code": {
+    "es": "Tablas y código"
+  },
+  "Tables with column alignment": {
+    "es": "Tablas con alineación de columnas"
+  },
+  "Task lists": {
+    "es": "Listas de tareas"
+  },
+  "Text": {
+    "es": "Texto"
+  },
+  "That's deliberate: anything Minimal.md can't render faithfully is shown as its source rather than hidden. If you think it should be rendered, please send us the document. See <a href=\"../markdown/\">what Minimal.md renders</a>.": {
+    "es": "Es intencional: lo que Minimal.md no puede renderizar fielmente se muestra como código fuente en lugar de ocultarse. Si crees que debería renderizarse, envíanos el documento. Consulta <a href=\"../markdown/\">qué renderiza Minimal.md</a>."
+  },
+  "The developer does not collect any data from this app.": {
+    "es": "El desarrollador no recopila ningún dato en esta app."
+  },
+  "The document rendered natively with the system fonts, in light or dark mode.": {
+    "es": "El documento con renderizado nativo y las fuentes del sistema, en modo claro u oscuro."
+  },
+  "The sidebar lists the document's headings.": {
+    "es": "La barra lateral muestra los encabezados del documento."
+  },
+  "Voice Control": {
+    "es": "Control por voz"
+  },
+  "VoiceOver": {
+    "es": "VoiceOver"
+  },
+  "Want Minimal.md in your language? <a href=\"https://github.com/SKemenov/skemenov.github.io/issues/new?template=translation.md\">Let us know</a>.": {
+    "es": "¿Quieres Minimal.md en tu idioma? <a href=\"https://github.com/SKemenov/skemenov.github.io/issues/new?template=translation.md\">Avísanos</a>."
+  },
+  "Want new builds early? <a href=\"beta/\">Join the beta</a>.": {
+    "es": "¿Quieres las nuevas versiones antes? <a href=\"beta/\">Únete a la beta</a> (en inglés)."
+  },
+  "Web images are never loaded: you see a placeholder with the image's description, not a gap.": {
+    "es": "Las imágenes web nunca se cargan: ves un marcador con la descripción de la imagen, no un hueco."
+  },
+  "Web links open in your browser.": {
+    "es": "Los enlaces web se abren en tu navegador."
+  },
+  "What Minimal.md collects": {
+    "es": "Qué recopila Minimal.md"
+  },
+  "What Minimal.md reads": {
+    "es": "Qué lee Minimal.md"
+  },
+  "What changed in the latest version?": {
+    "es": "¿Qué cambió en la última versión?"
+  },
+  "What stays on your Mac": {
+    "es": "Qué se queda en tu Mac"
+  },
+  "What’s new": {
+    "es": "Novedades"
+  },
+  "Where do I get Minimal.md?": {
+    "es": "¿Dónde consigo Minimal.md?"
+  },
+  "Which Markdown Minimal.md renders: text, headings, lists and task lists, tables and code, YAML front matter, local images and a safe subset of HTML.": {
+    "es": "Qué Markdown renderiza Minimal.md: texto, encabezados, listas y listas de tareas, tablas y código, front matter YAML, imágenes locales y un subconjunto seguro de HTML."
+  },
+  "Which languages does Minimal.md support?": {
+    "es": "¿Qué idiomas admite Minimal.md?"
+  },
+  "Why don't the images in my document show?": {
+    "es": "¿Por qué no se muestran las imágenes de mi documento?"
+  },
+  "Work with your AI agents": {
+    "es": "Trabaja con tus agentes de IA"
+  },
+  "YAML front matter, shown as a table": {
+    "es": "Front matter YAML, mostrado como tabla"
+  },
+  "Your settings (such as text size and whether to show local images) and the list of folders you've shared are stored locally on your Mac, where both the app and its Quick Look preview can read them. You can revoke folder access at any time in Settings → Privacy. Deleting the app removes this data.": {
+    "es": "Tu configuración (como el tamaño del texto y si se muestran las imágenes locales) y la lista de carpetas que compartiste se guardan localmente en tu Mac, donde tanto la app como su previsualización de Vista Rápida pueden leerlas. Puedes revocar el acceso a las carpetas en cualquier momento en Configuración → Privacidad. Al eliminar la app se eliminan estos datos."
+  },
+  "macOS 15.6 Sequoia or later": {
+    "es": "macOS 15.6 Sequoia o posterior"
+  },
+  "macOS lets Minimal.md read only the files you open. For images stored next to your document, a bar appears at the bottom of the window — choose the folder there to grant access. You can review and revoke access at any time in Settings → Privacy. Images on the web are never loaded: Minimal.md makes no network connections.": {
+    "es": "macOS solo permite que Minimal.md lea los archivos que abres. Para las imágenes guardadas junto a tu documento, aparece una barra en la parte inferior de la ventana: elige ahí la carpeta para permitir el acceso. Puedes revisar y revocar el acceso en cualquier momento en Configuración (Ajustes en España) → Privacidad. Las imágenes de la web nunca se cargan: Minimal.md no establece conexiones de red."
+  }
+}
