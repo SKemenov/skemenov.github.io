@@ -1,488 +1,1136 @@
 {
   "1 of 5": {
-    "es": "1 de 5"
+    "es": "1 de 5",
+    "de": "1 von 5",
+    "fr": "1 sur 5",
+    "it": "1 di 5",
+    "ru": "1 из 5"
   },
   "2 of 5": {
-    "es": "2 de 5"
+    "es": "2 de 5",
+    "de": "2 von 5",
+    "fr": "2 sur 5",
+    "it": "2 di 5",
+    "ru": "2 из 5"
   },
   "3 of 5": {
-    "es": "3 de 5"
+    "es": "3 de 5",
+    "de": "3 von 5",
+    "fr": "3 sur 5",
+    "it": "3 di 5",
+    "ru": "3 из 5"
   },
   "4 of 5": {
-    "es": "4 de 5"
+    "es": "4 de 5",
+    "de": "4 von 5",
+    "fr": "4 sur 5",
+    "it": "4 di 5",
+    "ru": "4 из 5"
   },
   "5 of 5": {
-    "es": "5 de 5"
+    "es": "5 de 5",
+    "de": "5 von 5",
+    "fr": "5 sur 5",
+    "it": "5 di 5",
+    "ru": "5 из 5"
   },
   "<a class=\"support-email\">turn on JavaScript to see the address</a>, or see <a href=\"../support/\">Support</a>.": {
-    "es": "<a class=\"support-email\">activa JavaScript para ver la dirección</a>, o visita <a href=\"../support/\">Soporte</a>."
+    "es": "<a class=\"support-email\">activa JavaScript para ver la dirección</a>, o visita <a href=\"../support/\">Soporte</a>.",
+    "de": "<a class=\"support-email\">aktiviere JavaScript, um die Adresse zu sehen</a>, oder besuche den <a href=\"../support/\">Support</a>.",
+    "fr": "<a class=\"support-email\">activez JavaScript pour voir l’adresse</a>, ou consultez la page <a href=\"../support/\">Assistance</a>.",
+    "it": "<a class=\"support-email\">attiva JavaScript per vedere l’indirizzo</a>, oppure vai a <a href=\"../support/\">Supporto</a>.",
+    "ru": "<a class=\"support-email\">включите JavaScript, чтобы увидеть адрес</a>, или откройте страницу <a href=\"../support/\">поддержки</a>."
   },
   "<a href=\"privacy/\">Privacy policy</a>": {
-    "es": "<a href=\"privacy/\">Política de privacidad</a>"
+    "es": "<a href=\"privacy/\">Política de privacidad</a>",
+    "de": "<a href=\"privacy/\">Datenschutzerklärung</a>",
+    "fr": "<a href=\"privacy/\">Politique de confidentialité</a>",
+    "it": "<a href=\"privacy/\">Informativa sulla privacy</a>",
+    "ru": "<a href=\"privacy/\">Политика конфиденциальности</a>"
   },
   "<span class=\"glyph\" aria-hidden=\"true\">#</span><span><strong>Report a bug or request a feature</strong><br><a href=\"https://github.com/SKemenov/skemenov.github.io/issues\">GitHub Issues</a></span>": {
-    "es": "<span class=\"glyph\" aria-hidden=\"true\">#</span><span><strong>Reporta un error o sugiere una función</strong><br><a href=\"https://github.com/SKemenov/skemenov.github.io/issues\">GitHub Issues</a> (en inglés)</span>"
+    "es": "<span class=\"glyph\" aria-hidden=\"true\">#</span><span><strong>Reporta un error o sugiere una función</strong><br><a href=\"https://github.com/SKemenov/skemenov.github.io/issues\">GitHub Issues</a> (en inglés)</span>",
+    "de": "<span class=\"glyph\" aria-hidden=\"true\">#</span><span><strong>Fehler melden oder Funktion vorschlagen</strong><br><a href=\"https://github.com/SKemenov/skemenov.github.io/issues\">GitHub Issues</a> (auf Englisch)</span>",
+    "fr": "<span class=\"glyph\" aria-hidden=\"true\">#</span><span><strong>Signaler un bug ou proposer une fonctionnalité</strong><br><a href=\"https://github.com/SKemenov/skemenov.github.io/issues\">GitHub Issues</a> (en anglais)</span>",
+    "it": "<span class=\"glyph\" aria-hidden=\"true\">#</span><span><strong>Segnala un bug o suggerisci una funzione</strong><br><a href=\"https://github.com/SKemenov/skemenov.github.io/issues\">GitHub Issues</a> (in inglese)</span>",
+    "ru": "<span class=\"glyph\" aria-hidden=\"true\">#</span><span><strong>Сообщить об ошибке или предложить функцию</strong><br><a href=\"https://github.com/SKemenov/skemenov.github.io/issues\">GitHub Issues</a> (на английском)</span>"
   },
   "<span class=\"glyph\" aria-hidden=\"true\">@</span><span><strong>Email</strong><br><a class=\"support-email\">turn on JavaScript to see the address</a></span>": {
-    "es": "<span class=\"glyph\" aria-hidden=\"true\">@</span><span><strong>Correo electrónico</strong><br><a class=\"support-email\">activa JavaScript para ver la dirección</a></span>"
+    "es": "<span class=\"glyph\" aria-hidden=\"true\">@</span><span><strong>Correo electrónico</strong><br><a class=\"support-email\">activa JavaScript para ver la dirección</a></span>",
+    "de": "<span class=\"glyph\" aria-hidden=\"true\">@</span><span><strong>E-Mail</strong><br><a class=\"support-email\">aktiviere JavaScript, um die Adresse zu sehen</a></span>",
+    "fr": "<span class=\"glyph\" aria-hidden=\"true\">@</span><span><strong>E-mail</strong><br><a class=\"support-email\">activez JavaScript pour voir l’adresse</a></span>",
+    "it": "<span class=\"glyph\" aria-hidden=\"true\">@</span><span><strong>Email</strong><br><a class=\"support-email\">attiva JavaScript per vedere l’indirizzo</a></span>",
+    "ru": "<span class=\"glyph\" aria-hidden=\"true\">@</span><span><strong>Эл. почта</strong><br><a class=\"support-email\">включите JavaScript, чтобы увидеть адрес</a></span>"
   },
   "<strong>At home in light and dark.</strong> Documents follow your Mac’s appearance, with the system fonts and a text size you can adjust.": {
-    "es": "<strong>Perfecto en modo claro y oscuro.</strong> Los documentos siguen la apariencia de tu Mac, con las fuentes del sistema y un tamaño de texto que puedes ajustar."
+    "es": "<strong>Perfecto en modo claro y oscuro.</strong> Los documentos siguen la apariencia de tu Mac, con las fuentes del sistema y un tamaño de texto que puedes ajustar.",
+    "de": "<strong>Zu Hause in Hell und Dunkel.</strong> Dokumente folgen dem Erscheinungsbild deines Mac, mit den Systemschriften und einer Textgröße, die du anpassen kannst.",
+    "fr": "<strong>À l’aise en clair comme en sombre.</strong> Les documents suivent l’apparence de votre Mac, avec les polices du système et une taille de texte réglable.",
+    "it": "<strong>A suo agio in chiaro e in scuro.</strong> I documenti seguono l’aspetto del tuo Mac, con i font di sistema e dimensioni del testo regolabili.",
+    "ru": "<strong>Хорош в светлой и тёмной теме.</strong> Документы следуют оформлению вашего Mac, с системными шрифтами и настраиваемым масштабом текста."
   },
   "<strong>Every shared folder in one place.</strong> Settings → Privacy lists each folder you’ve let Minimal.md read. Revoke any one of them, or all at once.": {
-    "es": "<strong>Todas las carpetas compartidas en un solo lugar.</strong> Configuración → Privacidad muestra cada carpeta que permitiste leer a Minimal.md. Revoca el acceso a una o a todas a la vez."
+    "es": "<strong>Todas las carpetas compartidas en un solo lugar.</strong> Configuración → Privacidad muestra cada carpeta que permitiste leer a Minimal.md. Revoca el acceso a una o a todas a la vez.",
+    "de": "<strong>Alle freigegebenen Ordner an einem Ort.</strong> Einstellungen → Datenschutz listet jeden Ordner, den Minimal.md lesen darf. Entziehe den Zugriff für einzelne oder alle auf einmal.",
+    "fr": "<strong>Tous les dossiers partagés au même endroit.</strong> Réglages → Confidentialité liste chaque dossier que vous avez autorisé Minimal.md à lire. Retirez l’accès à l’un d’eux, ou à tous à la fois.",
+    "it": "<strong>Tutte le cartelle condivise in un unico posto.</strong> Impostazioni → Privacy elenca ogni cartella che hai consentito a Minimal.md di leggere. Revoca l’accesso a una sola o a tutte insieme.",
+    "ru": "<strong>Все папки с доступом — в одном месте.</strong> В Настройках → Конфиденциальность перечислены все папки, которые вы разрешили читать Minimal.md. Отзовите доступ к любой из них или ко всем сразу."
   },
   "<strong>Looks the same in Quick Look.</strong> The Finder preview uses the app’s own renderer, so a document reads exactly as it does in Minimal.md.": {
-    "es": "<strong>Igual en Vista Rápida.</strong> La previsualización del Finder usa el mismo renderizador que la app, así que un documento se ve exactamente como en Minimal.md."
+    "es": "<strong>Igual en Vista Rápida.</strong> La previsualización del Finder usa el mismo renderizador que la app, así que un documento se ve exactamente como en Minimal.md.",
+    "de": "<strong>Sieht in der Übersicht genauso aus.</strong> Die Vorschau im Finder nutzt den Renderer der App, daher liest sich ein Dokument genau wie in Minimal.md.",
+    "fr": "<strong>Identique dans Coup d’œil.</strong> L’aperçu du Finder utilise le moteur de rendu de l’app : un document s’y lit exactement comme dans Minimal.md.",
+    "it": "<strong>Uguale in Visualizzazione rapida.</strong> L’anteprima del Finder usa lo stesso motore dell’app, quindi un documento si legge esattamente come in Minimal.md.",
+    "ru": "<strong>В Быстром просмотре — так же.</strong> Просмотр в Finder использует тот же движок, что и приложение, поэтому документ выглядит точно как в Minimal.md."
   },
   "<strong>Read along with your AI agent.</strong> The window updates with every change and keeps your place. AGENTS.md and other instructions read cleanly, and skills show their YAML front matter as a clear table.": {
-    "es": "<strong>Lee lo que escribe tu agente de IA.</strong> La ventana se actualiza con cada cambio y no pierdes tu lugar. AGENTS.md y otras instrucciones se leen con claridad, y las skills muestran su front matter YAML en una tabla clara."
+    "es": "<strong>Lee lo que escribe tu agente de IA.</strong> La ventana se actualiza con cada cambio y no pierdes tu lugar. AGENTS.md y otras instrucciones se leen con claridad, y las skills muestran su front matter YAML en una tabla clara.",
+    "de": "<strong>Lies mit, während dein KI-Agent schreibt.</strong> Das Fenster aktualisiert sich bei jeder Änderung und behält deine Position. AGENTS.md und andere Anweisungen lesen sich klar, und Skills zeigen ihr YAML-Front-Matter als übersichtliche Tabelle.",
+    "fr": "<strong>Lisez au fil de votre agent d’IA.</strong> La fenêtre se met à jour à chaque modification et garde votre position. AGENTS.md et les autres instructions se lisent clairement, et les skills affichent leur front matter YAML dans un tableau clair.",
+    "it": "<strong>Leggi mentre il tuo agente IA scrive.</strong> La finestra si aggiorna a ogni modifica e mantiene la tua posizione. AGENTS.md e le altre istruzioni si leggono con chiarezza, e le skill mostrano il loro front matter YAML in una tabella chiara.",
+    "ru": "<strong>Читайте, пока пишет ИИ-агент.</strong> Окно обновляется при каждом изменении и не теряет место, где вы читаете. AGENTS.md и другие инструкции читаются чисто, а у скиллов YAML front matter показан аккуратной таблицей."
   },
   "<strong>Tables, task lists and code.</strong> GitHub-flavored Markdown, rendered natively: tables keep their alignment, task lists show their checkboxes, and fenced code stays monospaced.": {
-    "es": "<strong>Tablas, listas de tareas y código.</strong> Markdown al estilo de GitHub con renderizado nativo: las tablas conservan su alineación, las listas de tareas muestran sus casillas y el código delimitado se mantiene en fuente monoespaciada."
+    "es": "<strong>Tablas, listas de tareas y código.</strong> Markdown al estilo de GitHub con renderizado nativo: las tablas conservan su alineación, las listas de tareas muestran sus casillas y el código delimitado se mantiene en fuente monoespaciada.",
+    "de": "<strong>Tabellen, Aufgabenlisten und Code.</strong> GitHub-Flavored Markdown, nativ dargestellt: Tabellen behalten ihre Ausrichtung, Aufgabenlisten zeigen ihre Kästchen, und Codeblöcke bleiben in Festbreitenschrift.",
+    "fr": "<strong>Tableaux, listes de tâches et code.</strong> Markdown façon GitHub, rendu en natif : les tableaux gardent leur alignement, les listes de tâches affichent leurs cases et le code délimité reste en police à chasse fixe.",
+    "it": "<strong>Tabelle, elenchi di attività e codice.</strong> Markdown in stile GitHub, reso in modo nativo: le tabelle mantengono l’allineamento, gli elenchi di attività mostrano le caselle e il codice delimitato resta a spaziatura fissa.",
+    "ru": "<strong>Таблицы, списки задач и код.</strong> Markdown в стиле GitHub, отрисованный нативно: таблицы сохраняют выравнивание, списки задач показывают флажки, а блоки кода остаются моноширинными."
   },
   "A Markdown document open in Minimal.md, with its table of contents in the sidebar and front matter shown as a table.": {
-    "es": "Un documento Markdown abierto en Minimal.md, con su tabla de contenido en la barra lateral y el front matter mostrado como tabla."
+    "es": "Un documento Markdown abierto en Minimal.md, con su tabla de contenido en la barra lateral y el front matter mostrado como tabla.",
+    "de": "Ein Markdown-Dokument in Minimal.md, mit dem Inhaltsverzeichnis in der Seitenleiste und dem Front Matter als Tabelle.",
+    "fr": "Un document Markdown ouvert dans Minimal.md, avec sa table des matières dans la barre latérale et le front matter affiché en tableau.",
+    "it": "Un documento Markdown aperto in Minimal.md, con l’indice nella barra laterale e il front matter mostrato come tabella.",
+    "ru": "Документ Markdown в Minimal.md: оглавление в боковой панели и front matter в виде таблицы."
   },
   "A Markdown document open in Minimal.md, with its table of contents in the sidebar.": {
-    "es": "Un documento Markdown abierto en Minimal.md, con su tabla de contenido en la barra lateral."
+    "es": "Un documento Markdown abierto en Minimal.md, con su tabla de contenido en la barra lateral.",
+    "de": "Ein Markdown-Dokument in Minimal.md, mit dem Inhaltsverzeichnis in der Seitenleiste.",
+    "fr": "Un document Markdown ouvert dans Minimal.md, avec sa table des matières dans la barre latérale.",
+    "it": "Un documento Markdown aperto in Minimal.md, con l’indice nella barra laterale.",
+    "ru": "Документ Markdown в Minimal.md с оглавлением в боковой панели."
   },
   "A Markdown file rendered in the Finder's Quick Look panel.": {
-    "es": "Un archivo Markdown renderizado en la ventana de Vista Rápida del Finder."
+    "es": "Un archivo Markdown renderizado en la ventana de Vista Rápida del Finder.",
+    "de": "Eine Markdown-Datei, dargestellt im Übersichtsfenster des Finder.",
+    "fr": "Un fichier Markdown rendu dans la fenêtre Coup d’œil du Finder.",
+    "it": "Un file Markdown reso nel pannello Visualizzazione rapida del Finder.",
+    "ru": "Файл Markdown, отрисованный в окне Быстрого просмотра Finder."
   },
   "A Markdown viewer and Quick Look extension for the Mac, for your notes and the plans and reports your AI agents write.": {
-    "es": "Un visor de Markdown y extensión de Vista Rápida para Mac, para tus notas y para los planes y reportes que escriben tus agentes de IA."
+    "es": "Un visor de Markdown y extensión de Vista Rápida para Mac, para tus notas y para los planes y reportes que escriben tus agentes de IA.",
+    "de": "Ein Markdown-Viewer mit Übersicht-Erweiterung für den Mac, für deine Notizen und für die Pläne und Berichte deiner KI-Agenten.",
+    "fr": "Un lecteur Markdown et une extension Coup d’œil pour Mac, pour vos notes et pour les plans et rapports qu’écrivent vos agents d’IA.",
+    "it": "Un lettore Markdown ed estensione di Visualizzazione rapida per Mac, per le tue note e per i piani e i report che scrivono i tuoi agenti IA.",
+    "ru": "Приложение для чтения Markdown и расширение Быстрого просмотра для Mac — для ваших заметок и для планов и отчётов, которые пишут ваши ИИ-агенты."
   },
   "A closer look.": {
-    "es": "Un vistazo de cerca."
+    "es": "Un vistazo de cerca.",
+    "de": "Ein genauerer Blick.",
+    "fr": "De plus près.",
+    "it": "Uno sguardo da vicino.",
+    "ru": "Подробнее."
   },
   "A free Markdown viewer for the Mac. Read what you and your AI agents write, rendered natively, live and in Quick Look. Nothing to edit, nothing collected.": {
-    "es": "Un visor de Markdown gratuito para Mac. Lee lo que escriben tú y tus agentes de IA, con renderizado nativo, en vivo y en Vista Rápida. Nada que editar, nada recopilado."
+    "es": "Un visor de Markdown gratuito para Mac. Lee lo que escriben tú y tus agentes de IA, con renderizado nativo, en vivo y en Vista Rápida. Nada que editar, nada recopilado.",
+    "de": "Ein kostenloser Markdown-Viewer für den Mac. Lies, was du und deine KI-Agenten schreiben – nativ dargestellt, live und in der Übersicht. Nichts zu bearbeiten, nichts erfasst.",
+    "fr": "Un lecteur Markdown gratuit pour Mac. Lisez ce que vous et vos agents d’IA écrivez, rendu en natif, en direct et dans Coup d’œil. Rien à modifier, rien de collecté.",
+    "it": "Un lettore Markdown gratuito per Mac. Leggi ciò che scrivi tu e i tuoi agenti IA, reso in modo nativo, in tempo reale e in Visualizzazione rapida. Niente da modificare, nessun dato raccolto.",
+    "ru": "Бесплатное приложение для чтения Markdown на Mac. Читайте то, что пишете вы и ваши ИИ-агенты, — нативно, на лету и в Быстром просмотре. Ничего не правит, ничего не собирает."
   },
   "A link to a heading scrolls to it.": {
-    "es": "Un enlace a un encabezado te lleva hasta él."
+    "es": "Un enlace a un encabezado te lleva hasta él.",
+    "de": "Ein Link zu einer Überschrift scrollt dorthin.",
+    "fr": "Un lien vers un titre y mène.",
+    "it": "Un link a un titolo lo raggiunge.",
+    "ru": "Ссылка на заголовок ведёт к нему."
   },
   "A link to another Markdown file opens it.": {
-    "es": "Un enlace a otro archivo Markdown lo abre."
+    "es": "Un enlace a otro archivo Markdown lo abre.",
+    "de": "Ein Link zu einer anderen Markdown-Datei öffnet sie.",
+    "fr": "Un lien vers un autre fichier Markdown l’ouvre.",
+    "it": "Un link a un altro file Markdown lo apre.",
+    "ru": "Ссылка на другой файл Markdown открывает его."
   },
   "A rendered table, a task list and a Swift code block.": {
-    "es": "Una tabla renderizada, una lista de tareas y un bloque de código Swift."
+    "es": "Una tabla renderizada, una lista de tareas y un bloque de código Swift.",
+    "de": "Eine dargestellte Tabelle, eine Aufgabenliste und ein Swift-Codeblock.",
+    "fr": "Un tableau rendu, une liste de tâches et un bloc de code Swift.",
+    "it": "Una tabella resa, un elenco di attività e un blocco di codice Swift.",
+    "ru": "Отрисованная таблица, список задач и блок кода на Swift."
   },
   "An AI agent's plan open in Minimal.md, mid-work: some tasks checked, others still open.": {
-    "es": "El plan de un agente de IA abierto en Minimal.md, a medio trabajo: algunas tareas marcadas y otras pendientes."
+    "es": "El plan de un agente de IA abierto en Minimal.md, a medio trabajo: algunas tareas marcadas y otras pendientes.",
+    "de": "Der Plan eines KI-Agenten in Minimal.md, mitten in der Arbeit: einige Aufgaben abgehakt, andere noch offen.",
+    "fr": "Le plan d’un agent d’IA ouvert dans Minimal.md, en plein travail : certaines tâches cochées, d’autres encore ouvertes.",
+    "it": "Il piano di un agente IA aperto in Minimal.md, a lavoro in corso: alcune attività spuntate, altre ancora aperte.",
+    "ru": "План ИИ-агента в Minimal.md посреди работы: часть задач отмечена, часть ещё открыта."
   },
   "Anything Minimal.md doesn't render is shown as its source — never dropped.<br>Something looks wrong? <a href=\"../support/\">Tell us on the support page</a>.": {
-    "es": "Lo que Minimal.md no renderiza se muestra como código fuente: nunca se descarta.<br>¿Algo se ve mal? <a href=\"../support/\">Cuéntanos en la página de soporte</a>."
+    "es": "Lo que Minimal.md no renderiza se muestra como código fuente: nunca se descarta.<br>¿Algo se ve mal? <a href=\"../support/\">Cuéntanos en la página de soporte</a>.",
+    "de": "Was Minimal.md nicht darstellt, erscheint als Quelltext – nie weggelassen.<br>Sieht etwas falsch aus? <a href=\"../support/\">Sag es uns auf der Support-Seite</a>.",
+    "fr": "Ce que Minimal.md n’affiche pas en rendu apparaît en code source, jamais supprimé.<br>Quelque chose cloche ? <a href=\"../support/\">Dites-le-nous sur la page d’assistance</a>.",
+    "it": "Ciò che Minimal.md non visualizza appare come sorgente, mai scartato.<br>Qualcosa non va? <a href=\"../support/\">Diccelo nella pagina di supporto</a>.",
+    "ru": "Всё, что Minimal.md не отрисовывает, показано исходным текстом — ничего не пропадает.<br>Что-то выглядит не так? <a href=\"../support/\">Напишите нам на странице поддержки</a>."
   },
   "App Store labels": {
-    "es": "Etiquetas del App Store"
+    "es": "Etiquetas del App Store",
+    "de": "App Store-Angaben",
+    "fr": "Étiquettes de l’App Store",
+    "it": "Etichette dell’App Store",
+    "ru": "Метки App Store"
   },
   "Apple": {
-    "es": "Apple"
+    "es": "Apple",
+    "de": "Apple",
+    "fr": "Apple",
+    "it": "Apple",
+    "ru": "Apple"
   },
   "Block quotes": {
-    "es": "Citas en bloque"
+    "es": "Citas en bloque",
+    "de": "Zitatblöcke",
+    "fr": "Citations",
+    "it": "Citazioni",
+    "ru": "Цитаты"
   },
   "Bold, italic and strikethrough": {
-    "es": "Negrita, cursiva y tachado"
+    "es": "Negrita, cursiva y tachado",
+    "de": "Fett, kursiv und durchgestrichen",
+    "fr": "Gras, italique et texte barré",
+    "it": "Grassetto, corsivo e barrato",
+    "ru": "Жирный, курсив и зачёркнутый текст"
   },
   "Bold, italic, code and links in cells": {
-    "es": "Negrita, cursiva, código y enlaces en las celdas"
+    "es": "Negrita, cursiva, código y enlaces en las celdas",
+    "de": "Fett, kursiv, Code und Links in Zellen",
+    "fr": "Gras, italique, code et liens dans les cellules",
+    "it": "Grassetto, corsivo, codice e link nelle celle",
+    "ru": "Жирный, курсив, код и ссылки в ячейках"
   },
   "Bulleted and numbered lists, nested": {
-    "es": "Listas con viñetas y numeradas, anidadas"
+    "es": "Listas con viñetas y numeradas, anidadas",
+    "de": "Aufzählungen und nummerierte Listen, verschachtelt",
+    "fr": "Listes à puces et numérotées, imbriquées",
+    "it": "Elenchi puntati e numerati, annidati",
+    "ru": "Маркированные и нумерованные списки, вложенные"
   },
   "Can I edit my files with Minimal.md?": {
-    "es": "¿Puedo editar mis archivos con Minimal.md?"
+    "es": "¿Puedo editar mis archivos con Minimal.md?",
+    "de": "Kann ich meine Dateien mit Minimal.md bearbeiten?",
+    "fr": "Puis-je modifier mes fichiers avec Minimal.md ?",
+    "it": "Posso modificare i miei file con Minimal.md?",
+    "ru": "Можно ли редактировать файлы в Minimal.md?"
   },
   "Changes": {
-    "es": "Cambios"
+    "es": "Cambios",
+    "de": "Änderungen",
+    "fr": "Modifications",
+    "it": "Modifiche",
+    "ru": "Изменения"
   },
   "Children": {
-    "es": "Menores"
+    "es": "Menores",
+    "de": "Kinder",
+    "fr": "Enfants",
+    "it": "Minori",
+    "ru": "Дети"
   },
   "Click one to go there.": {
-    "es": "Haz clic en uno para ir ahí."
+    "es": "Haz clic en uno para ir ahí.",
+    "de": "Klicke auf eine, um dorthin zu springen.",
+    "fr": "Cliquez sur l’un d’eux pour y aller.",
+    "it": "Fai clic su uno per raggiungerlo.",
+    "ru": "Нажмите на заголовок, чтобы перейти к нему."
   },
   "Code blocks in the system monospaced font": {
-    "es": "Bloques de código en la fuente monoespaciada del sistema"
+    "es": "Bloques de código en la fuente monoespaciada del sistema",
+    "de": "Codeblöcke in der Festbreitenschrift des Systems",
+    "fr": "Blocs de code dans la police à chasse fixe du système",
+    "it": "Blocchi di codice nel font a spaziatura fissa del sistema",
+    "ru": "Блоки кода системным моноширинным шрифтом"
   },
   "Comfort": {
-    "es": "Comodidad"
+    "es": "Comodidad",
+    "de": "Komfort",
+    "fr": "Confort",
+    "it": "Comfort",
+    "ru": "Удобство"
   },
   "Contact": {
-    "es": "Contacto"
+    "es": "Contacto",
+    "de": "Kontakt",
+    "fr": "Contact",
+    "it": "Contatti",
+    "ru": "Контакты"
   },
   "Context": {
-    "es": "Contexto"
+    "es": "Contexto",
+    "de": "Kontext",
+    "fr": "Contexte",
+    "it": "Contesto",
+    "ru": "Контекст"
   },
   "Dark Interface": {
-    "es": "Interfaz oscura"
+    "es": "Interfaz oscura",
+    "de": "Dunkle Benutzeroberfläche",
+    "fr": "Interface sombre",
+    "it": "Interfaccia scura",
+    "ru": "Темный интерфейс"
   },
   "Data Not Collected": {
-    "es": "No se recopilan datos"
+    "es": "No se recopilan datos",
+    "de": "Keine Daten erfasst",
+    "fr": "Données non collectées",
+    "it": "Dati non raccolti",
+    "ru": "Сбор данных не ведется"
   },
   "Differentiate Without Color&nbsp;Alone": {
-    "es": "Diferenciación no sólo con&nbsp;color"
+    "es": "Diferenciación no sólo con&nbsp;color",
+    "de": "Nicht nur durch Farben&nbsp;differenzieren",
+    "fr": "Différencier sans couleur&nbsp;seule",
+    "it": "Differenzia non solo con il&nbsp;colore",
+    "ru": "Дифференциация не только с помощью&nbsp;цвета"
   },
   "Download on the Mac App Store": {
-    "es": "Descárgalo en el Mac App Store"
+    "es": "Descárgalo en el Mac App Store",
+    "de": "Laden im Mac App Store",
+    "fr": "Télécharger dans le Mac App Store",
+    "it": "Scarica su Mac App Store",
+    "ru": "Загрузите в Mac App Store"
   },
   "English": {
-    "es": "Inglés"
+    "es": "Inglés",
+    "de": "Englisch",
+    "fr": "Anglais",
+    "it": "Inglese",
+    "ru": "Английский"
   },
   "English, French, German, Italian, Russian and Spanish, following the language set for your Mac. Spotted a translation mistake, or want Minimal.md in your language? <a href=\"https://github.com/SKemenov/skemenov.github.io/issues/new?template=translation.md\">Let us know</a>.": {
-    "es": "Alemán, español, francés, inglés, italiano y ruso, según el idioma configurado en tu Mac. ¿Encontraste un error de traducción o quieres Minimal.md en tu idioma? <a href=\"https://github.com/SKemenov/skemenov.github.io/issues/new?template=translation.md\">Avísanos</a>."
+    "es": "Alemán, español, francés, inglés, italiano y ruso, según el idioma configurado en tu Mac. ¿Encontraste un error de traducción o quieres Minimal.md en tu idioma? <a href=\"https://github.com/SKemenov/skemenov.github.io/issues/new?template=translation.md\">Avísanos</a>.",
+    "de": "Deutsch, Englisch, Französisch, Italienisch, Russisch und Spanisch, je nach der Sprache deines Mac. Einen Übersetzungsfehler gefunden oder Minimal.md in deiner Sprache gewünscht? <a href=\"https://github.com/SKemenov/skemenov.github.io/issues/new?template=translation.md\">Sag uns Bescheid</a>.",
+    "fr": "Allemand, anglais, espagnol, français, italien et russe, selon la langue choisie pour votre Mac. Vous avez repéré une erreur de traduction ou voulez Minimal.md dans votre langue ? <a href=\"https://github.com/SKemenov/skemenov.github.io/issues/new?template=translation.md\">Dites-le-nous</a>.",
+    "it": "Francese, inglese, italiano, russo, spagnolo e tedesco, in base alla lingua impostata sul tuo Mac. Hai trovato un errore di traduzione o vuoi Minimal.md nella tua lingua? <a href=\"https://github.com/SKemenov/skemenov.github.io/issues/new?template=translation.md\">Faccelo sapere</a>.",
+    "ru": "Английский, испанский, итальянский, немецкий, русский и французский — в зависимости от языка вашего Mac. Нашли ошибку в переводе или хотите Minimal.md на своём языке? <a href=\"https://github.com/SKemenov/skemenov.github.io/issues/new?template=translation.md\">Напишите нам</a>."
   },
   "Every release and its changes are listed in the <a href=\"../changes/\">changelog</a>, newest first.": {
-    "es": "Cada versión y sus cambios aparecen en el <a href=\"../changes/\">registro de cambios</a> (en inglés), de la más reciente a la más antigua."
+    "es": "Cada versión y sus cambios aparecen en el <a href=\"../changes/\">registro de cambios</a> (en inglés), de la más reciente a la más antigua.",
+    "de": "Alle Versionen und ihre Änderungen stehen im <a href=\"../changes/\">Änderungsprotokoll</a> (auf Englisch), die neueste zuerst.",
+    "fr": "Chaque version et ses modifications figurent dans le <a href=\"../changes/\">journal des modifications</a> (en anglais), de la plus récente à la plus ancienne.",
+    "it": "Ogni versione e le sue modifiche sono elencate nel <a href=\"../changes/\">registro delle modifiche</a> (in inglese), dalla più recente.",
+    "ru": "Все версии и их изменения перечислены в <a href=\"../changes/\">списке изменений</a> (на английском), начиная с новейшей."
   },
   "Everything in the document.": {
-    "es": "Todo lo que hay en el documento."
+    "es": "Todo lo que hay en el documento.",
+    "de": "Alles im Dokument.",
+    "fr": "Tout le document.",
+    "it": "Tutto ciò che c’è nel documento.",
+    "ru": "Всё, что есть в документе."
   },
   "Extras": {
-    "es": "Extras"
+    "es": "Extras",
+    "de": "Extras",
+    "fr": "Extras",
+    "it": "Extra",
+    "ru": "Дополнительно"
   },
   "Features": {
-    "es": "Funciones"
+    "es": "Funciones",
+    "de": "Funktionen",
+    "fr": "Fonctionnalités",
+    "it": "Funzioni",
+    "ru": "Возможности"
   },
   "Follows the file live while the agent writes it.": {
-    "es": "Sigue el archivo en vivo mientras el agente lo escribe."
+    "es": "Sigue el archivo en vivo mientras el agente lo escribe.",
+    "de": "Folgt der Datei live, während der Agent sie schreibt.",
+    "fr": "Suit le fichier en direct pendant que l’agent l’écrit.",
+    "it": "Segue il file in tempo reale mentre l’agente lo scrive.",
+    "ru": "Следит за файлом на лету, пока агент его пишет."
   },
   "Free · Requires macOS 15.6 Sequoia or later · Supported&nbsp;<a href=\"markdown/\">Markdown</a>": {
-    "es": "Gratis · Requiere macOS 15.6 Sequoia o posterior · <a href=\"markdown/\">Markdown</a>&nbsp;compatible"
+    "es": "Gratis · Requiere macOS 15.6 Sequoia o posterior · <a href=\"markdown/\">Markdown</a>&nbsp;compatible",
+    "de": "Kostenlos · Erfordert macOS 15.6 Sequoia oder neuer · Unterstütztes&nbsp;<a href=\"markdown/\">Markdown</a>",
+    "fr": "Gratuit · Nécessite macOS 15.6 Sequoia ou ultérieur · <a href=\"markdown/\">Markdown</a>&nbsp;pris en charge",
+    "it": "Gratis · Richiede macOS 15.6 Sequoia o versione successiva · <a href=\"markdown/\">Markdown</a>&nbsp;supportato",
+    "ru": "Бесплатно · Требуется macOS 15.6 Sequoia или новее · Поддерживаемый&nbsp;<a href=\"markdown/\">Markdown</a>"
   },
   "French": {
-    "es": "Francés"
+    "es": "Francés",
+    "de": "Französisch",
+    "fr": "Français",
+    "it": "Francese",
+    "ru": "Французский"
   },
   "Frequently asked questions": {
-    "es": "Preguntas frecuentes"
+    "es": "Preguntas frecuentes",
+    "de": "Häufige Fragen",
+    "fr": "Questions fréquentes",
+    "it": "Domande frequenti",
+    "ru": "Частые вопросы"
   },
   "German": {
-    "es": "Alemán"
+    "es": "Alemán",
+    "de": "Deutsch",
+    "fr": "Allemand",
+    "it": "Tedesco",
+    "ru": "Немецкий"
   },
   "GitHub-flavored Markdown, rendered natively.": {
-    "es": "Markdown al estilo de GitHub, con renderizado nativo."
+    "es": "Markdown al estilo de GitHub, con renderizado nativo.",
+    "de": "GitHub-Flavored Markdown, nativ dargestellt.",
+    "fr": "Markdown façon GitHub, rendu en natif.",
+    "it": "Markdown in stile GitHub, reso in modo nativo.",
+    "ru": "Markdown в стиле GitHub, отрисованный нативно."
   },
   "HTML comments stay hidden": {
-    "es": "Los comentarios HTML permanecen ocultos"
+    "es": "Los comentarios HTML permanecen ocultos",
+    "de": "HTML-Kommentare bleiben verborgen",
+    "fr": "Les commentaires HTML restent masqués",
+    "it": "I commenti HTML restano nascosti",
+    "ru": "HTML-комментарии остаются скрытыми"
   },
   "HTML: centered text, sized images, simple tables": {
-    "es": "HTML: texto centrado, imágenes con tamaño, tablas sencillas"
+    "es": "HTML: texto centrado, imágenes con tamaño, tablas sencillas",
+    "de": "HTML: zentrierter Text, Bilder mit Größenangabe, einfache Tabellen",
+    "fr": "HTML : texte centré, images dimensionnées, tableaux simples",
+    "it": "HTML: testo centrato, immagini dimensionate, tabelle semplici",
+    "ru": "HTML: текст по центру, изображения с размерами, простые таблицы"
   },
   "Heading by heading": {
-    "es": "Encabezado por encabezado"
+    "es": "Encabezado por encabezado",
+    "de": "Überschrift für Überschrift",
+    "fr": "Titre par titre",
+    "it": "Titolo per titolo",
+    "ru": "От заголовка к заголовку"
   },
   "Headings, levels 1–6": {
-    "es": "Encabezados, niveles 1 a 6"
+    "es": "Encabezados, niveles 1 a 6",
+    "de": "Überschriften, Ebenen 1–6",
+    "fr": "Titres, niveaux 1 à 6",
+    "it": "Titoli, livelli da 1 a 6",
+    "ru": "Заголовки, уровни 1–6"
   },
   "Help": {
-    "es": "Ayuda"
+    "es": "Ayuda",
+    "de": "Hilfe",
+    "fr": "Aide",
+    "it": "Aiuto",
+    "ru": "Помощь"
   },
   "Help for Minimal.md, the Markdown viewer for the Mac: email or GitHub Issues, and answers on local images, Quick Look, the default app and languages.": {
-    "es": "Ayuda para Minimal.md, el visor de Markdown para Mac: correo o GitHub Issues, y respuestas sobre imágenes locales, Vista Rápida, la app predeterminada e idiomas."
+    "es": "Ayuda para Minimal.md, el visor de Markdown para Mac: correo o GitHub Issues, y respuestas sobre imágenes locales, Vista Rápida, la app predeterminada e idiomas.",
+    "de": "Hilfe für Minimal.md, den Markdown-Viewer für den Mac: E-Mail oder GitHub Issues und Antworten zu lokalen Bildern, Übersicht, Standard-App und Sprachen.",
+    "fr": "Aide pour Minimal.md, le lecteur Markdown pour Mac : e-mail ou GitHub Issues, et réponses sur les images locales, Coup d’œil, l’app par défaut et les langues.",
+    "it": "Aiuto per Minimal.md, il lettore Markdown per Mac: email o GitHub Issues, e risposte su immagini locali, Visualizzazione rapida, app predefinita e lingue.",
+    "ru": "Помощь по Minimal.md, приложению для чтения Markdown на Mac: эл. почта или GitHub Issues и ответы о локальных изображениях, Быстром просмотре, программе по умолчанию и языках."
   },
   "Horizontal rules": {
-    "es": "Líneas horizontales"
+    "es": "Líneas horizontales",
+    "de": "Horizontale Linien",
+    "fr": "Lignes horizontales",
+    "it": "Linee orizzontali",
+    "ru": "Горизонтальные линии"
   },
   "How do I give Markdown files back to my previous app?": {
-    "es": "¿Cómo devuelvo los archivos Markdown a mi app anterior?"
+    "es": "¿Cómo devuelvo los archivos Markdown a mi app anterior?",
+    "de": "Wie gebe ich Markdown-Dateien an meine vorherige App zurück?",
+    "fr": "Comment rendre les fichiers Markdown à mon app précédente ?",
+    "it": "Come restituisco i file Markdown alla mia app precedente?",
+    "ru": "Как вернуть файлы Markdown прежней программе?"
   },
   "How do I make Minimal.md my default Markdown app?": {
-    "es": "¿Cómo hago que Minimal.md sea mi app predeterminada para Markdown?"
+    "es": "¿Cómo hago que Minimal.md sea mi app predeterminada para Markdown?",
+    "de": "Wie mache ich Minimal.md zu meiner Standard-App für Markdown?",
+    "fr": "Comment faire de Minimal.md mon app Markdown par défaut ?",
+    "it": "Come rendo Minimal.md la mia app predefinita per Markdown?",
+    "ru": "Как сделать Minimal.md программой по умолчанию для Markdown?"
   },
   "If a document looks wrong, please attach a screenshot and, if you can, the Markdown file itself.": {
-    "es": "Si un documento se ve mal, adjunta una captura de pantalla y, si puedes, el propio archivo Markdown."
+    "es": "Si un documento se ve mal, adjunta una captura de pantalla y, si puedes, el propio archivo Markdown.",
+    "de": "Wenn ein Dokument falsch aussieht, hänge bitte ein Bildschirmfoto an und, wenn möglich, die Markdown-Datei selbst.",
+    "fr": "Si un document s’affiche mal, joignez une capture d’écran et, si possible, le fichier Markdown lui-même.",
+    "it": "Se un documento appare sbagliato, allega uno screenshot e, se puoi, il file Markdown stesso.",
+    "ru": "Если документ выглядит неправильно, приложите снимок экрана и, если можете, сам файл Markdown."
   },
   "If this policy changes, the new version will be posted on this page with a new date.": {
-    "es": "Si esta política cambia, la nueva versión se publicará en esta página con una nueva fecha."
+    "es": "Si esta política cambia, la nueva versión se publicará en esta página con una nueva fecha.",
+    "de": "Wenn sich diese Richtlinie ändert, wird die neue Fassung auf dieser Seite mit neuem Datum veröffentlicht.",
+    "fr": "Si cette politique change, la nouvelle version sera publiée sur cette page avec une nouvelle date.",
+    "it": "Se questa informativa cambia, la nuova versione sarà pubblicata su questa pagina con una nuova data.",
+    "ru": "Если эта политика изменится, новая версия будет опубликована на этой странице с новой датой."
   },
   "If you choose to share diagnostics with app developers in your Mac's settings, Apple may pass on anonymous crash reports for Minimal.md. Apple handles that data under its own privacy policy; Minimal.md adds nothing to it. Beta testers using TestFlight can send feedback and screenshots through Apple — only what you choose to send.": {
-    "es": "Si en la configuración de tu Mac eliges compartir datos de diagnóstico con los desarrolladores de apps, Apple puede enviar reportes anónimos de fallas de Minimal.md. Apple trata esos datos según su propia política de privacidad; Minimal.md no les agrega nada. Quienes prueban la beta en TestFlight pueden enviar comentarios y capturas de pantalla a través de Apple: solo lo que eligen enviar."
+    "es": "Si en la configuración de tu Mac eliges compartir datos de diagnóstico con los desarrolladores de apps, Apple puede enviar reportes anónimos de fallas de Minimal.md. Apple trata esos datos según su propia política de privacidad; Minimal.md no les agrega nada. Quienes prueban la beta en TestFlight pueden enviar comentarios y capturas de pantalla a través de Apple: solo lo que eligen enviar.",
+    "de": "Wenn du in den Einstellungen deines Mac Analysedaten mit App-Entwicklern teilst, kann Apple anonyme Absturzberichte zu Minimal.md weitergeben. Apple behandelt diese Daten nach seiner eigenen Datenschutzrichtlinie; Minimal.md fügt nichts hinzu. Betatester über TestFlight können Feedback und Bildschirmfotos über Apple senden – nur das, was sie senden möchten.",
+    "fr": "Si vous choisissez, dans les réglages de votre Mac, de partager les données d’analyse avec les développeurs d’apps, Apple peut transmettre des rapports de plantage anonymes concernant Minimal.md. Apple traite ces données selon sa propre politique de confidentialité ; Minimal.md n’y ajoute rien. Les bêta-testeurs sur TestFlight peuvent envoyer des commentaires et des captures d’écran via Apple : uniquement ce qu’ils choisissent d’envoyer.",
+    "it": "Se nelle impostazioni del tuo Mac scegli di condividere i dati di analisi con gli sviluppatori di app, Apple può trasmettere report anonimi sui crash di Minimal.md. Apple tratta questi dati secondo la propria informativa sulla privacy; Minimal.md non vi aggiunge nulla. I beta tester su TestFlight possono inviare feedback e screenshot tramite Apple: solo ciò che scelgono di inviare.",
+    "ru": "Если в настройках вашего Mac вы разрешили делиться данными диагностики с разработчиками приложений, Apple может передавать анонимные отчёты о сбоях Minimal.md. Apple обрабатывает эти данные по своей политике конфиденциальности; Minimal.md ничего к ним не добавляет. Бета-тестеры в TestFlight могут отправлять отзывы и снимки экрана через Apple — только то, что сами решат отправить."
   },
   "Images": {
-    "es": "Imágenes"
+    "es": "Imágenes",
+    "de": "Bilder",
+    "fr": "Images",
+    "it": "Immagini",
+    "ru": "Изображения"
   },
   "Images stored next to your document appear in place.": {
-    "es": "Las imágenes guardadas junto a tu documento aparecen en su lugar."
+    "es": "Las imágenes guardadas junto a tu documento aparecen en su lugar.",
+    "de": "Bilder neben deinem Dokument erscheinen an ihrer Stelle.",
+    "fr": "Les images enregistrées à côté de votre document s’affichent à leur place.",
+    "it": "Le immagini salvate accanto al documento appaiono al loro posto.",
+    "ru": "Изображения, лежащие рядом с документом, показываются на своих местах."
   },
   "Inline code": {
-    "es": "Código en línea"
+    "es": "Código en línea",
+    "de": "Inline-Code",
+    "fr": "Code en ligne",
+    "it": "Codice in linea",
+    "ru": "Код в строке"
   },
   "Italian": {
-    "es": "Italiano"
+    "es": "Italiano",
+    "de": "Italienisch",
+    "fr": "Italien",
+    "it": "Italiano",
+    "ru": "Итальянский"
   },
   "Jump to the start or end of the document.": {
-    "es": "Salta al principio o al final del documento."
+    "es": "Salta al principio o al final del documento.",
+    "de": "Springe zum Anfang oder Ende des Dokuments.",
+    "fr": "Allez au début ou à la fin du document.",
+    "it": "Vai all’inizio o alla fine del documento.",
+    "ru": "Переход к началу или концу документа."
   },
   "Languages": {
-    "es": "Idiomas"
+    "es": "Idiomas",
+    "de": "Sprachen",
+    "fr": "Langues",
+    "it": "Lingue",
+    "ru": "Языки"
   },
   "Last updated: October 1, 2026": {
-    "es": "Última actualización: 1 de octubre de 2026 · Traducción de la versión original en inglés, que prevalece en caso de diferencia."
+    "es": "Última actualización: 1 de octubre de 2026 · Traducción de la versión original en inglés, que prevalece en caso de diferencia.",
+    "de": "Zuletzt aktualisiert: 1. Oktober 2026 · Übersetzung der englischen Originalfassung, die bei Abweichungen maßgeblich ist.",
+    "fr": "Dernière mise à jour : 1er octobre 2026 · Traduction de la version originale en anglais, qui fait foi en cas de divergence.",
+    "it": "Ultimo aggiornamento: 1 ottobre 2026 · Traduzione della versione originale in inglese, che prevale in caso di differenze.",
+    "ru": "Последнее обновление: 1 октября 2026 г. · Перевод оригинальной английской версии, которая имеет приоритет при расхождениях."
   },
   "Light or dark: Minimal.md follows your Mac's appearance.": {
-    "es": "Claro u oscuro: Minimal.md sigue la apariencia de tu Mac."
+    "es": "Claro u oscuro: Minimal.md sigue la apariencia de tu Mac.",
+    "de": "Hell oder dunkel: Minimal.md folgt dem Erscheinungsbild deines Mac.",
+    "fr": "Clair ou sombre : Minimal.md suit l’apparence de votre Mac.",
+    "it": "Chiaro o scuro: Minimal.md segue l’aspetto del tuo Mac.",
+    "ru": "Светлая или тёмная тема: Minimal.md следует оформлению вашего Mac."
   },
   "Line breaks": {
-    "es": "Saltos de línea"
+    "es": "Saltos de línea",
+    "de": "Zeilenumbrüche",
+    "fr": "Retours à la ligne",
+    "it": "A capo",
+    "ru": "Переносы строк"
   },
   "Links": {
-    "es": "Enlaces"
+    "es": "Enlaces",
+    "de": "Links",
+    "fr": "Liens",
+    "it": "Link",
+    "ru": "Ссылки"
   },
   "Links that work": {
-    "es": "Enlaces que funcionan"
+    "es": "Enlaces que funcionan",
+    "de": "Links, die funktionieren",
+    "fr": "Des liens qui fonctionnent",
+    "it": "Link che funzionano",
+    "ru": "Ссылки, которые работают"
   },
   "Local images, linked images too": {
-    "es": "Imágenes locales, también con enlace"
+    "es": "Imágenes locales, también con enlace",
+    "de": "Lokale Bilder, auch verlinkte",
+    "fr": "Images locales, y compris avec lien",
+    "it": "Immagini locali, anche con link",
+    "ru": "Локальные изображения, в том числе со ссылкой"
   },
   "Made for reading.": {
-    "es": "Hecho para leer."
+    "es": "Hecho para leer.",
+    "de": "Zum Lesen gemacht.",
+    "fr": "Conçu pour la lecture.",
+    "it": "Pensato per la lettura.",
+    "ru": "Создано для чтения."
   },
   "Make the text larger or smaller from the toolbar — every window and Quick Look follow.": {
-    "es": "Agranda o reduce el texto desde la barra de herramientas: todas las ventanas y Vista Rápida se ajustan."
+    "es": "Agranda o reduce el texto desde la barra de herramientas: todas las ventanas y Vista Rápida se ajustan.",
+    "de": "Vergrößere oder verkleinere den Text in der Symbolleiste – alle Fenster und die Übersicht folgen.",
+    "fr": "Agrandissez ou réduisez le texte depuis la barre d’outils : toutes les fenêtres et Coup d’œil suivent.",
+    "it": "Ingrandisci o riduci il testo dalla barra degli strumenti: tutte le finestre e Visualizzazione rapida si adeguano.",
+    "ru": "Увеличивайте или уменьшайте текст на панели инструментов — все окна и Быстрый просмотр подстроятся."
   },
   "Markdown": {
-    "es": "Markdown"
+    "es": "Markdown",
+    "de": "Markdown",
+    "fr": "Markdown",
+    "it": "Markdown",
+    "ru": "Markdown"
   },
   "Markdown viewer &amp; Quick Look": {
-    "es": "Visor Markdown y Vista Rápida"
+    "es": "Visor Markdown y Vista Rápida",
+    "de": "Markdown-Viewer &amp; Übersicht",
+    "fr": "Lecteur Markdown &amp; Coup d’œil",
+    "it": "Lettore Markdown &amp; anteprime",
+    "ru": "Чтение Markdown &amp; просмотр"
   },
   "Minimal.md": {
-    "es": "Minimal.md"
+    "es": "Minimal.md",
+    "de": "Minimal.md",
+    "fr": "Minimal.md",
+    "it": "Minimal.md",
+    "ru": "Minimal.md"
   },
   "Minimal.md Markdown Support": {
-    "es": "Markdown compatible con Minimal.md"
+    "es": "Markdown compatible con Minimal.md",
+    "de": "Von Minimal.md unterstütztes Markdown",
+    "fr": "Le Markdown pris en charge par Minimal.md",
+    "it": "Markdown supportato da Minimal.md",
+    "ru": "Markdown в Minimal.md"
   },
   "Minimal.md Privacy Policy": {
-    "es": "Política de privacidad de Minimal.md"
+    "es": "Política de privacidad de Minimal.md",
+    "de": "Datenschutzerklärung von Minimal.md",
+    "fr": "Politique de confidentialité de Minimal.md",
+    "it": "Informativa sulla privacy di Minimal.md",
+    "ru": "Политика конфиденциальности Minimal.md"
   },
   "Minimal.md Support": {
-    "es": "Soporte de Minimal.md"
+    "es": "Soporte de Minimal.md",
+    "de": "Minimal.md Support",
+    "fr": "Assistance Minimal.md",
+    "it": "Supporto di Minimal.md",
+    "ru": "Поддержка Minimal.md"
   },
   "Minimal.md app icon": {
-    "es": "Ícono de la app Minimal.md"
+    "es": "Ícono de la app Minimal.md",
+    "de": "App-Symbol von Minimal.md",
+    "fr": "Icône de l’app Minimal.md",
+    "it": "Icona dell’app Minimal.md",
+    "ru": "Значок приложения Minimal.md"
   },
   "Minimal.md collects no data. Your documents stay on your Mac.": {
-    "es": "Minimal.md no recopila datos. Tus documentos se quedan en tu Mac."
+    "es": "Minimal.md no recopila datos. Tus documentos se quedan en tu Mac.",
+    "de": "Minimal.md erfasst keine Daten. Deine Dokumente bleiben auf deinem Mac.",
+    "fr": "Minimal.md ne collecte aucune donnée. Vos documents restent sur votre Mac.",
+    "it": "Minimal.md non raccoglie dati. I tuoi documenti restano sul tuo Mac.",
+    "ru": "Minimal.md не собирает данные. Ваши документы остаются на вашем Mac."
   },
   "Minimal.md collects no data: no accounts, analytics, ads or tracking, and no network connections. It reads only the Markdown files and folders you open.": {
-    "es": "Minimal.md no recopila datos: sin cuentas, analíticas, anuncios ni rastreo, y sin conexiones de red. Solo lee los archivos Markdown y las carpetas que abres."
+    "es": "Minimal.md no recopila datos: sin cuentas, analíticas, anuncios ni rastreo, y sin conexiones de red. Solo lee los archivos Markdown y las carpetas que abres.",
+    "de": "Minimal.md erfasst keine Daten: keine Accounts, Analysen, Werbung oder Tracking und keine Netzwerkverbindungen. Die App liest nur die Markdown-Dateien und Ordner, die du öffnest.",
+    "fr": "Minimal.md ne collecte aucune donnée : ni compte, ni analyse, ni publicité, ni suivi, et aucune connexion réseau. Il ne lit que les fichiers Markdown et les dossiers que vous ouvrez.",
+    "it": "Minimal.md non raccoglie dati: niente account, analisi, pubblicità o tracciamento, e nessuna connessione di rete. Legge solo i file Markdown e le cartelle che apri.",
+    "ru": "Minimal.md не собирает данные: никаких учётных записей, аналитики, рекламы и отслеживания, никаких сетевых подключений. Приложение читает только открытые вами файлы Markdown и папки."
   },
   "Minimal.md collects no information from anyone, including children.": {
-    "es": "Minimal.md no recopila información de nadie, incluidos los menores."
+    "es": "Minimal.md no recopila información de nadie, incluidos los menores.",
+    "de": "Minimal.md erfasst von niemandem Informationen, auch nicht von Kindern.",
+    "fr": "Minimal.md ne collecte aucune information auprès de quiconque, y compris les enfants.",
+    "it": "Minimal.md non raccoglie informazioni da nessuno, inclusi i minori.",
+    "ru": "Minimal.md не собирает информацию ни о ком, включая детей."
   },
   "Minimal.md is free <a href=\"https://apps.apple.com/app/id6808280979\">on the Mac App Store</a> and requires macOS 15.6 Sequoia or later.": {
-    "es": "Minimal.md es gratis <a href=\"https://apps.apple.com/app/id6808280979\">en el Mac App Store</a> y requiere macOS 15.6 Sequoia o posterior."
+    "es": "Minimal.md es gratis <a href=\"https://apps.apple.com/app/id6808280979\">en el Mac App Store</a> y requiere macOS 15.6 Sequoia o posterior.",
+    "de": "Minimal.md ist kostenlos <a href=\"https://apps.apple.com/app/id6808280979\">im Mac App Store</a> erhältlich und erfordert macOS 15.6 Sequoia oder neuer.",
+    "fr": "Minimal.md est gratuit <a href=\"https://apps.apple.com/app/id6808280979\">sur le Mac App Store</a> et nécessite macOS 15.6 Sequoia ou ultérieur.",
+    "it": "Minimal.md è gratuita <a href=\"https://apps.apple.com/app/id6808280979\">su Mac App Store</a> e richiede macOS 15.6 Sequoia o versione successiva.",
+    "ru": "Minimal.md бесплатно <a href=\"https://apps.apple.com/app/id6808280979\">в Mac App Store</a> и требует macOS 15.6 Sequoia или новее."
   },
   "Minimal.md never writes to your files. Open Markdown from Finder or Open With, or make it your default Markdown app in Settings → General.": {
-    "es": "Minimal.md nunca escribe en tus archivos. Abre Markdown desde el Finder o con Abrir con, o haz que sea tu app predeterminada para Markdown en Configuración → General."
+    "es": "Minimal.md nunca escribe en tus archivos. Abre Markdown desde el Finder o con Abrir con, o haz que sea tu app predeterminada para Markdown en Configuración → General.",
+    "de": "Minimal.md schreibt nie in deine Dateien. Öffne Markdown aus dem Finder oder über „Öffnen mit“, oder mach Minimal.md in Einstellungen → Allgemein zu deiner Standard-App für Markdown.",
+    "fr": "Minimal.md n’écrit jamais dans vos fichiers. Ouvrez du Markdown depuis le Finder ou avec Ouvrir avec, ou faites-en votre app Markdown par défaut dans Réglages → Général.",
+    "it": "Minimal.md non scrive mai nei tuoi file. Apri i file Markdown dal Finder o con Apri con, oppure rendila la tua app predefinita per Markdown in Impostazioni → Generali.",
+    "ru": "Minimal.md никогда не записывает в ваши файлы. Открывайте Markdown из Finder или через «Открыть в приложении» либо назначьте Minimal.md программой по умолчанию для Markdown в Настройках → Основные."
   },
   "Minimal.md opens the .md files you and your AI agents write, and shows them the way they were meant to be read — and it never changes them.": {
-    "es": "Minimal.md abre los archivos .md que escriben tú y tus agentes de IA, y los muestra tal como fueron pensados para leerse, sin modificarlos nunca."
+    "es": "Minimal.md abre los archivos .md que escriben tú y tus agentes de IA, y los muestra tal como fueron pensados para leerse, sin modificarlos nunca.",
+    "de": "Minimal.md öffnet die .md-Dateien, die du und deine KI-Agenten schreiben, und zeigt sie so, wie sie gelesen werden sollen – und verändert sie nie.",
+    "fr": "Minimal.md ouvre les fichiers .md que vous et vos agents d’IA écrivez, et les affiche tels qu’ils ont été pensés pour être lus, sans jamais les modifier.",
+    "it": "Minimal.md apre i file .md che scrivi tu e i tuoi agenti IA, e li mostra come sono stati pensati per essere letti, senza mai modificarli.",
+    "ru": "Minimal.md открывает файлы .md, которые пишете вы и ваши ИИ-агенты, и показывает их такими, какими их задумали, — и никогда их не меняет."
   },
   "Minimal.md — Markdown viewer for the Mac": {
-    "es": "Minimal.md: visor de Markdown para Mac"
+    "es": "Minimal.md: visor de Markdown para Mac",
+    "de": "Minimal.md – Markdown-Viewer für den Mac",
+    "fr": "Minimal.md — lecteur Markdown pour Mac",
+    "it": "Minimal.md: lettore Markdown per Mac",
+    "ru": "Minimal.md — чтение Markdown на Mac"
   },
   "Native macOS, with the shortcuts you'd expect.": {
-    "es": "macOS nativo, con los atajos que esperas."
+    "es": "macOS nativo, con los atajos que esperas.",
+    "de": "Natives macOS, mit den Tastaturkurzbefehlen, die du erwartest.",
+    "fr": "Du macOS natif, avec les raccourcis que vous attendez.",
+    "it": "macOS nativo, con le abbreviazioni che ti aspetti.",
+    "ru": "Нативный macOS и привычные сочетания клавиш."
   },
   "Need the whole text? Edit → Copy Document as Markdown copies the full source.": {
-    "es": "¿Necesitas todo el texto? Edición → Copiar documento como Markdown copia todo el código fuente."
+    "es": "¿Necesitas todo el texto? Edición → Copiar documento como Markdown copia todo el código fuente.",
+    "de": "Du brauchst den ganzen Text? Bearbeiten → Dokument als Markdown kopieren kopiert den gesamten Quelltext.",
+    "fr": "Besoin de tout le texte ? Édition → Copier le document au format Markdown copie l’intégralité de la source.",
+    "it": "Ti serve tutto il testo? Composizione → Copia documento come Markdown copia l’intera sorgente.",
+    "ru": "Нужен весь текст? Правка → Скопировать документ как Markdown копирует весь исходный текст."
   },
   "Never conflicts with an agent editing the same file.": {
-    "es": "Nunca choca con un agente que edita el mismo archivo."
+    "es": "Nunca choca con un agente que edita el mismo archivo.",
+    "de": "Nie im Konflikt mit einem Agenten, der dieselbe Datei bearbeitet.",
+    "fr": "N’entre jamais en conflit avec un agent qui modifie le même fichier.",
+    "it": "Non entra mai in conflitto con un agente che modifica lo stesso file.",
+    "ru": "Никогда не конфликтует с агентом, который правит тот же файл."
   },
   "Next screenshot": {
-    "es": "Captura siguiente"
+    "es": "Captura siguiente",
+    "de": "Nächstes Bildschirmfoto",
+    "fr": "Capture suivante",
+    "it": "Screenshot successivo",
+    "ru": "Следующий снимок экрана"
   },
   "No editor, no sync, no account.": {
-    "es": "Sin editor, sin sincronización, sin cuenta."
+    "es": "Sin editor, sin sincronización, sin cuenta.",
+    "de": "Kein Editor, keine Synchronisierung, kein Account.",
+    "fr": "Pas d’éditeur, pas de synchronisation, pas de compte.",
+    "it": "Nessun editor, nessuna sincronizzazione, nessun account.",
+    "ru": "Без редактора, синхронизации и учётной записи."
   },
   "No network connections, no data collected, and remote images are never loaded. It reads only the files you open and the folders you share.": {
-    "es": "Sin conexiones de red ni datos recopilados, y las imágenes remotas nunca se cargan. Solo lee los archivos que abres y las carpetas que compartes."
+    "es": "Sin conexiones de red ni datos recopilados, y las imágenes remotas nunca se cargan. Solo lee los archivos que abres y las carpetas que compartes.",
+    "de": "Keine Netzwerkverbindungen, keine erfassten Daten, und Bilder aus dem Internet werden nie geladen. Die App liest nur die Dateien, die du öffnest, und die Ordner, die du freigibst.",
+    "fr": "Aucune connexion réseau, aucune donnée collectée, et les images distantes ne sont jamais chargées. Il ne lit que les fichiers que vous ouvrez et les dossiers que vous partagez.",
+    "it": "Nessuna connessione di rete, nessun dato raccolto, e le immagini remote non vengono mai caricate. Legge solo i file che apri e le cartelle che condividi.",
+    "ru": "Никаких сетевых подключений и сбора данных, удалённые изображения никогда не загружаются. Приложение читает только открытые вами файлы и папки, к которым вы дали доступ."
   },
   "No — Minimal.md is a viewer and never changes your files. To edit a document, open it in your editor. To take its text elsewhere, use Edit → Copy Document as Markdown.": {
-    "es": "No: Minimal.md es un visor y nunca modifica tus archivos. Para editar un documento, ábrelo en tu editor. Para llevar su texto a otro lugar, usa Edición → Copiar documento como Markdown."
+    "es": "No: Minimal.md es un visor y nunca modifica tus archivos. Para editar un documento, ábrelo en tu editor. Para llevar su texto a otro lugar, usa Edición → Copiar documento como Markdown.",
+    "de": "Nein – Minimal.md ist ein Viewer und verändert deine Dateien nie. Um ein Dokument zu bearbeiten, öffne es in deinem Editor. Um seinen Text woanders zu verwenden, wähle Bearbeiten → Dokument als Markdown kopieren.",
+    "fr": "Non : Minimal.md est un lecteur et ne modifie jamais vos fichiers. Pour modifier un document, ouvrez-le dans votre éditeur. Pour en reprendre le texte ailleurs, utilisez Édition → Copier le document au format Markdown.",
+    "it": "No: Minimal.md è un lettore e non modifica mai i tuoi file. Per modificare un documento, aprilo nel tuo editor. Per portarne il testo altrove, usa Composizione → Copia documento come Markdown.",
+    "ru": "Нет: Minimal.md — приложение для чтения, оно никогда не меняет ваши файлы. Чтобы изменить документ, откройте его в своём редакторе. Чтобы перенести текст в другое место, выберите Правка → Скопировать документ как Markdown."
   },
   "Nothing. Minimal.md has no accounts, no analytics, no advertising and no tracking of any kind. It doesn't make network connections — the app isn't allowed to by its own sandbox settings — so nothing you open can leave your Mac through it. Images hosted on the web are never loaded.": {
-    "es": "Nada. Minimal.md no tiene cuentas, analíticas, publicidad ni rastreo de ningún tipo. No establece conexiones de red (su propia configuración de sandbox no se lo permite), así que nada de lo que abres puede salir de tu Mac a través de ella. Las imágenes alojadas en la web nunca se cargan."
+    "es": "Nada. Minimal.md no tiene cuentas, analíticas, publicidad ni rastreo de ningún tipo. No establece conexiones de red (su propia configuración de sandbox no se lo permite), así que nada de lo que abres puede salir de tu Mac a través de ella. Las imágenes alojadas en la web nunca se cargan.",
+    "de": "Nichts. Minimal.md hat keine Accounts, keine Analysen, keine Werbung und kein Tracking jeglicher Art. Die App baut keine Netzwerkverbindungen auf – ihre eigenen Sandbox-Einstellungen erlauben es nicht –, daher kann nichts, was du öffnest, über sie deinen Mac verlassen. Bilder aus dem Internet werden nie geladen.",
+    "fr": "Rien. Minimal.md n’a ni compte, ni analyse, ni publicité, ni suivi d’aucune sorte. Il n’établit aucune connexion réseau (ses propres réglages de sandbox ne le lui permettent pas), donc rien de ce que vous ouvrez ne peut quitter votre Mac par son intermédiaire. Les images hébergées sur le web ne sont jamais chargées.",
+    "it": "Nulla. Minimal.md non ha account, analisi, pubblicità né tracciamento di alcun tipo. Non effettua connessioni di rete (le sue stesse impostazioni di sandbox non lo consentono), quindi nulla di ciò che apri può lasciare il tuo Mac tramite l’app. Le immagini ospitate sul web non vengono mai caricate.",
+    "ru": "Ничего. В Minimal.md нет учётных записей, аналитики, рекламы и любого отслеживания. Приложение не устанавливает сетевых подключений — этого не позволяют его собственные настройки песочницы, — поэтому ничто из открытого вами не может покинуть ваш Mac через него. Изображения из интернета никогда не загружаются."
   },
   "One document, split down the middle: light mode on the left, dark mode on the right.": {
-    "es": "Un documento dividido por la mitad: modo claro a la izquierda y modo oscuro a la derecha."
+    "es": "Un documento dividido por la mitad: modo claro a la izquierda y modo oscuro a la derecha.",
+    "de": "Ein Dokument, in der Mitte geteilt: links heller Modus, rechts dunkler Modus.",
+    "fr": "Un même document coupé en deux : mode clair à gauche, mode sombre à droite.",
+    "it": "Un documento diviso a metà: modalità chiara a sinistra, modalità scura a destra.",
+    "ru": "Один документ, разделённый пополам: слева светлая тема, справа тёмная."
   },
   "Only the Markdown files you open, and the folders you explicitly choose to share so their local images can be shown. The Quick Look preview reads the file you're previewing in Finder. Minimal.md never writes to your files.": {
-    "es": "Solo los archivos Markdown que abres y las carpetas que eliges compartir de forma explícita para que se muestren sus imágenes locales. La previsualización de Vista Rápida lee el archivo que estás previsualizando en el Finder. Minimal.md nunca escribe en tus archivos."
+    "es": "Solo los archivos Markdown que abres y las carpetas que eliges compartir de forma explícita para que se muestren sus imágenes locales. La previsualización de Vista Rápida lee el archivo que estás previsualizando en el Finder. Minimal.md nunca escribe en tus archivos.",
+    "de": "Nur die Markdown-Dateien, die du öffnest, und die Ordner, die du ausdrücklich freigibst, damit ihre lokalen Bilder angezeigt werden können. Die Übersicht liest die Datei, die du im Finder ansiehst. Minimal.md schreibt nie in deine Dateien.",
+    "fr": "Uniquement les fichiers Markdown que vous ouvrez, et les dossiers que vous choisissez explicitement de partager pour que leurs images locales s’affichent. L’aperçu Coup d’œil lit le fichier que vous prévisualisez dans le Finder. Minimal.md n’écrit jamais dans vos fichiers.",
+    "it": "Solo i file Markdown che apri e le cartelle che scegli esplicitamente di condividere perché se ne possano mostrare le immagini locali. L’anteprima di Visualizzazione rapida legge il file che stai visualizzando nel Finder. Minimal.md non scrive mai nei tuoi file.",
+    "ru": "Только открытые вами файлы Markdown и папки, к которым вы явно дали доступ, чтобы показывать их локальные изображения. Быстрый просмотр читает файл, который вы просматриваете в Finder. Minimal.md никогда не записывает в ваши файлы."
   },
   "Open Minimal.md once after installing it, so macOS registers its Quick Look extension. If previews still show plain text, check that Minimal.md is turned on in System Settings → General → Login Items &amp; Extensions → Quick Look.": {
-    "es": "Abre Minimal.md una vez después de instalarla para que macOS registre su extensión de Vista Rápida. Si las previsualizaciones siguen mostrando texto sin formato, comprueba que Minimal.md esté activada en Configuración del Sistema → General → Elementos de inicio y extensiones → Vista Rápida."
+    "es": "Abre Minimal.md una vez después de instalarla para que macOS registre su extensión de Vista Rápida. Si las previsualizaciones siguen mostrando texto sin formato, comprueba que Minimal.md esté activada en Configuración del Sistema → General → Elementos de inicio y extensiones → Vista Rápida.",
+    "de": "Öffne Minimal.md nach der Installation einmal, damit macOS die Übersicht-Erweiterung registriert. Zeigen Vorschauen weiterhin reinen Text, prüfe, ob Minimal.md in Systemeinstellungen → Allgemein → Anmeldeobjekte &amp; Erweiterungen → Übersicht aktiviert ist.",
+    "fr": "Ouvrez Minimal.md une fois après l’avoir installé, pour que macOS enregistre son extension Coup d’œil. Si les aperçus affichent toujours du texte brut, vérifiez que Minimal.md est activé dans Réglages Système → Général → Ouverture et extensions → Coup d’œil.",
+    "it": "Apri Minimal.md una volta dopo averla installata, così macOS registra la sua estensione di Visualizzazione rapida. Se le anteprime mostrano ancora testo semplice, verifica che Minimal.md sia attiva in Impostazioni di Sistema → Generali → Elementi login ed estensioni → Visualizzazione rapida.",
+    "ru": "Откройте Minimal.md один раз после установки, чтобы macOS зарегистрировала его расширение Быстрого просмотра. Если просмотр по-прежнему показывает простой текст, проверьте, что Minimal.md включено в Системных настройках → Основные → Объекты входа и расширения → Быстрый просмотр."
   },
   "Open Settings → General and choose Restore next to “Give it back to …”. That row appears while Minimal.md is the default and your previous app is still installed. Otherwise, select any Markdown file in Finder, choose File → Get Info, pick an app under Open with, and click Change All.": {
-    "es": "Abre Configuración → General y elige Restaurar junto a “Volver a usar … como app predeterminada”. Esa fila aparece mientras Minimal.md es la app predeterminada y tu app anterior sigue instalada. Si no, selecciona cualquier archivo Markdown en el Finder, elige Archivo → Obtener información, escoge una app en Abrir con y haz clic en Cambiar todo."
+    "es": "Abre Configuración → General y elige Restaurar junto a “Volver a usar … como app predeterminada”. Esa fila aparece mientras Minimal.md es la app predeterminada y tu app anterior sigue instalada. Si no, selecciona cualquier archivo Markdown en el Finder, elige Archivo → Obtener información, escoge una app en Abrir con y haz clic en Cambiar todo.",
+    "de": "Öffne Einstellungen → Allgemein und wähle „Wiederherstellen“ neben „An … zurückgeben“. Diese Zeile erscheint, solange Minimal.md die Standard-App ist und deine vorherige App noch installiert ist. Andernfalls wähle im Finder eine beliebige Markdown-Datei aus, wähle Ablage → Informationen, wähle unter „Öffnen mit“ eine App und klicke auf „Alle ändern“.",
+    "fr": "Ouvrez Réglages → Général et choisissez Rétablir à côté de « Revenir à … ». Cette ligne apparaît tant que Minimal.md est l’app par défaut et que votre app précédente est encore installée. Sinon, sélectionnez un fichier Markdown dans le Finder, choisissez Fichier → Lire les informations, choisissez une app sous Ouvrir avec, puis cliquez sur Tout modifier.",
+    "it": "Apri Impostazioni → Generali e scegli Ripristina accanto a “Restituisci il ruolo a …”. Questa riga appare finché Minimal.md è l’app predefinita e la tua app precedente è ancora installata. Altrimenti, seleziona un file Markdown nel Finder, scegli Archivio → Ottieni informazioni, scegli un’app in Apri con e fai clic su Modifica tutto.",
+    "ru": "Откройте Настройки → Основные и нажмите «Восстановить» рядом с «Снова открывать файлы Markdown в программе …». Эта строка видна, пока Minimal.md назначено по умолчанию, а прежняя программа ещё установлена. Иначе выберите любой файл Markdown в Finder, выберите Файл → Свойства, укажите программу в разделе «Открывать в приложении» и нажмите «Изменить все»."
   },
   "Open Settings → General and choose Set as Default. macOS asks you to confirm the change.": {
-    "es": "Abre Configuración (Ajustes en España) → General y elige Establecer como predeterminada. macOS te pide que confirmes el cambio."
+    "es": "Abre Configuración (Ajustes en España) → General y elige Establecer como predeterminada. macOS te pide que confirmes el cambio.",
+    "de": "Öffne Einstellungen → Allgemein und wähle „Als Standard festlegen“. macOS bittet dich, die Änderung zu bestätigen.",
+    "fr": "Ouvrez Réglages → Général et choisissez Définir par défaut. macOS vous demande de confirmer la modification.",
+    "it": "Apri Impostazioni → Generali e scegli Imposta come predefinita. macOS ti chiede di confermare la modifica.",
+    "ru": "Откройте Настройки → Основные и нажмите «Назначить по умолчанию». macOS попросит подтвердить изменение."
   },
   "Open a Markdown file and just read it.": {
-    "es": "Abre un archivo Markdown y simplemente léelo."
+    "es": "Abre un archivo Markdown y simplemente léelo.",
+    "de": "Öffne eine Markdown-Datei und lies sie einfach.",
+    "fr": "Ouvrez un fichier Markdown et lisez-le, tout simplement.",
+    "it": "Apri un file Markdown e leggilo, semplicemente.",
+    "ru": "Откройте файл Markdown и просто читайте."
   },
   "Part of my document shows as raw Markdown or HTML.": {
-    "es": "Parte de mi documento se muestra como Markdown o HTML sin renderizar."
+    "es": "Parte de mi documento se muestra como Markdown o HTML sin renderizar.",
+    "de": "Ein Teil meines Dokuments erscheint als rohes Markdown oder HTML.",
+    "fr": "Une partie de mon document s’affiche en Markdown ou HTML brut.",
+    "it": "Parte del mio documento appare come Markdown o HTML grezzo.",
+    "ru": "Часть документа показана как необработанный Markdown или HTML."
   },
   "Previous screenshot": {
-    "es": "Captura anterior"
+    "es": "Captura anterior",
+    "de": "Vorheriges Bildschirmfoto",
+    "fr": "Capture précédente",
+    "it": "Screenshot precedente",
+    "ru": "Предыдущий снимок экрана"
   },
   "Privacy": {
-    "es": "Privacidad"
+    "es": "Privacidad",
+    "de": "Datenschutz",
+    "fr": "Confidentialité",
+    "it": "Privacy",
+    "ru": "Приватность"
   },
   "Privacy and accessibility.": {
-    "es": "Privacidad y accesibilidad."
+    "es": "Privacidad y accesibilidad.",
+    "de": "Datenschutz und Bedienungshilfen.",
+    "fr": "Confidentialité et accessibilité.",
+    "it": "Privacy e accessibilità.",
+    "ru": "Конфиденциальность и универсальный доступ."
   },
   "Private by design": {
-    "es": "Privado por diseño"
+    "es": "Privado por diseño",
+    "de": "Privat von Grund auf",
+    "fr": "Privé par conception",
+    "it": "Privato per scelta",
+    "ru": "Приватность по умолчанию"
   },
   "Public beta": {
-    "es": "Beta pública"
+    "es": "Beta pública",
+    "de": "Öffentliche Beta",
+    "fr": "Bêta publique",
+    "it": "Beta pubblica",
+    "ru": "Публичная бета"
   },
   "Questions, problems or ideas — we'd like to hear them.": {
-    "es": "Preguntas, problemas o ideas: nos encantaría escucharlos."
+    "es": "Preguntas, problemas o ideas: nos encantaría escucharlos.",
+    "de": "Fragen, Probleme oder Ideen – wir freuen uns, von dir zu hören.",
+    "fr": "Questions, problèmes ou idées : nous serons ravis de les entendre.",
+    "it": "Domande, problemi o idee: ci farebbe piacere sentirli.",
+    "ru": "Вопросы, проблемы или идеи — мы будем рады их услышать."
   },
   "Quick Look": {
-    "es": "Vista Rápida"
+    "es": "Vista Rápida",
+    "de": "Übersicht",
+    "fr": "Coup d’œil",
+    "it": "Visualizzazione rapida",
+    "ru": "Быстрый просмотр"
   },
   "Quick Look doesn't show my Markdown files rendered.": {
-    "es": "Vista Rápida no muestra mis archivos Markdown renderizados."
+    "es": "Vista Rápida no muestra mis archivos Markdown renderizados.",
+    "de": "Die Übersicht zeigt meine Markdown-Dateien nicht dargestellt an.",
+    "fr": "Coup d’œil n’affiche pas mes fichiers Markdown en rendu.",
+    "it": "Visualizzazione rapida non mostra i miei file Markdown resi.",
+    "ru": "Быстрый просмотр не отрисовывает мои файлы Markdown."
   },
   "Read, don't edit": {
-    "es": "Leer, no editar"
+    "es": "Leer, no editar",
+    "de": "Lesen, nicht bearbeiten",
+    "fr": "Lire, pas modifier",
+    "it": "Leggere, non modificare",
+    "ru": "Читать, а не править"
   },
   "Reading": {
-    "es": "Lectura"
+    "es": "Lectura",
+    "de": "Lesen",
+    "fr": "Lecture",
+    "it": "Lettura",
+    "ru": "Чтение"
   },
   "Reduced Motion": {
-    "es": "Movimiento reducido"
+    "es": "Movimiento reducido",
+    "de": "Reduzierte Bewegung",
+    "fr": "Animations réduites",
+    "it": "Movimento ridotto",
+    "ru": "Уменьшение движения"
   },
   "Russian": {
-    "es": "Ruso"
+    "es": "Ruso",
+    "de": "Russisch",
+    "fr": "Russe",
+    "it": "Russo",
+    "ru": "Русский"
   },
   "Screenshots": {
-    "es": "Capturas de pantalla"
+    "es": "Capturas de pantalla",
+    "de": "Bildschirmfotos",
+    "fr": "Captures d’écran",
+    "it": "Screenshot",
+    "ru": "Снимки экрана"
   },
   "See what changed in each version in the <a href=\"changes/\">changelog</a>.": {
-    "es": "Consulta qué cambió en cada versión en el <a href=\"changes/\">registro de cambios</a> (en inglés)."
+    "es": "Consulta qué cambió en cada versión en el <a href=\"changes/\">registro de cambios</a> (en inglés).",
+    "de": "Was sich in jeder Version geändert hat, steht im <a href=\"changes/\">Änderungsprotokoll</a> (auf Englisch).",
+    "fr": "Découvrez ce qui a changé dans chaque version dans le <a href=\"changes/\">journal des modifications</a> (en anglais).",
+    "it": "Scopri cosa è cambiato in ogni versione nel <a href=\"changes/\">registro delle modifiche</a> (in inglese).",
+    "ru": "Что изменилось в каждой версии — в <a href=\"changes/\">списке изменений</a> (на английском)."
   },
   "Select a Markdown file in Finder and press the Space bar to read it rendered, without opening the app.": {
-    "es": "Selecciona un archivo Markdown en el Finder y presiona la barra espaciadora para leerlo renderizado, sin abrir la app."
+    "es": "Selecciona un archivo Markdown en el Finder y presiona la barra espaciadora para leerlo renderizado, sin abrir la app.",
+    "de": "Wähle im Finder eine Markdown-Datei aus und drücke die Leertaste, um sie dargestellt zu lesen, ohne die App zu öffnen.",
+    "fr": "Sélectionnez un fichier Markdown dans le Finder et appuyez sur la barre d’espace pour le lire en rendu, sans ouvrir l’app.",
+    "it": "Seleziona un file Markdown nel Finder e premi la barra spaziatrice per leggerlo reso, senza aprire l’app.",
+    "ru": "Выберите файл Markdown в Finder и нажмите пробел, чтобы прочитать его отрисованным, не открывая приложение."
   },
   "Select text for everything macOS offers: Look Up, Translate, Writing Tools and Services.": {
-    "es": "Selecciona texto para usar todo lo que ofrece macOS: Buscar, Traducir, Herramientas de escritura y Servicios."
+    "es": "Selecciona texto para usar todo lo que ofrece macOS: Buscar, Traducir, Herramientas de escritura y Servicios.",
+    "de": "Wähle Text aus für alles, was macOS bietet: „Nachschlagen“, „Übersetzen“, Schreibtools und Dienste.",
+    "fr": "Sélectionnez du texte pour tout ce que propose macOS : Rechercher, Traduire, Outils d’écriture et Services.",
+    "it": "Seleziona del testo per tutto ciò che offre macOS: Cerca, Traduci, Strumenti di scrittura e Servizi.",
+    "ru": "Выделите текст, чтобы использовать всё, что предлагает macOS: «Найти», «Перевести», «Инструменты для письма» и «Службы»."
   },
   "Settings, Privacy: the standard folders and other shared folders, each with a button to grant or revoke access.": {
-    "es": "Configuración, Privacidad: las carpetas estándar y otras carpetas compartidas, cada una con un botón para permitir o revocar el acceso."
+    "es": "Configuración, Privacidad: las carpetas estándar y otras carpetas compartidas, cada una con un botón para permitir o revocar el acceso.",
+    "de": "Einstellungen, Datenschutz: die Standardordner und weitere freigegebene Ordner, jeweils mit einer Taste, um den Zugriff zu erlauben oder zu entziehen.",
+    "fr": "Réglages, Confidentialité : les dossiers standard et les autres dossiers partagés, chacun avec un bouton pour autoriser ou retirer l’accès.",
+    "it": "Impostazioni, Privacy: le cartelle standard e le altre cartelle condivise, ognuna con un pulsante per consentire o revocare l’accesso.",
+    "ru": "Настройки, Конфиденциальность: стандартные папки и другие папки с доступом, у каждой — кнопка, чтобы предоставить или отозвать доступ."
   },
   "Spanish": {
-    "es": "Español"
+    "es": "Español",
+    "de": "Spanisch",
+    "fr": "Espagnol",
+    "it": "Spagnolo",
+    "ru": "Испанский"
   },
   "Step to the previous or next heading with the toolbar arrows.": {
-    "es": "Ve al encabezado anterior o siguiente con las flechas de la barra de herramientas."
+    "es": "Ve al encabezado anterior o siguiente con las flechas de la barra de herramientas.",
+    "de": "Springe mit den Pfeilen in der Symbolleiste zur vorherigen oder nächsten Überschrift.",
+    "fr": "Passez au titre précédent ou suivant avec les flèches de la barre d’outils.",
+    "it": "Vai al titolo precedente o successivo con le frecce della barra degli strumenti.",
+    "ru": "Переходите к предыдущему или следующему заголовку стрелками на панели инструментов."
   },
   "Structure": {
-    "es": "Estructura"
+    "es": "Estructura",
+    "de": "Struktur",
+    "fr": "Structure",
+    "it": "Struttura",
+    "ru": "Структура"
   },
   "Sufficient Contrast": {
-    "es": "Suficiente contraste"
+    "es": "Suficiente contraste",
+    "de": "Ausreichender Kontrast",
+    "fr": "Contraste suffisant",
+    "it": "Contrasto sufficiente",
+    "ru": "Достаточная контрастность"
   },
   "Support": {
-    "es": "Soporte"
+    "es": "Soporte",
+    "de": "Support",
+    "fr": "Assistance",
+    "it": "Supporto",
+    "ru": "Поддержка"
   },
   "Supported features on Mac": {
-    "es": "Funciones admitidas en Mac"
+    "es": "Funciones admitidas en Mac",
+    "de": "Unterstützte Funktionen auf dem Mac",
+    "fr": "Fonctionnalités prises en charge sur Mac",
+    "it": "Funzioni supportate su Mac",
+    "ru": "Поддерживаемые функции на Mac"
   },
   "Table of contents": {
-    "es": "Tabla de contenido"
+    "es": "Tabla de contenido",
+    "de": "Inhaltsverzeichnis",
+    "fr": "Table des matières",
+    "it": "Indice",
+    "ru": "Оглавление"
   },
   "Tables and code": {
-    "es": "Tablas y código"
+    "es": "Tablas y código",
+    "de": "Tabellen und Code",
+    "fr": "Tableaux et code",
+    "it": "Tabelle e codice",
+    "ru": "Таблицы и код"
   },
   "Tables with column alignment": {
-    "es": "Tablas con alineación de columnas"
+    "es": "Tablas con alineación de columnas",
+    "de": "Tabellen mit Spaltenausrichtung",
+    "fr": "Tableaux avec alignement des colonnes",
+    "it": "Tabelle con allineamento delle colonne",
+    "ru": "Таблицы с выравниванием столбцов"
   },
   "Task lists": {
-    "es": "Listas de tareas"
+    "es": "Listas de tareas",
+    "de": "Aufgabenlisten",
+    "fr": "Listes de tâches",
+    "it": "Elenchi di attività",
+    "ru": "Списки задач"
   },
   "Text": {
-    "es": "Texto"
+    "es": "Texto",
+    "de": "Text",
+    "fr": "Texte",
+    "it": "Testo",
+    "ru": "Текст"
   },
   "That's deliberate: anything Minimal.md can't render faithfully is shown as its source rather than hidden. If you think it should be rendered, please send us the document. See <a href=\"../markdown/\">what Minimal.md renders</a>.": {
-    "es": "Es intencional: lo que Minimal.md no puede renderizar fielmente se muestra como código fuente en lugar de ocultarse. Si crees que debería renderizarse, envíanos el documento. Consulta <a href=\"../markdown/\">qué renderiza Minimal.md</a>."
+    "es": "Es intencional: lo que Minimal.md no puede renderizar fielmente se muestra como código fuente en lugar de ocultarse. Si crees que debería renderizarse, envíanos el documento. Consulta <a href=\"../markdown/\">qué renderiza Minimal.md</a>.",
+    "de": "Das ist Absicht: Was Minimal.md nicht originalgetreu darstellen kann, erscheint als Quelltext, statt verborgen zu werden. Wenn du meinst, dass es dargestellt werden sollte, schick uns bitte das Dokument. Siehe <a href=\"../markdown/\">was Minimal.md darstellt</a>.",
+    "fr": "C’est voulu : ce que Minimal.md ne peut pas rendre fidèlement s’affiche en code source au lieu d’être masqué. Si vous pensez qu’il devrait être rendu, envoyez-nous le document. Voir <a href=\"../markdown/\">ce que Minimal.md affiche en rendu</a>.",
+    "it": "È voluto: ciò che Minimal.md non può rendere fedelmente appare come sorgente invece di essere nascosto. Se pensi che debba essere reso, inviaci il documento. Vedi <a href=\"../markdown/\">cosa visualizza Minimal.md</a>.",
+    "ru": "Так и задумано: всё, что Minimal.md не может отрисовать точно, показано исходным текстом, а не скрыто. Если считаете, что это нужно отрисовывать, пришлите нам документ. См. <a href=\"../markdown/\">что отрисовывает Minimal.md</a>."
   },
   "The developer does not collect any data from this app.": {
-    "es": "El desarrollador no recopila ningún dato en esta app."
+    "es": "El desarrollador no recopila ningún dato en esta app.",
+    "de": "Der Entwickler erfasst keine Daten von dieser App.",
+    "fr": "Le développeur ne collecte aucune donnée avec cette app.",
+    "it": "Lo sviluppatore non raccoglie alcun dato da quest’app.",
+    "ru": "Разработчик не ведет сбор данных в этом приложении."
   },
   "The document rendered natively with the system fonts, in light or dark mode.": {
-    "es": "El documento con renderizado nativo y las fuentes del sistema, en modo claro u oscuro."
+    "es": "El documento con renderizado nativo y las fuentes del sistema, en modo claro u oscuro.",
+    "de": "Das Dokument nativ mit den Systemschriften dargestellt, im hellen oder dunklen Modus.",
+    "fr": "Le document rendu en natif avec les polices du système, en mode clair ou sombre.",
+    "it": "Il documento reso in modo nativo con i font di sistema, in modalità chiara o scura.",
+    "ru": "Документ, отрисованный нативно системными шрифтами, в светлой или тёмной теме."
   },
   "The sidebar lists the document's headings.": {
-    "es": "La barra lateral muestra los encabezados del documento."
+    "es": "La barra lateral muestra los encabezados del documento.",
+    "de": "Die Seitenleiste listet die Überschriften des Dokuments.",
+    "fr": "La barre latérale liste les titres du document.",
+    "it": "La barra laterale elenca i titoli del documento.",
+    "ru": "В боковой панели перечислены заголовки документа."
   },
   "Voice Control": {
-    "es": "Control por voz"
+    "es": "Control por voz",
+    "de": "Sprachsteuerung",
+    "fr": "Contrôle vocal",
+    "it": "Controllo vocale",
+    "ru": "Управление голосом"
   },
   "VoiceOver": {
-    "es": "VoiceOver"
+    "es": "VoiceOver",
+    "de": "VoiceOver",
+    "fr": "VoiceOver",
+    "it": "VoiceOver",
+    "ru": "VoiceOver"
   },
   "Want Minimal.md in your language? <a href=\"https://github.com/SKemenov/skemenov.github.io/issues/new?template=translation.md\">Let us know</a>.": {
-    "es": "¿Quieres Minimal.md en tu idioma? <a href=\"https://github.com/SKemenov/skemenov.github.io/issues/new?template=translation.md\">Avísanos</a>."
+    "es": "¿Quieres Minimal.md en tu idioma? <a href=\"https://github.com/SKemenov/skemenov.github.io/issues/new?template=translation.md\">Avísanos</a>.",
+    "de": "Du möchtest Minimal.md in deiner Sprache? <a href=\"https://github.com/SKemenov/skemenov.github.io/issues/new?template=translation.md\">Sag uns Bescheid</a>.",
+    "fr": "Vous voulez Minimal.md dans votre langue ? <a href=\"https://github.com/SKemenov/skemenov.github.io/issues/new?template=translation.md\">Dites-le-nous</a>.",
+    "it": "Vuoi Minimal.md nella tua lingua? <a href=\"https://github.com/SKemenov/skemenov.github.io/issues/new?template=translation.md\">Faccelo sapere</a>.",
+    "ru": "Хотите Minimal.md на своём языке? <a href=\"https://github.com/SKemenov/skemenov.github.io/issues/new?template=translation.md\">Напишите нам</a>."
   },
   "Want new builds early? <a href=\"beta/\">Join the beta</a>.": {
-    "es": "¿Quieres las nuevas versiones antes? <a href=\"beta/\">Únete a la beta</a> (en inglés)."
+    "es": "¿Quieres las nuevas versiones antes? <a href=\"beta/\">Únete a la beta</a> (en inglés).",
+    "de": "Neue Builds früher? <a href=\"beta/\">Mach bei der Beta mit</a> (auf Englisch).",
+    "fr": "Envie des nouvelles versions en avance ? <a href=\"beta/\">Rejoignez la bêta</a> (en anglais).",
+    "it": "Vuoi le nuove build in anteprima? <a href=\"beta/\">Partecipa alla beta</a> (in inglese).",
+    "ru": "Хотите получать новые сборки раньше? <a href=\"beta/\">Присоединяйтесь к бете</a> (на английском)."
   },
   "Web images are never loaded: you see a placeholder with the image's description, not a gap.": {
-    "es": "Las imágenes web nunca se cargan: ves un marcador con la descripción de la imagen, no un hueco."
+    "es": "Las imágenes web nunca se cargan: ves un marcador con la descripción de la imagen, no un hueco.",
+    "de": "Bilder aus dem Internet werden nie geladen: Du siehst einen Platzhalter mit der Bildbeschreibung statt einer Lücke.",
+    "fr": "Les images du web ne sont jamais chargées : vous voyez un repère avec la description de l’image, pas un vide.",
+    "it": "Le immagini web non vengono mai caricate: vedi un segnaposto con la descrizione dell’immagine, non un vuoto.",
+    "ru": "Изображения из интернета никогда не загружаются: вместо пустого места вы видите заглушку с описанием изображения."
   },
   "Web links open in your browser.": {
-    "es": "Los enlaces web se abren en tu navegador."
+    "es": "Los enlaces web se abren en tu navegador.",
+    "de": "Weblinks öffnen sich in deinem Browser.",
+    "fr": "Les liens web s’ouvrent dans votre navigateur.",
+    "it": "I link web si aprono nel tuo browser.",
+    "ru": "Веб-ссылки открываются в вашем браузере."
   },
   "What Minimal.md collects": {
-    "es": "Qué recopila Minimal.md"
+    "es": "Qué recopila Minimal.md",
+    "de": "Was Minimal.md erfasst",
+    "fr": "Ce que Minimal.md collecte",
+    "it": "Cosa raccoglie Minimal.md",
+    "ru": "Что собирает Minimal.md"
   },
   "What Minimal.md reads": {
-    "es": "Qué lee Minimal.md"
+    "es": "Qué lee Minimal.md",
+    "de": "Was Minimal.md liest",
+    "fr": "Ce que Minimal.md lit",
+    "it": "Cosa legge Minimal.md",
+    "ru": "Что читает Minimal.md"
   },
   "What changed in the latest version?": {
-    "es": "¿Qué cambió en la última versión?"
+    "es": "¿Qué cambió en la última versión?",
+    "de": "Was hat sich in der neuesten Version geändert?",
+    "fr": "Qu’est-ce qui a changé dans la dernière version ?",
+    "it": "Cosa è cambiato nell’ultima versione?",
+    "ru": "Что изменилось в последней версии?"
   },
   "What stays on your Mac": {
-    "es": "Qué se queda en tu Mac"
+    "es": "Qué se queda en tu Mac",
+    "de": "Was auf deinem Mac bleibt",
+    "fr": "Ce qui reste sur votre Mac",
+    "it": "Cosa resta sul tuo Mac",
+    "ru": "Что остаётся на вашем Mac"
   },
   "What’s new": {
-    "es": "Novedades"
+    "es": "Novedades",
+    "de": "Neuigkeiten",
+    "fr": "Nouveautés",
+    "it": "Novità",
+    "ru": "Что нового"
   },
   "Where do I get Minimal.md?": {
-    "es": "¿Dónde consigo Minimal.md?"
+    "es": "¿Dónde consigo Minimal.md?",
+    "de": "Wo bekomme ich Minimal.md?",
+    "fr": "Où obtenir Minimal.md ?",
+    "it": "Dove trovo Minimal.md?",
+    "ru": "Где взять Minimal.md?"
   },
   "Which Markdown Minimal.md renders: text, headings, lists and task lists, tables and code, YAML front matter, local images and a safe subset of HTML.": {
-    "es": "Qué Markdown renderiza Minimal.md: texto, encabezados, listas y listas de tareas, tablas y código, front matter YAML, imágenes locales y un subconjunto seguro de HTML."
+    "es": "Qué Markdown renderiza Minimal.md: texto, encabezados, listas y listas de tareas, tablas y código, front matter YAML, imágenes locales y un subconjunto seguro de HTML.",
+    "de": "Welches Markdown Minimal.md darstellt: Text, Überschriften, Listen und Aufgabenlisten, Tabellen und Code, YAML-Front-Matter, lokale Bilder und eine sichere Teilmenge von HTML.",
+    "fr": "Le Markdown que Minimal.md affiche en rendu : texte, titres, listes et listes de tâches, tableaux et code, front matter YAML, images locales et un sous-ensemble sûr de HTML.",
+    "it": "Quale Markdown visualizza Minimal.md: testo, titoli, elenchi ed elenchi di attività, tabelle e codice, front matter YAML, immagini locali e un sottoinsieme sicuro di HTML.",
+    "ru": "Какой Markdown отрисовывает Minimal.md: текст, заголовки, списки и списки задач, таблицы и код, YAML front matter, локальные изображения и безопасное подмножество HTML."
   },
   "Which languages does Minimal.md support?": {
-    "es": "¿Qué idiomas admite Minimal.md?"
+    "es": "¿Qué idiomas admite Minimal.md?",
+    "de": "Welche Sprachen unterstützt Minimal.md?",
+    "fr": "Quelles langues Minimal.md prend-il en charge ?",
+    "it": "Quali lingue supporta Minimal.md?",
+    "ru": "Какие языки поддерживает Minimal.md?"
   },
   "Why don't the images in my document show?": {
-    "es": "¿Por qué no se muestran las imágenes de mi documento?"
+    "es": "¿Por qué no se muestran las imágenes de mi documento?",
+    "de": "Warum werden die Bilder in meinem Dokument nicht angezeigt?",
+    "fr": "Pourquoi les images de mon document ne s’affichent-elles pas ?",
+    "it": "Perché le immagini del mio documento non vengono mostrate?",
+    "ru": "Почему не показываются изображения в моём документе?"
   },
   "Work with your AI agents": {
-    "es": "Trabaja con tus agentes de IA"
+    "es": "Trabaja con tus agentes de IA",
+    "de": "Arbeite mit deinen KI-Agenten",
+    "fr": "Travaillez avec vos agents d’IA",
+    "it": "Lavora con i tuoi agenti IA",
+    "ru": "Работайте вместе с ИИ-агентами"
   },
   "YAML front matter, shown as a table": {
-    "es": "Front matter YAML, mostrado como tabla"
+    "es": "Front matter YAML, mostrado como tabla",
+    "de": "YAML-Front-Matter als Tabelle",
+    "fr": "Front matter YAML, affiché en tableau",
+    "it": "Front matter YAML, mostrato come tabella",
+    "ru": "YAML front matter в виде таблицы"
   },
   "Your settings (such as text size and whether to show local images) and the list of folders you've shared are stored locally on your Mac, where both the app and its Quick Look preview can read them. You can revoke folder access at any time in Settings → Privacy. Deleting the app removes this data.": {
-    "es": "Tu configuración (como el tamaño del texto y si se muestran las imágenes locales) y la lista de carpetas que compartiste se guardan localmente en tu Mac, donde tanto la app como su previsualización de Vista Rápida pueden leerlas. Puedes revocar el acceso a las carpetas en cualquier momento en Configuración → Privacidad. Al eliminar la app se eliminan estos datos."
+    "es": "Tu configuración (como el tamaño del texto y si se muestran las imágenes locales) y la lista de carpetas que compartiste se guardan localmente en tu Mac, donde tanto la app como su previsualización de Vista Rápida pueden leerlas. Puedes revocar el acceso a las carpetas en cualquier momento en Configuración → Privacidad. Al eliminar la app se eliminan estos datos.",
+    "de": "Deine Einstellungen (etwa die Textgröße und ob lokale Bilder angezeigt werden) und die Liste der freigegebenen Ordner werden lokal auf deinem Mac gespeichert, wo die App und ihre Übersicht sie lesen können. Den Ordnerzugriff kannst du jederzeit in Einstellungen → Datenschutz entziehen. Wenn du die App löschst, werden diese Daten entfernt.",
+    "fr": "Vos réglages (comme la taille du texte et l’affichage des images locales) et la liste des dossiers que vous avez partagés sont stockés localement sur votre Mac, où l’app et son aperçu Coup d’œil peuvent les lire. Vous pouvez retirer l’accès aux dossiers à tout moment dans Réglages → Confidentialité. Supprimer l’app supprime ces données.",
+    "it": "Le tue impostazioni (come le dimensioni del testo e la visualizzazione delle immagini locali) e l’elenco delle cartelle che hai condiviso sono salvati in locale sul tuo Mac, dove sia l’app sia la sua anteprima di Visualizzazione rapida possono leggerli. Puoi revocare l’accesso alle cartelle in qualsiasi momento in Impostazioni → Privacy. Eliminando l’app, questi dati vengono rimossi.",
+    "ru": "Ваши настройки (например, масштаб текста и показ локальных изображений) и список папок с доступом хранятся локально на вашем Mac, где их могут читать и приложение, и его Быстрый просмотр. Доступ к папкам можно отозвать в любой момент в Настройках → Конфиденциальность. При удалении приложения эти данные удаляются."
   },
   "macOS 15.6 Sequoia or later": {
-    "es": "macOS 15.6 Sequoia o posterior"
+    "es": "macOS 15.6 Sequoia o posterior",
+    "de": "macOS 15.6 Sequoia oder neuer",
+    "fr": "macOS 15.6 Sequoia ou ultérieur",
+    "it": "macOS 15.6 Sequoia o versione successiva",
+    "ru": "macOS 15.6 Sequoia или новее"
   },
   "macOS lets Minimal.md read only the files you open. For images stored next to your document, a bar appears at the bottom of the window — choose the folder there to grant access. You can review and revoke access at any time in Settings → Privacy. Images on the web are never loaded: Minimal.md makes no network connections.": {
-    "es": "macOS solo permite que Minimal.md lea los archivos que abres. Para las imágenes guardadas junto a tu documento, aparece una barra en la parte inferior de la ventana: elige ahí la carpeta para permitir el acceso. Puedes revisar y revocar el acceso en cualquier momento en Configuración (Ajustes en España) → Privacidad. Las imágenes de la web nunca se cargan: Minimal.md no establece conexiones de red."
+    "es": "macOS solo permite que Minimal.md lea los archivos que abres. Para las imágenes guardadas junto a tu documento, aparece una barra en la parte inferior de la ventana: elige ahí la carpeta para permitir el acceso. Puedes revisar y revocar el acceso en cualquier momento en Configuración (Ajustes en España) → Privacidad. Las imágenes de la web nunca se cargan: Minimal.md no establece conexiones de red.",
+    "de": "macOS erlaubt Minimal.md, nur die Dateien zu lesen, die du öffnest. Für Bilder neben deinem Dokument erscheint unten im Fenster eine Leiste – wähle dort den Ordner, um den Zugriff zu erlauben. Du kannst den Zugriff jederzeit in Einstellungen → Datenschutz prüfen und entziehen. Bilder aus dem Internet werden nie geladen: Minimal.md baut keine Netzwerkverbindungen auf.",
+    "fr": "macOS ne laisse Minimal.md lire que les fichiers que vous ouvrez. Pour les images enregistrées à côté de votre document, une barre apparaît en bas de la fenêtre : choisissez-y le dossier pour autoriser l’accès. Vous pouvez vérifier et retirer l’accès à tout moment dans Réglages → Confidentialité. Les images du web ne sont jamais chargées : Minimal.md n’établit aucune connexion réseau.",
+    "it": "macOS consente a Minimal.md di leggere solo i file che apri. Per le immagini salvate accanto al documento, compare una barra in fondo alla finestra: scegli lì la cartella per consentire l’accesso. Puoi controllare e revocare l’accesso in qualsiasi momento in Impostazioni → Privacy. Le immagini sul web non vengono mai caricate: Minimal.md non effettua connessioni di rete.",
+    "ru": "macOS разрешает Minimal.md читать только открытые вами файлы. Для изображений рядом с документом внизу окна появляется панель — выберите там папку, чтобы предоставить доступ. Просмотреть и отозвать доступ можно в любой момент в Настройках → Конфиденциальность. Изображения из интернета никогда не загружаются: Minimal.md не устанавливает сетевых подключений."
   }
 }
