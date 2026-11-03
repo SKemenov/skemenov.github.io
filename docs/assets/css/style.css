@@ -404,6 +404,32 @@ footer a:hover { color: var(--text); }
 .signature .who { color: var(--text); font-size: 17px; font-weight: 600; text-decoration: none; justify-self: start; }
 .signature .who:hover { color: var(--accent); }
 .signature .year { color: var(--muted); }
+/* Language switcher (Minimal.md pages; written by l10n/build.py): globe + current language,
+   opening a popover of every language in its own name. No JS: popover closes on Esc or a click outside. */
+.lang-button {
+  justify-self: start; display: inline-flex; align-items: center; gap: 6px;
+  margin: 6px 0 0 -8px; padding: 6px 8px; min-height: 32px;
+  font: inherit; color: var(--muted); background: none; border: 0; border-radius: 8px; cursor: pointer;
+}
+.lang-button svg { color: #2a9d8f; transition: color .15s; }
+.lang-button:hover, .lang-button:hover svg { color: var(--accent); }
+.languages-list {
+  margin: auto; padding: 8px; min-width: 200px;
+  color: var(--text); background: #0a1f1d; border: 1px solid rgba(94, 234, 212, .3); border-radius: 14px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, .5), 0 0 24px var(--glow1);
+}
+.languages-list::backdrop { background: rgba(3, 16, 15, .5); }
+.languages-list ul { list-style: none; margin: 0; padding: 0; }
+.languages-list a { display: block; padding: 10px 14px; border-radius: 8px; color: var(--muted); text-decoration: none; font-size: 16px; }
+.languages-list a:hover, .languages-list a:focus-visible { background: var(--surface-strong); color: var(--text); }
+.languages-list a[aria-current="page"] { color: var(--accent); }
+.languages-list a[aria-current="page"]::after { content: " ✓"; }
+/* Where the browser can anchor it, the list opens just above the globe instead of mid-window. */
+@supports (anchor-name: --a) {
+  .lang-button { anchor-name: --lang; }
+  .languages-list { position-anchor: --lang; inset: auto; bottom: anchor(top); left: anchor(left); margin: 0 0 8px; position-try-fallbacks: flip-block; }
+  .languages-list::backdrop { background: none; }
+}
 .elsewhere { grid-area: social; display: grid; justify-items: end; gap: 2px; }
 .elsewhere .title { margin: 0; color: var(--muted); font-size: 13px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; }
 /* Icons only; each link's name is its aria-label. 44px tap targets, pulled out so the glyphs meet the edge. */
