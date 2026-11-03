@@ -189,6 +189,7 @@ ul.checks li { position: relative; padding-left: 24px; margin: 0; }
 ul.checks li::before { content: "✓"; position: absolute; left: 0; color: var(--accent); font-weight: 600; }
 .languages { text-align: center; }
 .languages .chips { margin-top: 12px; }
+.languages p:not(.eyebrow) { color: var(--muted); margin-top: 16px; }
 .more { text-align: center; margin-top: 28px; }
 .beta-line { text-align: center; }
 .beta-line p:not(.eyebrow) { color: var(--muted); margin-top: 12px; }
