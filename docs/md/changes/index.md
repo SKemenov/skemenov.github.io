@@ -2,7 +2,7 @@
 layout: md
 root: ../../
 title: What’s New in Minimal.md
-description: Every Minimal.md release and what changed in it.
+description: "Every Minimal.md release and what changed in it, newest first: new features, fixes and supported macOS versions of the Markdown viewer for the Mac."
 ---
 
 Changes
