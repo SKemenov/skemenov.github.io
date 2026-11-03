@@ -133,11 +133,11 @@
     "ru": "Подробнее."
   },
   "A free Markdown viewer for the Mac. Read what you and your AI agents write, rendered natively, live and in Quick Look. Nothing to edit, nothing collected.": {
-    "es": "Un visor de Markdown gratuito para Mac. Lee lo que escriben tú y tus agentes de IA, con renderizado nativo, en vivo y en Vista Rápida. Nada que editar, nada recopilado.",
-    "de": "Ein kostenloser Markdown-Viewer für den Mac. Lies, was du und deine KI-Agenten schreiben – nativ dargestellt, live und in der Übersicht. Nichts zu bearbeiten, nichts erfasst.",
-    "fr": "Un lecteur Markdown gratuit pour Mac. Lisez ce que vous et vos agents d’IA écrivez, rendu en natif, en direct et dans Coup d’œil. Rien à modifier, rien de collecté.",
-    "it": "Un lettore Markdown gratuito per Mac. Leggi ciò che scrivi tu e i tuoi agenti IA, reso in modo nativo, in tempo reale e in Visualizzazione rapida. Niente da modificare, nessun dato raccolto.",
-    "ru": "Бесплатное приложение для чтения Markdown на Mac. Читайте то, что пишете вы и ваши ИИ-агенты, — нативно, на лету и в Быстром просмотре. Ничего не правит, ничего не собирает."
+    "es": "Visor de Markdown gratuito para Mac. Lee lo que escriben tú y tus agentes de IA, con renderizado nativo, en vivo y en Vista Rápida. Sin editar ni recopilar.",
+    "de": "Kostenloser Markdown-Viewer für den Mac. Lies, was du und deine KI-Agenten schreiben – nativ dargestellt, live und in der Übersicht. Nichts erfasst.",
+    "fr": "Lecteur Markdown gratuit pour Mac. Lisez ce que vous et vos agents d’IA écrivez, en natif, en direct et dans Coup d’œil. Rien à modifier, rien de collecté.",
+    "it": "Lettore Markdown gratis per Mac: leggi ciò che scrivete tu e i tuoi agenti IA, in modo nativo, in tempo reale e in Visualizzazione rapida. Nessun dato raccolto.",
+    "ru": "Бесплатное приложение для чтения Markdown на Mac. Читайте то, что пишете вы и ваши ИИ-агенты, — нативно, на лету и в Быстром просмотре. Без сбора данных."
   },
   "A link to a heading scrolls to it.": {
     "es": "Un enlace a un encabezado te lleva hasta él.",
@@ -420,11 +420,11 @@
     "ru": "Помощь"
   },
   "Help for Minimal.md, the Markdown viewer for the Mac: email or GitHub Issues, and answers on local images, Quick Look, the default app and languages.": {
-    "es": "Ayuda para Minimal.md, el visor de Markdown para Mac: correo o GitHub Issues, y respuestas sobre imágenes locales, Vista Rápida, la app predeterminada e idiomas.",
+    "es": "Ayuda para Minimal.md, el visor de Markdown para Mac: correo o GitHub Issues, y respuestas sobre imágenes locales, Vista Rápida, app predeterminada e idiomas.",
     "de": "Hilfe für Minimal.md, den Markdown-Viewer für den Mac: E-Mail oder GitHub Issues und Antworten zu lokalen Bildern, Übersicht, Standard-App und Sprachen.",
     "fr": "Aide pour Minimal.md, le lecteur Markdown pour Mac : e-mail ou GitHub Issues, et réponses sur les images locales, Coup d’œil, l’app par défaut et les langues.",
     "it": "Aiuto per Minimal.md, il lettore Markdown per Mac: email o GitHub Issues, e risposte su immagini locali, Visualizzazione rapida, app predefinita e lingue.",
-    "ru": "Помощь по Minimal.md, приложению для чтения Markdown на Mac: эл. почта или GitHub Issues и ответы о локальных изображениях, Быстром просмотре, программе по умолчанию и языках."
+    "ru": "Помощь по Minimal.md для Mac: эл. почта или GitHub Issues и ответы о локальных изображениях, Быстром просмотре, программе по умолчанию и языках."
   },
   "Horizontal rules": {
     "es": "Líneas horizontales",
@@ -624,10 +624,10 @@
   },
   "Minimal.md collects no data: no accounts, analytics, ads or tracking, and no network connections. It reads only the Markdown files and folders you open.": {
     "es": "Minimal.md no recopila datos: sin cuentas, analíticas, anuncios ni rastreo, y sin conexiones de red. Solo lee los archivos Markdown y las carpetas que abres.",
-    "de": "Minimal.md erfasst keine Daten: keine Accounts, Analysen, Werbung oder Tracking und keine Netzwerkverbindungen. Die App liest nur die Markdown-Dateien und Ordner, die du öffnest.",
-    "fr": "Minimal.md ne collecte aucune donnée : ni compte, ni analyse, ni publicité, ni suivi, et aucune connexion réseau. Il ne lit que les fichiers Markdown et les dossiers que vous ouvrez.",
-    "it": "Minimal.md non raccoglie dati: niente account, analisi, pubblicità o tracciamento, e nessuna connessione di rete. Legge solo i file Markdown e le cartelle che apri.",
-    "ru": "Minimal.md не собирает данные: никаких учётных записей, аналитики, рекламы и отслеживания, никаких сетевых подключений. Приложение читает только открытые вами файлы Markdown и папки."
+    "de": "Minimal.md erfasst keine Daten: keine Accounts, Analysen, Werbung, kein Tracking, keine Netzwerkverbindungen. Gelesen wird nur, was du öffnest.",
+    "fr": "Minimal.md ne collecte aucune donnée : ni compte, ni analyse, ni publicité, ni suivi, ni connexion réseau. Il ne lit que ce que vous ouvrez.",
+    "it": "Minimal.md non raccoglie dati: niente account, analisi, pubblicità, tracciamento o connessioni di rete. Legge solo i file Markdown e le cartelle che apri.",
+    "ru": "Minimal.md не собирает данные: без учётных записей, аналитики, рекламы, отслеживания и сетевых подключений. Читает только открытые вами файлы и папки."
   },
   "Minimal.md collects no information from anyone, including children.": {
     "es": "Minimal.md no recopila información de nadie, incluidos los menores.",
@@ -1078,11 +1078,11 @@
     "ru": "Где взять Minimal.md?"
   },
   "Which Markdown Minimal.md renders: text, headings, lists and task lists, tables and code, YAML front matter, local images and a safe subset of HTML.": {
-    "es": "Qué Markdown renderiza Minimal.md: texto, encabezados, listas y listas de tareas, tablas y código, front matter YAML, imágenes locales y un subconjunto seguro de HTML.",
-    "de": "Welches Markdown Minimal.md darstellt: Text, Überschriften, Listen und Aufgabenlisten, Tabellen und Code, YAML-Front-Matter, lokale Bilder und eine sichere Teilmenge von HTML.",
-    "fr": "Le Markdown que Minimal.md affiche en rendu : texte, titres, listes et listes de tâches, tableaux et code, front matter YAML, images locales et un sous-ensemble sûr de HTML.",
-    "it": "Quale Markdown visualizza Minimal.md: testo, titoli, elenchi ed elenchi di attività, tabelle e codice, front matter YAML, immagini locali e un sottoinsieme sicuro di HTML.",
-    "ru": "Какой Markdown отрисовывает Minimal.md: текст, заголовки, списки и списки задач, таблицы и код, YAML front matter, локальные изображения и безопасное подмножество HTML."
+    "es": "Qué Markdown renderiza Minimal.md: texto, encabezados, listas y listas de tareas, tablas y código, front matter YAML, imágenes locales y HTML seguro.",
+    "de": "Welches Markdown Minimal.md darstellt: Text, Überschriften, Listen und Aufgabenlisten, Tabellen, Code, YAML-Front-Matter, lokale Bilder und sicheres HTML.",
+    "fr": "Le Markdown rendu par Minimal.md : texte, titres, listes et listes de tâches, tableaux et code, front matter YAML, images locales et HTML sûr.",
+    "it": "Il Markdown visualizzato da Minimal.md: testo, titoli, elenchi ed elenchi di attività, tabelle e codice, front matter YAML, immagini locali e HTML sicuro.",
+    "ru": "Какой Markdown отрисовывает Minimal.md: текст, заголовки, списки и списки задач, таблицы и код, YAML front matter, локальные изображения и безопасный HTML."
   },
   "Which languages does Minimal.md support?": {
     "es": "¿Qué idiomas admite Minimal.md?",
@@ -1118,6 +1118,13 @@
     "fr": "Vos réglages (comme la taille du texte et l’affichage des images locales) et la liste des dossiers que vous avez partagés sont stockés localement sur votre Mac, où l’app et son aperçu Coup d’œil peuvent les lire. Vous pouvez retirer l’accès aux dossiers à tout moment dans Réglages → Confidentialité. Supprimer l’app supprime ces données.",
     "it": "Le tue impostazioni (come le dimensioni del testo e la visualizzazione delle immagini locali) e l’elenco delle cartelle che hai condiviso sono salvati in locale sul tuo Mac, dove sia l’app sia la sua anteprima di Visualizzazione rapida possono leggerli. Puoi revocare l’accesso alle cartelle in qualsiasi momento in Impostazioni → Privacy. Eliminando l’app, questi dati vengono rimossi.",
     "ru": "Ваши настройки (например, масштаб текста и показ локальных изображений) и список папок с доступом хранятся локально на вашем Mac, где их могут читать и приложение, и его Быстрый просмотр. Доступ к папкам можно отозвать в любой момент в Настройках → Конфиденциальность. При удалении приложения эти данные удаляются."
+  },
+  "iOS and macOS developer": {
+    "de": "iOS- und macOS-Entwickler",
+    "es": "Desarrollador de iOS y macOS",
+    "fr": "Développeur iOS et macOS",
+    "it": "Sviluppatore iOS e macOS",
+    "ru": "iOS- и macOS-разработчик"
   },
   "macOS 15.6 Sequoia or later": {
     "es": "macOS 15.6 Sequoia o posterior",

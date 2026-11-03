@@ -36,6 +36,8 @@ LANGUAGES = {
     "it": ("Italiano", "Lingua"),
     "ru": ("Русский", "Язык"),
 }
+# og:locale per language; Spanish is the neutral Latin American variant.
+OG_LOCALE = {"en": "en_US", "de": "de_DE", "es": "es_419", "fr": "fr_FR", "it": "it_IT", "ru": "ru_RU"}
 ENABLED = ["en", "de", "es", "fr", "it", "ru"]
 
 PAGES = ["/md/", "/md/markdown/", "/md/support/", "/md/privacy/"]
@@ -184,6 +186,8 @@ def keys_of(source):
     if m:
         data = json.loads(m.group(2))
         keys += [data[k] for k in ("description", "operatingSystem") if k in data]
+        if "jobTitle" in data.get("author", {}):
+            keys.append(data["author"]["jobTitle"])
     return keys
 
 
@@ -298,6 +302,9 @@ def translate(source, url, lang, strings, missing):
         for k in ("description", "operatingSystem"):
             if k in data:
                 data[k] = t(data[k]) or data[k]
+        author = data.get("author", {})
+        if "jobTitle" in author:
+            author["jobTitle"] = t(author["jobTitle"]) or author["jobTitle"]
         data["url"] = SITE + localized(url, lang)
         data["inLanguage"] = lang
         return m.group(1) + json.dumps(data, ensure_ascii=False) + m.group(3)
@@ -305,6 +312,7 @@ def translate(source, url, lang, strings, missing):
     body = JSON_LD.sub(ld, body)
     body = rewrite_urls(body, url, lang)
     body = body.replace('<html lang="en">', f'<html lang="{lang}">', 1)
+    body = body.replace('<meta property="og:locale" content="en_US">', f'<meta property="og:locale" content="{OG_LOCALE[lang]}">', 1)
     page = SITE + url
     body = body.replace(f'<link rel="canonical" href="{page}">', f'<link rel="canonical" href="{SITE}{localized(url, lang)}">')
     body = body.replace(f'<meta property="og:url" content="{page}">', f'<meta property="og:url" content="{SITE}{localized(url, lang)}">')
