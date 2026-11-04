@@ -44,7 +44,7 @@ PAGES = ["/md/", "/md/markdown/", "/md/support/", "/md/privacy/"]
 
 # Screenshots and the store badge have a copy per language.
 SHOT = re.compile(r"^/assets/img/md/(\d-[a-z-]+\.png)$")
-BADGE = "/assets/img/md/mac-app-store-badge.svg"
+BADGE = "/assets/img/md/badges/en.svg"
 OG_IMAGE = f"{SITE}/assets/img/og/md.jpg"
 
 INLINE = {"a", "strong", "em", "b", "i", "kbd", "code", "br", "span", "small", "sup", "sub"}
