@@ -426,10 +426,14 @@ footer a:hover { color: var(--text); }
 .languages-list a:hover, .languages-list a:focus-visible { background: var(--surface-strong); color: var(--text); }
 .languages-list a[aria-current="page"] { color: var(--accent); }
 .languages-list a[aria-current="page"]::after { content: " ✓"; }
-/* Where the browser can anchor it, the list opens just above the globe instead of mid-window. */
+/* Where the browser can anchor it, the list opens just above the globe instead of mid-window:
+   its right edge on the footer line's right edge (the globe is trailing); on phones, where the globe
+   sits under the name, its left edge on the globe's. */
 @supports (anchor-name: --a) {
+  footer { anchor-name: --footer; }
   .lang-button { anchor-name: --lang; }
-  .languages-list { position-anchor: --lang; inset: auto; bottom: anchor(top); left: anchor(left); margin: 0 0 8px; position-try-fallbacks: flip-block; }
+  .languages-list { position-anchor: --lang; inset: auto; bottom: anchor(top); right: anchor(--footer right); margin: 0 0 8px; position-try-fallbacks: flip-block; }
+  @media (max-width: 560px) { .languages-list { right: auto; left: anchor(left); } }
   .languages-list::backdrop { background: none; }
 }
 .elsewhere { grid-area: social; display: grid; justify-items: center; }
