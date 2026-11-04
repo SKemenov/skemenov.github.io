@@ -10,10 +10,12 @@ page, the English ones included.
     python3 -I l10n/build.py                # build; exit 1 on any problem
     python3 -I l10n/build.py --add-missing  # also add missing keys to strings.json, empty
 
-Exit 1 on: a missing or orphaned string, a relative link or image that doesn't resolve,
-an email address in the output, or unbalanced tags.
+Exit 1 on: a missing or orphaned string, a translation whose tags differ from its English
+key, a relative link or image that doesn't resolve, a missing localized image, a meta
+description outside 140–160 characters, an email address in the output, or unbalanced tags.
 """
 
+import html
 import html.parser
 import json
 import posixpath
@@ -26,26 +28,27 @@ DOCS = ROOT / "docs"
 STRINGS = ROOT / "l10n" / "strings.json"
 SITE = "https://skemenov.com"
 
-# Endonym, and the word for "Language" (the switcher's accessible name), per language.
-# The order is the switcher's order. A language builds only once it's listed in ENABLED.
+# Per language: endonym, the word for "Language" (the switcher's accessible name), og:locale.
+# The order is the switcher's order. Adding a language = one line here + its column in
+# strings.json + docs/assets/img/md/<code>/ shots, og/md-<code>.jpg and badges/<code>.svg.
 LANGUAGES = {
-    "en": ("English", "Language"),
-    "de": ("Deutsch", "Sprache"),
-    "es": ("Español", "Idioma"),
-    "fr": ("Français", "Langue"),
-    "it": ("Italiano", "Lingua"),
-    "ru": ("Русский", "Язык"),
+    "en": ("English", "Language", "en_US"),
+    "de": ("Deutsch", "Sprache", "de_DE"),
+    "es": ("Español", "Idioma", "es_419"),  # neutral Latin American Spanish
+    "fr": ("Français", "Langue", "fr_FR"),
+    "it": ("Italiano", "Lingua", "it_IT"),
+    "ru": ("Русский", "Язык", "ru_RU"),
 }
-# og:locale per language; Spanish is the neutral Latin American variant.
-OG_LOCALE = {"en": "en_US", "de": "de_DE", "es": "es_419", "fr": "fr_FR", "it": "it_IT", "ru": "ru_RU"}
-ENABLED = ["en", "de", "es", "fr", "it", "ru"]
+TRANSLATED = [code for code in LANGUAGES if code != "en"]
 
 PAGES = ["/md/", "/md/markdown/", "/md/support/", "/md/privacy/"]
 
 # Screenshots and the store badge have a copy per language.
 SHOT = re.compile(r"^/assets/img/md/(\d-[a-z-]+\.png)$")
-BADGE = "/assets/img/md/badges/en.svg"
+BADGE = re.compile(r"^/assets/img/md/badges/en\.svg$")
 OG_IMAGE = f"{SITE}/assets/img/og/md.jpg"
+TAG = re.compile(r"<[^>]+>")
+DESCRIPTION = re.compile(r'<meta name="description" content="([^"]*)"')
 
 INLINE = {"a", "strong", "em", "b", "i", "kbd", "code", "br", "span", "small", "sup", "sub"}
 CANDIDATES = {"title", "a", "h1", "h2", "h3", "h4", "p", "li", "span", "figcaption", "dt", "dd", "td", "th"}
@@ -82,7 +85,7 @@ def relative(target, from_dir):
 
 
 class Scanner(html.parser.HTMLParser):
-    """Finds the translatable pieces of a page as (start, end, kind, key) edits on the source."""
+    """Finds the translatable pieces of a page: inner-HTML segments and attribute values."""
 
     def __init__(self, source):
         super().__init__(convert_charrefs=True)
@@ -92,7 +95,7 @@ class Scanner(html.parser.HTMLParser):
             self.line_starts.append(self.line_starts[-1] + len(line))
         self.stack = []      # open elements: dict(tag, inner, pure, letters)
         self.segments = []   # (start, end, key)
-        self.attrs = []      # (start, end, raw tag, [(attr, key)])
+        self.attrs = []      # (start, end, raw tag, [attribute names])
         self.skip = 0        # depth inside footer/script/style
 
     def pos(self):
@@ -196,7 +199,7 @@ def blank_blocks(source):
 
 
 def fill_blocks(source, url, lang):
-    langs = ENABLED if len(ENABLED) > 1 else []
+    langs = list(LANGUAGES)
     here = localized(url, lang)
     indent_of = lambda m: re.search(r"\n([ \t]*)<!-- /", m.group(4)).group(1)
 
@@ -209,7 +212,7 @@ def fill_blocks(source, url, lang):
             if langs:
                 lines.append(f'<link rel="alternate" hreflang="x-default" href="{SITE}{url}">')
         elif langs:
-            name, word = LANGUAGES[lang]
+            name, word, _ = LANGUAGES[lang]
             lines.append(f'<button type="button" class="lang-button" popovertarget="languages" aria-label="{word}: {name}">'
                          '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" '
                          'stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/>'
@@ -244,28 +247,13 @@ def rewrite_urls(text, url, lang):
         if target in PAGES:
             new = value  # same structure inside /md/<lang>/
         else:
-            shot = SHOT.match(target)
-            if shot:
-                target = f"/assets/img/md/{lang}/{shot.group(1)}"
-            elif target == BADGE:
-                badge = f"/assets/img/md/badges/{lang}.svg"
-                if (DOCS / badge.lstrip("/")).exists():
-                    target = badge
-                else:
-                    print(f"warning: no docs{badge}, {lang} uses the English badge")
+            # The language's own copy; check() reports it if the file is missing.
+            target = SHOT.sub(rf"/assets/img/md/{lang}/\1", target)
+            target = BADGE.sub(f"/assets/img/md/badges/{lang}.svg", target)
             new = relative(target, here) + sep + rest
         return f'{attr}="{new}"'
 
-    text = URL_ATTR.sub(fix, text)
-
-    def badge_width(m):
-        # Localized badges differ in width; keep the height, take the width from the viewBox.
-        svg = (DOCS / "assets/img/md/badges" / f"{m.group(2)}.svg").read_text()
-        vb = re.search(r'viewBox="[\d.]+ [\d.]+ ([\d.]+) ([\d.]+)"', svg)
-        width = round(float(vb.group(1)) * int(m.group(4)) / float(vb.group(2))) if vb else int(m.group(3))
-        return f'{m.group(1)}width="{width}" height="{m.group(4)}"'
-
-    return re.sub(r'(<img src="[^"]*badges/([a-z]+)\.svg" )width="(\d+)" height="(\d+)"', badge_width, text)
+    return URL_ATTR.sub(fix, text)
 
 
 def translate(source, url, lang, strings, missing):
@@ -274,6 +262,8 @@ def translate(source, url, lang, strings, missing):
         if not value:
             missing.setdefault(key, set()).add(url)
             return None
+        if sorted(TAG.findall(value)) != sorted(TAG.findall(key)):
+            problems.append(f"{lang}: tags differ from the English key: {key[:60]}")
         return value
 
     body = blank_blocks(source)
@@ -312,15 +302,13 @@ def translate(source, url, lang, strings, missing):
     body = JSON_LD.sub(ld, body)
     body = rewrite_urls(body, url, lang)
     body = body.replace('<html lang="en">', f'<html lang="{lang}">', 1)
-    body = body.replace('<meta property="og:locale" content="en_US">', f'<meta property="og:locale" content="{OG_LOCALE[lang]}">', 1)
+    body = body.replace('<meta property="og:locale" content="en_US">', f'<meta property="og:locale" content="{LANGUAGES[lang][2]}">', 1)
     page = SITE + url
     body = body.replace(f'<link rel="canonical" href="{page}">', f'<link rel="canonical" href="{SITE}{localized(url, lang)}">')
     body = body.replace(f'<meta property="og:url" content="{page}">', f'<meta property="og:url" content="{SITE}{localized(url, lang)}">')
-    og = DOCS / f"assets/img/og/md-{lang}.jpg"
-    if og.exists():
-        body = body.replace(f'content="{OG_IMAGE}"', f'content="{SITE}/assets/img/og/md-{lang}.jpg"')
-    else:
-        print(f"warning: no {og.relative_to(ROOT)}, {lang} uses the English link preview")
+    if not (DOCS / f"assets/img/og/md-{lang}.jpg").exists():
+        problems.append(f"missing docs/assets/img/og/md-{lang}.jpg")
+    body = body.replace(f'content="{OG_IMAGE}"', f'content="{SITE}/assets/img/og/md-{lang}.jpg"')
     note = f"<!-- Generated from {url} by l10n/build.py: edit the English page and l10n/strings.json, not this file. -->"
     body = body.replace("<!doctype html>\n", f"<!doctype html>\n{note}\n", 1)
     return fill_blocks(body, url, lang)
@@ -328,7 +316,7 @@ def translate(source, url, lang, strings, missing):
 
 def check(path, text, url, pending):
     """Every relative link and image resolves to a file (or one about to be written);
-    no email address as text."""
+    the meta description is 140–160 characters (Bing flags shorter ones); no email as text."""
     for _, value in URL_ATTR.findall(text):
         if re.match(r"^([a-z]+:|#)", value):
             continue
@@ -341,6 +329,9 @@ def check(path, text, url, pending):
             ok = f.exists()
         if not ok:
             problems.append(f"{path.relative_to(ROOT)}: broken link {value}")
+    d = DESCRIPTION.search(text)
+    if d and not 140 <= len(html.unescape(d.group(1))) <= 160:
+        problems.append(f"{path.relative_to(ROOT)}: description is {len(html.unescape(d.group(1)))} characters")
     if EMAIL.search(text):
         problems.append(f"{path.relative_to(ROOT)}: email address as text")
 
@@ -361,9 +352,8 @@ def main():
         source = fill_blocks(src_path.read_text(), url, "en")
         used.update(keys_of(source))
         outputs.append((src_path, source, url))
-        for lang in ENABLED:
-            if lang != "en":
-                outputs.append((page_file(localized(url, lang)), translate(source, url, lang, strings, missing), localized(url, lang)))
+        for lang in TRANSLATED:
+            outputs.append((page_file(localized(url, lang)), translate(source, url, lang, strings, missing), localized(url, lang)))
 
     pending = {path for path, _, _ in outputs}
     for path, text, url in outputs:
@@ -378,19 +368,18 @@ def main():
     for key in orphans:
         print(f"orphaned: {key[:90]}")
     for key, urls in sorted(missing.items()):
-        langs = [l for l in ENABLED if l != "en" and not strings.get(key, {}).get(l)]
+        langs = [l for l in TRANSLATED if not strings.get(key, {}).get(l)]
         print(f"missing [{', '.join(langs)}] {', '.join(sorted(urls))}: {key[:90]}")
 
     if "--add-missing" in sys.argv:
         for key in sorted(used):
             entry = strings.setdefault(key, {})
-            for lang in ENABLED:
-                if lang != "en":
-                    entry.setdefault(lang, "")
+            for lang in TRANSLATED:
+                entry.setdefault(lang, "")
         STRINGS.write_text(json.dumps(strings, ensure_ascii=False, indent=2) + "\n")
         print(f"strings.json: {len(strings)} keys")
 
-    print(f"{len(used)} strings, {len(missing)} missing, {len(orphans)} orphaned, languages: {', '.join(ENABLED)}")
+    print(f"{len(used)} strings, {len(missing)} missing, {len(orphans)} orphaned, languages: {', '.join(LANGUAGES)}")
     return 1 if missing or orphans else 0
 
 
