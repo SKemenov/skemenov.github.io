@@ -189,6 +189,7 @@ ul.checks li { position: relative; padding-left: 24px; margin: 0; }
 ul.checks li::before { content: "✓"; position: absolute; left: 0; color: var(--accent); font-weight: 600; }
 .languages { text-align: center; }
 .languages .chips { margin-top: 12px; }
+.languages p:not(.eyebrow) { color: var(--muted); margin-top: 16px; }
 .more { text-align: center; margin-top: 28px; }
 .beta-line { text-align: center; }
 .beta-line p:not(.eyebrow) { color: var(--muted); margin-top: 12px; }
@@ -379,8 +380,10 @@ main.page > .eyebrow + ul { margin-top: 8px; }
 .contact p { display: grid; grid-template-columns: 36px 1fr; column-gap: 14px; align-items: center; margin: 14px 0; font-size: 16px; }
 .contact p.note { display: block; border-top: 1px solid var(--border); padding-top: 14px; }
 
-/* Footer: avatar | name over year | links. On a phone the links move under the year.
-   Its line and content follow the header bar: 16px inset, content 19px inside (bar padding + border). */
+/* Footer: avatar + name over year leading, contact icons centered, language trailing; all top-aligned.
+   The outer columns mirror each other (64px + 1fr each side), so the middle sits on the true center.
+   On a phone everything stacks beside the avatar. Line and content follow the header bar: 16px inset,
+   content 19px inside (bar padding + border). */
 footer {
   width: calc(100% - 32px);
   max-width: calc(var(--wide) - 32px);
@@ -390,9 +393,9 @@ footer {
   color: var(--muted);
   font-size: 14px;
   display: grid;
-  grid-template-columns: auto 1fr auto;
-  grid-template-areas: "avatar sign social";
-  align-items: center;
+  grid-template-columns: 64px minmax(0, 1fr) auto minmax(0, 1fr) 64px;
+  grid-template-areas: "avatar sign social lang lang";
+  align-items: start;
   column-gap: 14px;
 }
 footer a { color: var(--muted); }
@@ -403,22 +406,53 @@ footer a:hover { color: var(--text); }
 .signature .who { color: var(--text); font-size: 17px; font-weight: 600; text-decoration: none; justify-self: start; }
 .signature .who:hover { color: var(--accent); }
 .signature .year { color: var(--muted); }
-.elsewhere { grid-area: social; display: grid; justify-items: end; gap: 2px; }
-.elsewhere .title { margin: 0; color: var(--muted); font-size: 13px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; }
-/* Icons only; each link's name is its aria-label. 44px tap targets, pulled out so the glyphs meet the edge. */
-.social { --icon: 20px; display: flex; flex-wrap: wrap; gap: 4px; margin-right: calc((var(--icon) - 44px) / 2); }
+/* Language switcher (Minimal.md pages; written by l10n/build.py): globe + current language,
+   opening a popover of every language in its own name. No JS: popover closes on Esc or a click outside. */
+.lang-button {
+  grid-area: lang; justify-self: end; display: inline-flex; align-items: center; gap: 6px;
+  margin: -6px -8px 0 0; padding: 6px 8px; min-height: 32px;
+  font: inherit; font-size: 17px; color: var(--muted); background: none; border: 0; border-radius: 8px; cursor: pointer;
+}
+.lang-button svg { width: 18px; height: 18px; color: #2a9d8f; transition: color .15s; }
+.lang-button:hover, .lang-button:hover svg { color: var(--accent); }
+.languages-list {
+  margin: auto; padding: 8px; min-width: 200px;
+  color: var(--text); background: #0a1f1d; border: 1px solid rgba(94, 234, 212, .3); border-radius: 14px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, .5), 0 0 24px var(--glow1);
+}
+.languages-list::backdrop { background: rgba(3, 16, 15, .5); }
+.languages-list ul { list-style: none; margin: 0; padding: 0; }
+.languages-list a { display: block; padding: 10px 14px; border-radius: 8px; color: var(--muted); text-decoration: none; font-size: 16px; }
+.languages-list a:hover, .languages-list a:focus-visible { background: var(--surface-strong); color: var(--text); }
+.languages-list a[aria-current="page"] { color: var(--accent); }
+.languages-list a[aria-current="page"]::after { content: " ✓"; }
+/* Where the browser can anchor it, the list opens just above the globe instead of mid-window:
+   its right edge on the footer line's right edge (the globe is trailing); on phones, where the globe
+   sits under the name, its left edge on the globe's. */
+@supports (anchor-name: --a) {
+  footer { anchor-name: --footer; }
+  .lang-button { anchor-name: --lang; }
+  .languages-list { position-anchor: --lang; inset: auto; bottom: anchor(top); right: anchor(--footer right); margin: 0 0 8px; position-try-fallbacks: flip-block; }
+  @media (max-width: 560px) { .languages-list { right: auto; left: anchor(left); } }
+  .languages-list::backdrop { background: none; }
+}
+.elsewhere { grid-area: social; display: grid; justify-items: center; }
+/* Icons only; each link's name is its aria-label. 44px tap targets, pulled out so the glyphs meet the
+   edges; 6px down from the box top puts the glyph tops on the name's and language's cap height. */
+.social { --icon: 20px; --slack: calc((var(--icon) - 44px) / 2); display: flex; flex-wrap: wrap; gap: 4px; margin: calc(var(--slack) + 6px) var(--slack) 0; }
 .social a { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; }
 .social a svg { width: var(--icon); height: var(--icon); color: #2a9d8f; transition: color .15s; }
 .social a:hover svg { color: var(--accent); }
 @media (max-width: 560px) {
   footer {
     grid-template-columns: auto 1fr;
-    grid-template-areas: "avatar sign" "avatar social";
+    grid-template-areas: "avatar sign" "avatar social" "avatar lang";
     row-gap: 10px;
   }
-  .avatar-link { align-self: start; }
+  /* The icons keep their tap-target slack here, so year → icons and icons → language read the same 22px. */
   .elsewhere { justify-items: start; }
-  .social { margin: 0 0 0 calc((var(--icon) - 44px) / 2); }
+  .lang-button { justify-self: start; margin: -6px 0 0 -8px; }
+  .social { margin: 0 0 0 var(--slack); }
 }
 
 /* Plain footer (home): one centered line. */
