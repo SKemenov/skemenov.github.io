@@ -130,7 +130,7 @@
     "de": "Ein genauerer Blick.",
     "fr": "De plus près.",
     "it": "Uno sguardo da vicino.",
-    "ru": "Подробнее."
+    "ru": "Рассмотрим подробнее."
   },
   "A free Markdown viewer for the Mac. Read what you and your AI agents write, rendered natively, live and in Quick Look. Nothing to edit, nothing collected.": {
     "es": "Visor de Markdown gratuito para Mac. Lee lo que escriben tú y tus agentes de IA, con renderizado nativo, en vivo y en Vista Rápida. Sin editar ni recopilar.",
@@ -210,11 +210,11 @@
     "ru": "Жирный, курсив, код и ссылки в ячейках"
   },
   "Bulleted and numbered lists, nested": {
-    "es": "Listas con viñetas y numeradas, anidadas",
-    "de": "Aufzählungen und nummerierte Listen, verschachtelt",
-    "fr": "Listes à puces et numérotées, imbriquées",
-    "it": "Elenchi puntati e numerati, annidati",
-    "ru": "Маркированные и нумерованные списки, вложенные"
+    "es": "Listas con viñetas, numeradas y anidadas",
+    "de": "Aufzählungen, nummerierte und verschachtelte Listen",
+    "fr": "Listes à puces, numérotées et imbriquées",
+    "it": "Elenchi puntati, numerati e annidati",
+    "ru": "Маркированные, нумерованные и вложенные списки"
   },
   "Can I edit my files with Minimal.md?": {
     "es": "¿Puedo editar mis archivos con Minimal.md?",
@@ -577,8 +577,8 @@
     "es": "Visor Markdown y Vista Rápida",
     "de": "Markdown-Viewer &amp; Übersicht",
     "fr": "Lecteur Markdown &amp; Coup d’œil",
-    "it": "Lettore Markdown &amp; anteprime",
-    "ru": "Чтение Markdown &amp; просмотр"
+    "it": "Lettore Markdown &amp; Visualizzazione rapida",
+    "ru": "Чтение Markdown &amp; быстрый просмотр"
   },
   "Minimal.md": {
     "es": "Minimal.md",
@@ -641,7 +641,7 @@
     "de": "Minimal.md ist kostenlos <a href=\"https://apps.apple.com/app/id6808280979\">im Mac App Store</a> erhältlich und erfordert macOS 15.6 Sequoia oder neuer.",
     "fr": "Minimal.md est gratuit <a href=\"https://apps.apple.com/app/id6808280979\">sur le Mac App Store</a> et nécessite macOS 15.6 Sequoia ou ultérieur.",
     "it": "Minimal.md è gratuita <a href=\"https://apps.apple.com/app/id6808280979\">su Mac App Store</a> e richiede macOS 15.6 Sequoia o versione successiva.",
-    "ru": "Minimal.md бесплатно <a href=\"https://apps.apple.com/app/id6808280979\">в Mac App Store</a> и требует macOS 15.6 Sequoia или новее."
+    "ru": "Minimal.md доступен бесплатно <a href=\"https://apps.apple.com/app/id6808280979\">в Mac App Store</a> и требует macOS 15.6 Sequoia или новее."
   },
   "Minimal.md never writes to your files. Open Markdown from Finder or Open With, or make it your default Markdown app in Settings → General.": {
     "es": "Minimal.md nunca escribe en tus archivos. Abre Markdown desde el Finder o con Abrir con, o haz que sea tu app predeterminada para Markdown en Configuración → General.",
@@ -665,11 +665,11 @@
     "ru": "Minimal.md — чтение Markdown на Mac"
   },
   "Native macOS, with the shortcuts you'd expect.": {
-    "es": "macOS nativo, con los atajos que esperas.",
-    "de": "Natives macOS, mit den Tastaturkurzbefehlen, die du erwartest.",
-    "fr": "Du macOS natif, avec les raccourcis que vous attendez.",
-    "it": "macOS nativo, con le abbreviazioni che ti aspetti.",
-    "ru": "Нативный macOS и привычные сочетания клавиш."
+    "es": "Una app nativa de macOS, con los atajos que esperas.",
+    "de": "Eine native macOS-App mit den Tastaturkurzbefehlen, die du erwartest.",
+    "fr": "Une app macOS native, avec les raccourcis que vous attendez.",
+    "it": "Un’app nativa per macOS, con le abbreviazioni da tastiera che ti aspetti.",
+    "ru": "Нативное приложение macOS и привычные сочетания клавиш."
   },
   "Need the whole text? Edit → Copy Document as Markdown copies the full source.": {
     "es": "¿Necesitas todo el texto? Edición → Copiar documento como Markdown copia todo el código fuente.",
@@ -1019,7 +1019,7 @@
     "de": "Neue Builds früher? <a href=\"beta/\">Mach bei der Beta mit</a> (auf Englisch).",
     "fr": "Envie des nouvelles versions en avance ? <a href=\"beta/\">Rejoignez la bêta</a> (en anglais).",
     "it": "Vuoi le nuove build in anteprima? <a href=\"beta/\">Partecipa alla beta</a> (in inglese).",
-    "ru": "Хотите получать новые сборки раньше? <a href=\"beta/\">Присоединяйтесь к бете</a> (на английском)."
+    "ru": "Хотите получать новые сборки раньше? <a href=\"beta/\">Присоединяйтесь к тестированию</a> (на английском)."
   },
   "Web images are never loaded: you see a placeholder with the image's description, not a gap.": {
     "es": "Las imágenes web nunca se cargan: ves un marcador con la descripción de la imagen, no un hueco.",
