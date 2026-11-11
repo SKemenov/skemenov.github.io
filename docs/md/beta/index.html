@@ -3,17 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Minimal.md Public Beta</title>
-  <meta name="description" content="Join the Minimal.md public beta on TestFlight: how to join on your Mac, what to test in the current build, and how to send feedback before each release.">
+  <title>MinimalMD Public Beta</title>
+  <meta name="description" content="Join the MinimalMD public beta on TestFlight: how to join on your Mac, what to test in the current build, and how to send feedback before each release.">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Sergey Kemenov">
-  <meta property="og:title" content="Minimal.md Public Beta">
-  <meta property="og:description" content="Join the Minimal.md public beta on TestFlight: how to join on your Mac, what to test in the current build, and how to send feedback before each release.">
+  <meta property="og:title" content="MinimalMD Public Beta">
+  <meta property="og:description" content="Join the MinimalMD public beta on TestFlight: how to join on your Mac, what to test in the current build, and how to send feedback before each release.">
   <meta property="og:url" content="https://skemenov.com/md/beta/">
   <meta property="og:image" content="https://skemenov.com/assets/img/og/md.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="A Markdown document open in Minimal.md, with its table of contents in the sidebar.">
+  <meta property="og:image:alt" content="A Markdown document open in MinimalMD, with its table of contents in the sidebar.">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://skemenov.com/md/beta/">
   <link rel="stylesheet" href="../../assets/css/style.css">
@@ -24,7 +24,7 @@
 <body>
   <header class="site">
     <div class="bar">
-      <a class="brand" href="../"><img class="app-mark" src="../../assets/img/md/icon-light-256.png" width="36" height="36" alt=""><span class="name">Minimal.md</span></a>
+      <a class="brand" href="../"><img class="app-mark" src="../../assets/img/md/icon-light-256.png" width="36" height="36" alt=""><span class="name">MinimalMD</span></a>
       <nav>
         <a href="../markdown/">Markdown</a>
         <a href="../support/">Support</a>
@@ -35,9 +35,9 @@
 
   <main>
     <div class="hero">
-      <img class="app-icon" src="../../assets/img/md/icon-light-256.png" width="96" height="96" alt="Minimal.md app icon">
+      <img class="app-icon" src="../../assets/img/md/icon-light-256.png" width="96" height="96" alt="MinimalMD app icon">
       <p class="eyebrow">Public beta</p>
-      <h1>Try the next Minimal.md first.</h1>
+      <h1>Try the next MinimalMD first.</h1>
       <div class="ctas">
         <a class="btn primary" href="https://testflight.apple.com/join/eNUbATdg">Join the beta on TestFlight</a>
       </div>
@@ -52,7 +52,7 @@
       <ol class="steps">
         <li>Install <strong>TestFlight</strong> from the Mac App Store.</li>
         <li>Open the <a href="https://testflight.apple.com/join/eNUbATdg">public beta link</a> on your Mac.</li>
-        <li>Accept the invitation and install Minimal.md. TestFlight keeps it up to date with each new build.</li>
+        <li>Accept the invitation and install MinimalMD. TestFlight keeps it up to date with each new build.</li>
       </ol>
     </section>
 
@@ -66,14 +66,16 @@
           <div class="glyph" aria-hidden="true">✦</div>
           <h3>New in this build</h3>
           <ul>
-            <li>Plans and reports from AI agents update live: keep a .md file open in the app while an agent writes to it, and the window reloads and keeps your scroll position.</li>
-            <li>Runs on macOS 15.6 Sequoia and later. If you have a Mac on 15, please try it there.</li>
-            <li>New languages: Spanish (Latin America) and French (Canada).</li>
-            <li>New windows fit the document’s height: short documents open short, long ones fill the screen.</li>
-            <li>More room above H1–H3 headings, scaling with the text size.</li>
-            <li>Quick Look shows local images right after installing, without opening Settings first.</li>
-            <li>VoiceOver reads the Settings rows and switches more clearly.</li>
-            <li>Menu titles are capitalized correctly in every language.</li>
+            <li>Minimal.md is now MinimalMD. Check that Finder, Open With and Settings → General show the new name.</li>
+            <li>Open in your Markdown editor: the toolbar button or File → Open in… (⌘E) hands the document to your editor. Pick another one in Settings → General, or keep the system default. With no editor installed, the button reads Choose an Editor….</li>
+            <li>Copy Document as Markdown from the toolbar or Edit menu (⇧⌘C), then paste it somewhere.</li>
+            <li>The first time you open the app, a short guide shows you around. Open it again from the Help menu, and check that it doesn’t come back on the next launch.</li>
+            <li>Live reload follows every app that writes the file, including AI agents and command-line tools: try appending to an open file from Terminal.</li>
+            <li>The sidebar keeps the current heading in view as you scroll a long document.</li>
+            <li>Text size shortcuts (⌘+, ⌘−, ⌘0) work after every change, including at the smallest and largest sizes.</li>
+            <li>The File menu has no editing commands, and the View and Edit menus have no doubled dividers.</li>
+            <li>On macOS 27 Golden Gate, the toolbar looks right. On macOS 15 Sequoia, please try the app there too.</li>
+            <li>VoiceOver keeps its place in long documents and reads table columns more clearly.</li>
           </ul>
         </div>
         <div class="card">
@@ -82,9 +84,10 @@
           <ul>
             <li>Open your own .md files — READMEs, notes, documentation. Does anything look wrong or go missing?</li>
             <li>Press the Space bar on a Markdown file in Finder. Does Quick Look show it rendered?</li>
+            <li>Keep a document open while an agent or a script edits it, or while you move it to another folder and back. Does the window follow every change?</li>
             <li>Use the table of contents in the sidebar and the heading navigation in the toolbar.</li>
             <li>Open a document with local images. If they’re hidden, grant access to the folder from the bar at the bottom of the window, then revoke it in Settings → Privacy.</li>
-            <li>Set Minimal.md as the default app for Markdown in Settings → General.</li>
+            <li>Set MinimalMD as the default app for Markdown in Settings → General.</li>
             <li>Change the text size, and switch between light and dark mode.</li>
             <li>If your Mac uses French, German, Italian, Russian or Spanish, check the app in that language.</li>
           </ul>
@@ -102,7 +105,7 @@
         <div class="card">
           <div class="glyph" aria-hidden="true">✈︎</div>
           <h3>From TestFlight</h3>
-          <p>Open TestFlight, select Minimal.md and choose Send Beta Feedback. You can attach a screenshot.</p>
+          <p>Open TestFlight, select MinimalMD and choose Send Beta Feedback. You can attach a screenshot.</p>
         </div>
         <div class="card">
           <div class="glyph" aria-hidden="true">#</div>

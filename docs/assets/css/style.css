@@ -406,7 +406,7 @@ footer a:hover { color: var(--text); }
 .signature .who { color: var(--text); font-size: 17px; font-weight: 600; text-decoration: none; justify-self: start; }
 .signature .who:hover { color: var(--accent); }
 .signature .year { color: var(--muted); }
-/* Language switcher (Minimal.md pages; written by l10n/build.py): globe + current language,
+/* Language switcher (MinimalMD pages; written by l10n/build.py): globe + current language,
    opening a popover of every language in its own name. No JS: popover closes on Esc or a click outside. */
 .lang-button {
   grid-area: lang; justify-self: end; display: inline-flex; align-items: center; gap: 6px;
