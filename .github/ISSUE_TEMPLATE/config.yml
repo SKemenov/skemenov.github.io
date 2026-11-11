@@ -1,6 +1,6 @@
 blank_issues_enabled: false
 contact_links:
-  - name: ✉️ Minimal.md support
+  - name: ✉️ MinimalMD support
     url: https://skemenov.com/md/support/
     about: FAQ, and email if you'd rather not open a public issue
   - name: ℹ️ All apps

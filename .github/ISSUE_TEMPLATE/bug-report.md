@@ -7,10 +7,10 @@ assignees: ""
 ---
 
 **App**
-Minimal.md
+MinimalMD
 
 **Version and build**
-<!-- Minimal.md → About Minimal.md, e.g. 1.0.0 (5). Say whether it's from TestFlight or the App Store. -->
+<!-- MinimalMD → About MinimalMD, e.g. 1.0.0 (5). Say whether it's from TestFlight or the App Store. -->
 
 **Where it happens**
 - [ ] App window
