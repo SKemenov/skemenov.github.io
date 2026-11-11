@@ -2,7 +2,7 @@
 
 > Small, focused apps for the Mac by Sergey Kemenov, an iOS and macOS developer. The apps are free and collect no data. This site has no analytics, no trackers and no third-party scripts.
 
-## Minimal.md
+## MinimalMD (formerly Minimal.md)
 
 A Markdown viewer and Quick Look extension for the Mac, made for reading the notes, plans and reports that people and their AI agents write. It is a viewer, not an editor: it never writes to your files.
 
@@ -16,11 +16,11 @@ A Markdown viewer and Quick Look extension for the Mac, made for reading the not
 - Not supported: editing, printing, in-document search, syntax highlighting, footnotes, math, Mermaid diagrams, GitHub alerts
 - Languages: English, French, German, Italian, Russian, Spanish
 
-- [Minimal.md](https://skemenov.com/md/): overview, features and screenshots
-- [Supported Markdown](https://skemenov.com/md/markdown/): what Minimal.md renders
+- [MinimalMD](https://skemenov.com/md/): overview, features and screenshots
+- [Supported Markdown](https://skemenov.com/md/markdown/): what MinimalMD renders
 - [What's New](https://skemenov.com/md/changes/): changelog, every release
 - [Support](https://skemenov.com/md/support/): FAQ and how to contact the developer
-- [Privacy Policy](https://skemenov.com/md/privacy/): Minimal.md collects no data
+- [Privacy Policy](https://skemenov.com/md/privacy/): MinimalMD collects no data
 - [Public Beta](https://skemenov.com/md/beta/): join the TestFlight beta
 - The overview, Supported Markdown, Support and Privacy pages also exist in German, Spanish, French, Italian and Russian: https://skemenov.com/md/de/, /md/es/, /md/fr/, /md/it/, /md/ru/
 
@@ -39,4 +39,4 @@ A minimalistic countdown screen saver for macOS. It counts down to, or up from, 
 - [GitHub](https://github.com/SKemenov)
 - [Telegram](https://t.me/skemenov)
 - [X](https://x.com/skemenov)
-- Bug reports and feature requests for Minimal.md: https://github.com/SKemenov/skemenov.github.io/issues
+- Bug reports and feature requests for MinimalMD: https://github.com/SKemenov/skemenov.github.io/issues
