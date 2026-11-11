@@ -6,10 +6,10 @@ labels: enhancement
 assignees: ""
 ---
 
-<!-- Minimal.md is a viewer: it never changes your files, so editing features are out of scope. -->
+<!-- MinimalMD is a viewer: it never changes your files, so editing features are out of scope. -->
 
 **App**
-Minimal.md
+MinimalMD
 
 **What's missing**
 <!-- What you're trying to do, and where the app gets in the way. -->

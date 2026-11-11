@@ -7,7 +7,7 @@ assignees: ""
 ---
 
 **App**
-Minimal.md
+MinimalMD
 
 **Request**
 <!-- Keep one: -->
