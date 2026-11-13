@@ -671,13 +671,6 @@
     "it": "Un’app nativa per macOS, con le abbreviazioni da tastiera che ti aspetti.",
     "ru": "Нативное приложение macOS и привычные сочетания клавиш."
   },
-  "Need the whole text? Edit → Copy Document as Markdown copies the full source.": {
-    "es": "¿Necesitas todo el texto? Edición → Copiar documento como Markdown copia todo el código fuente.",
-    "de": "Du brauchst den ganzen Text? Bearbeiten → Dokument als Markdown kopieren kopiert den gesamten Quelltext.",
-    "fr": "Besoin de tout le texte ? Édition → Copier le document au format Markdown copie l’intégralité de la source.",
-    "it": "Ti serve tutto il testo? Composizione → Copia documento come Markdown copia l’intera sorgente.",
-    "ru": "Нужен весь текст? Правка → Скопировать документ как Markdown копирует весь исходный текст."
-  },
   "Never conflicts with an agent editing the same file.": {
     "es": "Nunca choca con un agente que edita el mismo archivo.",
     "de": "Nie im Konflikt mit einem Agenten, der dieselbe Datei bearbeitet.",
@@ -705,13 +698,6 @@
     "fr": "Aucune connexion réseau, aucune donnée collectée, et les images distantes ne sont jamais chargées. Il ne lit que les fichiers que vous ouvrez et les dossiers que vous partagez.",
     "it": "Nessuna connessione di rete, nessun dato raccolto, e le immagini remote non vengono mai caricate. Legge solo i file che apri e le cartelle che condividi.",
     "ru": "Никаких сетевых подключений и сбора данных, удалённые изображения никогда не загружаются. Приложение читает только открытые вами файлы и папки, к которым вы дали доступ."
-  },
-  "No — MinimalMD is a viewer and never changes your files. To edit a document, open it in your editor. To take its text elsewhere, use Edit → Copy Document as Markdown.": {
-    "es": "No: MinimalMD es un visor y nunca modifica tus archivos. Para editar un documento, ábrelo en tu editor. Para llevar su texto a otro lugar, usa Edición → Copiar documento como Markdown.",
-    "de": "Nein – MinimalMD ist ein Viewer und verändert deine Dateien nie. Um ein Dokument zu bearbeiten, öffne es in deinem Editor. Um seinen Text woanders zu verwenden, wähle Bearbeiten → Dokument als Markdown kopieren.",
-    "fr": "Non : MinimalMD est un lecteur et ne modifie jamais vos fichiers. Pour modifier un document, ouvrez-le dans votre éditeur. Pour en reprendre le texte ailleurs, utilisez Édition → Copier le document au format Markdown.",
-    "it": "No: MinimalMD è un lettore e non modifica mai i tuoi file. Per modificare un documento, aprilo nel tuo editor. Per portarne il testo altrove, usa Composizione → Copia documento come Markdown.",
-    "ru": "Нет: MinimalMD — приложение для чтения, оно никогда не меняет ваши файлы. Чтобы изменить документ, откройте его в своём редакторе. Чтобы перенести текст в другое место, выберите Правка → Скопировать документ как Markdown."
   },
   "Nothing. MinimalMD has no accounts, no analytics, no advertising and no tracking of any kind. It doesn't make network connections — the app isn't allowed to by its own sandbox settings — so nothing you open can leave your Mac through it. Images hosted on the web are never loaded.": {
     "es": "Nada. MinimalMD no tiene cuentas, analíticas, publicidad ni rastreo de ningún tipo. No establece conexiones de red (su propia configuración de sandbox no se lo permite), así que nada de lo que abres puede salir de tu Mac a través de ella. Las imágenes alojadas en la web nunca se cargan.",
@@ -873,13 +859,6 @@
     "fr": "Sélectionnez un fichier Markdown dans le Finder et appuyez sur la barre d’espace pour le lire en rendu, sans ouvrir l’app.",
     "it": "Seleziona un file Markdown nel Finder e premi la barra spaziatrice per leggerlo reso, senza aprire l’app.",
     "ru": "Выберите файл Markdown в Finder и нажмите пробел, чтобы прочитать его отрисованным, не открывая приложение."
-  },
-  "Select text for everything macOS offers: Look Up, Translate, Writing Tools and Services.": {
-    "es": "Selecciona texto para usar todo lo que ofrece macOS: Buscar, Traducir, Herramientas de escritura y Servicios.",
-    "de": "Wähle Text aus für alles, was macOS bietet: „Nachschlagen“, „Übersetzen“, Schreibtools und Dienste.",
-    "fr": "Sélectionnez du texte pour tout ce que propose macOS : Rechercher, Traduire, Outils d’écriture et Services.",
-    "it": "Seleziona del testo per tutto ciò che offre macOS: Cerca, Traduci, Strumenti di scrittura e Servizi.",
-    "ru": "Выделите текст, чтобы использовать всё, что предлагает macOS: «Найти», «Перевести», «Инструменты для письма» и «Службы»."
   },
   "Settings, Privacy: the standard folders and other shared folders, each with a button to grant or revoke access.": {
     "es": "Configuración, Privacidad: las carpetas estándar y otras carpetas compartidas, cada una con un botón para permitir o revocar el acceso.",
@@ -1139,5 +1118,33 @@
     "fr": "macOS ne laisse MinimalMD lire que les fichiers que vous ouvrez. Pour les images enregistrées à côté de votre document, une barre apparaît en bas de la fenêtre : choisissez-y le dossier pour autoriser l’accès. Vous pouvez vérifier et retirer l’accès à tout moment dans Réglages → Confidentialité. Les images du web ne sont jamais chargées : MinimalMD n’établit aucune connexion réseau.",
     "it": "macOS consente a MinimalMD di leggere solo i file che apri. Per le immagini salvate accanto al documento, compare una barra in fondo alla finestra: scegli lì la cartella per consentire l’accesso. Puoi controllare e revocare l’accesso in qualsiasi momento in Impostazioni → Privacy. Le immagini sul web non vengono mai caricate: MinimalMD non effettua connessioni di rete.",
     "ru": "macOS разрешает MinimalMD читать только открытые вами файлы. Для изображений рядом с документом внизу окна появляется панель — выберите там папку, чтобы предоставить доступ. Просмотреть и отозвать доступ можно в любой момент в Настройках → Конфиденциальность. Изображения из интернета никогда не загружаются: MinimalMD не устанавливает сетевых подключений."
+  },
+  "Need the whole text? Copy Document as Markdown, in the toolbar or the Edit menu, copies the full source.": {
+    "de": "Du brauchst den ganzen Text? „Dokument als Markdown kopieren“ in der Symbolleiste oder im Menü „Bearbeiten“ kopiert den gesamten Quelltext.",
+    "es": "¿Necesitas todo el texto? Copiar documento como Markdown, en la barra de herramientas o en el menú Edición, copia todo el código fuente.",
+    "fr": "Besoin de tout le texte ? Copier le document au format Markdown, dans la barre d’outils ou le menu Édition, copie l’intégralité de la source.",
+    "it": "Ti serve tutto il testo? Copia documento come Markdown, nella barra degli strumenti o nel menu Composizione, copia l’intera sorgente.",
+    "ru": "Нужен весь текст? «Скопировать документ как Markdown» на панели инструментов или в меню «Правка» копирует весь исходный текст."
+  },
+  "Want to change it? Open in your editor, from the toolbar or File → Open in…, hands the document to the editor you choose in Settings → General.": {
+    "de": "Du willst ihn ändern? „In … öffnen“ in der Symbolleiste oder unter Ablage → In … öffnen übergibt das Dokument an den Editor, den du in Einstellungen → Allgemein auswählst.",
+    "es": "¿Quieres cambiarlo? Abrir en…, desde la barra de herramientas o Archivo → Abrir en…, pasa el documento al editor que elijas en Configuración → General.",
+    "fr": "Envie de le modifier ? Ouvrir dans…, depuis la barre d’outils ou Fichier → Ouvrir dans…, transmet le document à l’éditeur que vous choisissez dans Réglages → Général.",
+    "it": "Vuoi modificarlo? Apri in…, dalla barra degli strumenti o da Archivio → Apri in…, passa il documento all’editor che scegli in Impostazioni → Generali.",
+    "ru": "Хотите его изменить? «Открыть в…» на панели инструментов или в меню Файл → Открыть в… передаёт документ редактору, который вы выберете в Настройках → Основные."
+  },
+  "No — MinimalMD is a viewer and never changes your files. To edit a document, click the editor button in the toolbar or choose File → Open in… (⌘E): MinimalMD hands it to your editor. Choose which one in Settings → General, or keep the system default. To take its text elsewhere, use Copy Document as Markdown in the toolbar or the Edit menu.": {
+    "de": "Nein – MinimalMD ist ein Viewer und verändert deine Dateien nie. Um ein Dokument zu bearbeiten, klicke auf die Editor-Taste in der Symbolleiste oder wähle Ablage → In … öffnen (⌘E): MinimalMD übergibt es an deinen Editor. Welchen, wählst du in Einstellungen → Allgemein, oder du behältst den Systemstandard. Um seinen Text woanders zu verwenden, wähle „Dokument als Markdown kopieren“ in der Symbolleiste oder im Menü „Bearbeiten“.",
+    "es": "No: MinimalMD es un visor y nunca modifica tus archivos. Para editar un documento, haz clic en el botón del editor en la barra de herramientas o elige Archivo → Abrir en… (⌘E): MinimalMD lo pasa a tu editor. Elige cuál en Configuración (Ajustes en España) → General, o deja el predeterminado del sistema. Para llevar su texto a otro lugar, usa Copiar documento como Markdown en la barra de herramientas o en el menú Edición.",
+    "fr": "Non : MinimalMD est un lecteur et ne modifie jamais vos fichiers. Pour modifier un document, cliquez sur le bouton de l’éditeur dans la barre d’outils ou choisissez Fichier → Ouvrir dans… (⌘E) : MinimalMD le transmet à votre éditeur. Choisissez lequel dans Réglages → Général, ou gardez celui du système par défaut. Pour en reprendre le texte ailleurs, utilisez Copier le document au format Markdown dans la barre d’outils ou le menu Édition.",
+    "it": "No: MinimalMD è un lettore e non modifica mai i tuoi file. Per modificare un documento, fai clic sul pulsante dell’editor nella barra degli strumenti o scegli Archivio → Apri in… (⌘E): MinimalMD lo passa al tuo editor. Scegli quale in Impostazioni → Generali, oppure mantieni quello predefinito del sistema. Per portarne il testo altrove, usa Copia documento come Markdown nella barra degli strumenti o nel menu Composizione.",
+    "ru": "Нет: MinimalMD — приложение для чтения, оно никогда не меняет ваши файлы. Чтобы изменить документ, нажмите кнопку редактора на панели инструментов или выберите Файл → Открыть в… (⌘E): MinimalMD передаст его вашему редактору. Какому — выберите в Настройках → Основные или оставьте системный по умолчанию. Чтобы перенести текст в другое место, выберите «Скопировать документ как Markdown» на панели инструментов или в меню «Правка»."
+  },
+  "Select text for everything macOS offers: Look Up, Translate, Writing Tools, Ask Siri and Services.": {
+    "es": "Selecciona texto para usar todo lo que ofrece macOS: Buscar, Traducir, Herramientas de escritura, Pedirle a Siri y Servicios.",
+    "de": "Wähle Text aus für alles, was macOS bietet: „Nachschlagen“, „Übersetzen“, Schreibtools, „Siri fragen“ und Dienste.",
+    "fr": "Sélectionnez du texte pour tout ce que propose macOS : Rechercher, Traduire, Outils d’écriture, Demander à Siri et Services.",
+    "it": "Seleziona del testo per tutto ciò che offre macOS: Cerca, Traduci, Strumenti di scrittura, Chiedi a Siri e Servizi.",
+    "ru": "Выделите текст, чтобы использовать всё, что предлагает macOS: «Найти», «Перевести», «Инструменты для письма», «Спросить Siri» и «Службы»."
   }
 }
