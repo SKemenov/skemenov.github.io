@@ -10,6 +10,7 @@ A Markdown viewer and Quick Look extension for the Mac, made for reading the not
 - Requires macOS 15.6 Sequoia or later
 - Renders GitHub-flavored Markdown natively with the system fonts: tables with alignment, task lists, fenced code, YAML front matter shown as a table, local images and a safe subset of HTML
 - Follows a file live while an AI agent writes it, and never conflicts with the agent's edits
+- Hands a document to your Markdown editor (toolbar button or File → Open in…, ⌘E; the editor is chosen in Settings → General) and copies its full source as Markdown (⇧⌘C)
 - Quick Look: press Space in Finder to read a rendered file without opening the app
 - Table of contents sidebar, heading-by-heading navigation, links between Markdown files
 - Privacy: no network connections, no data collected, remote images never loaded
