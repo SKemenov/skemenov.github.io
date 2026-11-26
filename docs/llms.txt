@@ -6,7 +6,7 @@
 
 A Markdown viewer and Quick Look extension for the Mac, made for reading the notes, plans and reports that people and their AI agents write. It is a viewer, not an editor: it never writes to your files.
 
-- Free on the Mac App Store: https://apps.apple.com/app/id6808280979
+- Free on the Mac App Store: https://apps.apple.com/app/apple-store/id6808280979?pt=102473809&ct=site&mt=8
 - Requires macOS 15.6 Sequoia or later
 - Renders GitHub-flavored Markdown natively with the system fonts: tables with alignment, task lists, fenced code, YAML front matter shown as a table, local images and a safe subset of HTML
 - Follows a file live while an AI agent writes it, and never conflicts with the agent's edits
