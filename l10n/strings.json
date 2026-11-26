@@ -636,12 +636,12 @@
     "it": "MinimalMD non raccoglie informazioni da nessuno, inclusi i minori.",
     "ru": "MinimalMD не собирает информацию ни о ком, включая детей."
   },
-  "MinimalMD is free <a href=\"https://apps.apple.com/app/id6808280979\">on the Mac App Store</a> and requires macOS 15.6 Sequoia or later.": {
-    "es": "MinimalMD es gratis <a href=\"https://apps.apple.com/app/id6808280979\">en el Mac App Store</a> y requiere macOS 15.6 Sequoia o posterior.",
-    "de": "MinimalMD ist kostenlos <a href=\"https://apps.apple.com/app/id6808280979\">im Mac App Store</a> erhältlich und erfordert macOS 15.6 Sequoia oder neuer.",
-    "fr": "MinimalMD est gratuit <a href=\"https://apps.apple.com/app/id6808280979\">sur le Mac App Store</a> et nécessite macOS 15.6 Sequoia ou ultérieur.",
-    "it": "MinimalMD è gratuita <a href=\"https://apps.apple.com/app/id6808280979\">su Mac App Store</a> e richiede macOS 15.6 Sequoia o versione successiva.",
-    "ru": "MinimalMD доступен бесплатно <a href=\"https://apps.apple.com/app/id6808280979\">в Mac App Store</a> и требует macOS 15.6 Sequoia или новее."
+  "MinimalMD is free <a href=\"https://apps.apple.com/app/apple-store/id6808280979?pt=102473809&amp;ct=site&amp;mt=8\">on the Mac App Store</a> and requires macOS 15.6 Sequoia or later.": {
+    "es": "MinimalMD es gratis <a href=\"https://apps.apple.com/app/apple-store/id6808280979?pt=102473809&amp;ct=site&amp;mt=8\">en el Mac App Store</a> y requiere macOS 15.6 Sequoia o posterior.",
+    "de": "MinimalMD ist kostenlos <a href=\"https://apps.apple.com/app/apple-store/id6808280979?pt=102473809&amp;ct=site&amp;mt=8\">im Mac App Store</a> erhältlich und erfordert macOS 15.6 Sequoia oder neuer.",
+    "fr": "MinimalMD est gratuit <a href=\"https://apps.apple.com/app/apple-store/id6808280979?pt=102473809&amp;ct=site&amp;mt=8\">sur le Mac App Store</a> et nécessite macOS 15.6 Sequoia ou ultérieur.",
+    "it": "MinimalMD è gratuita <a href=\"https://apps.apple.com/app/apple-store/id6808280979?pt=102473809&amp;ct=site&amp;mt=8\">su Mac App Store</a> e richiede macOS 15.6 Sequoia o versione successiva.",
+    "ru": "MinimalMD доступен бесплатно <a href=\"https://apps.apple.com/app/apple-store/id6808280979?pt=102473809&amp;ct=site&amp;mt=8\">в Mac App Store</a> и требует macOS 15.6 Sequoia или новее."
   },
   "MinimalMD never writes to your files. Open Markdown from Finder or Open With, or make it your default Markdown app in Settings → General.": {
     "es": "MinimalMD nunca escribe en tus archivos. Abre Markdown desde el Finder o con Abrir con, o haz que sea tu app predeterminada para Markdown en Configuración → General.",
